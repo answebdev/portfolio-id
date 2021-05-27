@@ -21,6 +21,7 @@ $(document).ready(function () {
 // $(document).ready(function () {
 //   $('[data-toggle="tooltip"]').tooltip();
 // });
+
 const LandingPage = () => {
   return (
     <div>
@@ -52,8 +53,6 @@ const LandingPage = () => {
 
             <header>
               <section className='header-content'>
-                {/* <img class="rocky-dashed animated fadeIn" id="logo" src="assets/images/profile-alt.webp"
-                alt="Profile picture"> */}
                 <Image
                   className='rocky-dashed animated fadeIn'
                   id='logo'
@@ -76,7 +75,7 @@ const LandingPage = () => {
                 <div className='animated zoomIn'>
                   <a
                     data-tip
-                    data-for='happyFace'
+                    // data-tip='Home'
                     href='/'
                     className='header-button animated fadeInLeft btn-links'
                     data-toggle='tooltip'
@@ -96,7 +95,7 @@ const LandingPage = () => {
 
                   <a
                     data-tip
-                    href='/'
+                    href='/about'
                     className='header-button animated fadeInLeft btn-links'
                     data-toggle='tooltip'
                     data-placement='bottom'

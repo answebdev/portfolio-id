@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import LandingPage from './components/pages/LandingPage';
+import About from './components/pages/About';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -13,8 +14,8 @@ const App = () => {
           <div className='container'>
             <Switch>
               <Route exact path='/' component={LandingPage} />
-              {/* <Route exact path='/home' component={Home} />
-              <Route exact path='/contact' component={ContactForm} /> */}
+              <Route exact path='/about' component={About} />
+              {/* <Route exact path='/contact' component={ContactForm} /> */}
 
               {/* <Route exact path='/success' component={Success} /> */}
               {/* <Route component={Error} /> */}
