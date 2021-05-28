@@ -7,6 +7,8 @@ import $ from 'jquery';
 import profile from '../../img/profile-alt.jpg';
 import resume from '../../pdf/AdolfSchmuckResume.pdf';
 
+import '../../styles/LandingPage.css';
+
 $(document).ready(function () {
   setTimeout(function () {
     $('#main').removeClass('is-loading');
@@ -114,7 +116,7 @@ const LandingPage = () => {
 
                   <a
                     data-tip
-                    href='/'
+                    href='/projects'
                     className='header-button animated fadeInUp btn-links'
                     data-toggle='tooltip'
                     data-placement='bottom'
@@ -133,7 +135,7 @@ const LandingPage = () => {
 
                   <a
                     data-tip
-                    href='/'
+                    href='/contact'
                     className='header-button animated fadeInRight btn-links'
                     data-toggle='tooltip'
                     data-placement='bottom'

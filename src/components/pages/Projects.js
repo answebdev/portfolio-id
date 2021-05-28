@@ -2,19 +2,19 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 
-import '../../styles/About.css';
+import '../../styles/Projects.css';
 
-const About = () => {
+const Projects = () => {
   return (
     <div>
       <Helmet>
-        <title>Adolf Schmuck | About</title>
+        <title>Adolf Schmuck | Projects</title>
       </Helmet>
       <Container>
         <Row>
           <Col md={12}>
             <div>
-              <h1>About</h1>
+              <h1>Projects</h1>
             </div>
           </Col>
         </Row>
@@ -23,4 +23,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Projects;
