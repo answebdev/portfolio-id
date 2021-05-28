@@ -84,20 +84,20 @@ h3 {
   font-family: 'Quicksand', sans-serif;
 }
 
-.content-div {
+/* .content-div {
   margin-bottom: 80px;
 }
 
 .click {
   color: #3e63bd;
-}
+} */
 
-a {
+/* a {
   color: #ffeeff;
   text-decoration: none;
   background-color: transparent;
   padding: 0 10px;
-}
+} */
 
 a:hover {
   color: #ff6347;

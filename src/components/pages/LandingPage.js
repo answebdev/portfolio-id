@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import ReactTooltip from 'react-tooltip';
 import { Helmet } from 'react-helmet';
@@ -95,9 +96,9 @@ const LandingPage = () => {
                     <i className='fas fa-home'></i>
                   </a>
 
-                  <a
+                  <Link
                     data-tip
-                    href='/about'
+                    to='/about'
                     className='header-button animated fadeInLeft btn-links'
                     data-toggle='tooltip'
                     data-placement='bottom'
@@ -112,11 +113,11 @@ const LandingPage = () => {
                       <span>About</span>
                     </ReactTooltip>
                     <i className='fas fa-book'></i>
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     data-tip
-                    href='/projects'
+                    to='/projects'
                     className='header-button animated fadeInUp btn-links'
                     data-toggle='tooltip'
                     data-placement='bottom'
@@ -131,11 +132,11 @@ const LandingPage = () => {
                       <span>Projects</span>
                     </ReactTooltip>
                     <i className='fas fa-briefcase'></i>
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     data-tip
-                    href='/contact'
+                    to='/contact'
                     className='header-button animated fadeInRight btn-links'
                     data-toggle='tooltip'
                     data-placement='bottom'
@@ -150,7 +151,7 @@ const LandingPage = () => {
                       <span>Contact</span>
                     </ReactTooltip>
                     <i className='fas fa-envelope-square'></i>
-                  </a>
+                  </Link>
 
                   <a
                     data-tip

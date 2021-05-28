@@ -1,6 +1,7 @@
-a {
+#links a,
+#title {
   color: #ffeeff;
-  text-decoration: none;
+  text-decoration: none !important;
   background-color: transparent;
   padding: 0 10px;
 }
