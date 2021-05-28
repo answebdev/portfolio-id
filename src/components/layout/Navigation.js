@@ -9,11 +9,10 @@ const Navigation = ({ title }) => {
     <Fragment>
       <div className='navbar bg-primary'>
         <a href='/'>
-          {/* <p className='nav-title'>
-            <img id='app-logo' src={logo} alt='CoderGuides Logo' />
+          <p className='nav-title'>
             &nbsp;
-            {title}
-          </p> */}
+            <strong>{title}</strong>
+          </p>
         </a>
         <div id='links'>
           <ul>
