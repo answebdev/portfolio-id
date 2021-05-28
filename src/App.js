@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navigation from './components/layout/Navigation';
+import Footer from './components/layout/Footer';
 import LandingPage from './components/pages/LandingPage';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
@@ -7,12 +9,14 @@ import Contact from './components/pages/Contact';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import './App.css';
+
 const App = () => {
   return (
     <div className='App'>
       <Router>
         <Fragment>
-          {/* <Navigation /> */}
+          <Navigation />
           <div className='container'>
             <Switch>
               <Route exact path='/' component={LandingPage} />
@@ -26,7 +30,7 @@ const App = () => {
           </div>
         </Fragment>
       </Router>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
