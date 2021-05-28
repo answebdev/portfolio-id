@@ -126,6 +126,26 @@ a:hover {
 }
 /* End Footer */
 
+/* #error-msg,
+#success-msg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#guides-btn,
+#notes-btn,
+#error-btn,
+#submit-btn,
+#back-btn {
+  font-family: 'Quicksand', sans-serif;
+  background: #ff6347;
+  border-color: #ff6347;
+  margin-right: 5px;
+  margin-bottom: 40px;
+} */
+
 /* ===== MEDIA QUERIES ===== */
 
 @media screen and (min-width: 981px) and (max-width: 1200px) {
@@ -307,13 +327,5 @@ a:hover {
 
   .navbar a {
     font-size: 12.5px;
-  }
-
-  #guides-btn {
-    margin-bottom: 10px;
-  }
-
-  #notes-btn {
-    margin-bottom: 40px;
   }
 }

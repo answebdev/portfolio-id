@@ -6,6 +6,7 @@ import LandingPage from './components/pages/LandingPage';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
+import Error from './components/pages/Error';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -25,7 +26,7 @@ const App = () => {
               <Route exact path='/contact' component={Contact} />
 
               {/* <Route exact path='/success' component={Success} /> */}
-              {/* <Route component={Error} /> */}
+              <Route component={Error} />
             </Switch>
           </div>
         </Fragment>
