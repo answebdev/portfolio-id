@@ -9,6 +9,11 @@ const Contact = () => {
     <div>
       <Helmet>
         <title>Adolf Schmuck | Contact</title>
+        <style type='text/css'>{`
+        body {
+          background-color: #ffffff;
+        }
+    `}</style>
       </Helmet>
       <Container>
         <Row>
