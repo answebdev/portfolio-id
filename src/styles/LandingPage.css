@@ -322,7 +322,7 @@ a.btn-links:hover,
   font-family: 'Lato';
   text-align: center;
   font-size: 14px;
-
+  letter-spacing: 0.1em;
   /* 
     Let the content set the size of the tooltips 
     but this will also keep them from being obnoxious
