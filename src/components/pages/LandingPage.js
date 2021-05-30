@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import ReactTooltip from 'react-tooltip';
 import { Helmet } from 'react-helmet';
 import $ from 'jquery';
-// import bg from '../../img/bg.jpg';
 import profile from '../../img/profile-alt.jpg';
 import resume from '../../pdf/AdolfSchmuckResume.pdf';
 
@@ -15,15 +13,6 @@ $(document).ready(function () {
     $('#main').removeClass('is-loading');
   }, 1200);
 });
-
-// Tooltip
-// $(function () {
-//   $('[data-toggle="tooltip"]').tooltip();
-// });
-
-// $(document).ready(function () {
-//   $('[data-toggle="tooltip"]').tooltip();
-// });
 
 const LandingPage = () => {
   return (
@@ -76,154 +65,57 @@ const LandingPage = () => {
                 <br />
 
                 <div className='animated zoomIn'>
-                  <a
-                    data-tip
-                    // data-tip='Home'
-                    href='/'
-                    className='header-button animated fadeInLeft btn-links'
-                    data-toggle='tooltip'
-                    data-placement='bottom'
-                  >
-                    <ReactTooltip
-                      place='bottom'
-                      type='light'
-                      effect='solid'
-                      textColor='#000000'
-                      backgroundColor='#ffffff'
+                  <span tooltip='Home' flow='down'>
+                    <a
+                      // data-tooltip='Home'
+                      href='/'
+                      className='header-button animated fadeInLeft btn-links'
                     >
-                      <span>Home</span>
-                    </ReactTooltip>
-                    <i className='fas fa-home'></i>
-                  </a>
+                      <i className='fas fa-home'></i>
+                    </a>
+                  </span>
 
-                  <Link
-                    data-tip
-                    to='/about'
-                    className='header-button animated fadeInLeft btn-links'
-                    data-toggle='tooltip'
-                    data-placement='bottom'
-                  >
-                    <ReactTooltip
-                      place='bottom'
-                      type='light'
-                      effect='solid'
-                      textColor='#000000'
-                      backgroundColor='#ffffff'
+                  <span tooltip='About' flow='down'>
+                    <Link
+                      // data-tooltip='About'
+                      to='/about'
+                      className='header-button animated fadeInLeft btn-links'
                     >
-                      <span>About</span>
-                    </ReactTooltip>
-                    <i className='fas fa-book'></i>
-                  </Link>
+                      <i className='fas fa-book'></i>
+                    </Link>
+                  </span>
 
-                  <Link
-                    data-tip
-                    to='/projects'
-                    className='header-button animated fadeInUp btn-links'
-                    data-toggle='tooltip'
-                    data-placement='bottom'
-                  >
-                    <ReactTooltip
-                      place='bottom'
-                      type='light'
-                      effect='solid'
-                      textColor='#000000'
-                      backgroundColor='#ffffff'
+                  <span tooltip='Projects' flow='down'>
+                    <Link
+                      // data-tooltip='Projects'
+                      to='/projects'
+                      className='header-button animated fadeInUp btn-links'
                     >
-                      <span>Projects</span>
-                    </ReactTooltip>
-                    <i className='fas fa-briefcase'></i>
-                  </Link>
+                      <i className='fas fa-briefcase'></i>
+                    </Link>
+                  </span>
 
-                  <Link
-                    data-tip
-                    to='/contact'
-                    className='header-button animated fadeInRight btn-links'
-                    data-toggle='tooltip'
-                    data-placement='bottom'
-                  >
-                    <ReactTooltip
-                      place='bottom'
-                      type='light'
-                      effect='solid'
-                      textColor='#000000'
-                      backgroundColor='#ffffff'
+                  <span tooltip='Contact' flow='down'>
+                    <Link
+                      // data-tooltip='Contact'
+                      to='/contact'
+                      className='header-button animated fadeInRight btn-links'
                     >
-                      <span>Contact</span>
-                    </ReactTooltip>
-                    <i className='fas fa-envelope-square'></i>
-                  </Link>
+                      <i className='fas fa-envelope-square'></i>
+                    </Link>
+                  </span>
 
-                  <a
-                    data-tip
-                    href={resume}
-                    rel='noopener noreferrer'
-                    target='_blank'
-                    className='header-button animated fadeInRight btn-links'
-                    data-toggle='tooltip'
-                    data-placement='bottom'
-                  >
-                    <ReactTooltip
-                      place='bottom'
-                      type='light'
-                      effect='solid'
-                      textColor='#000000'
-                      backgroundColor='#ffffff'
+                  <span tooltip='Resume' flow='down'>
+                    <a
+                      href={resume}
+                      rel='noopener noreferrer'
+                      target='_blank'
+                      className='header-button animated fadeInRight btn-links'
                     >
-                      <span>Resume</span>
-                    </ReactTooltip>
-                    <i className='far fa-file-pdf'></i>
-                  </a>
+                      <i className='far fa-file-pdf'></i>
+                    </a>
+                  </span>
                 </div>
-
-                {/* <div className='animated zoomIn'>
-                  <a
-                    href='/'
-                    className='header-button animated fadeInLeft btn-links'
-                    data-toggle='tooltip'
-                    data-placement='bottom'
-                    title='Home'
-                  >
-                    <i className='fas fa-home'></i>
-                  </a>
-                  <a
-                    href='about'
-                    className='header-button animated fadeInLeft btn-links'
-                    data-toggle='tooltip'
-                    data-placement='bottom'
-                    title='About'
-                  >
-                    <i className='fas fa-book'></i>
-                  </a>
-                  <a
-                    href='projects'
-                    className='header-button animated fadeInUp btn-links'
-                    data-toggle='tooltip'
-                    data-placement='bottom'
-                    title='Projects'
-                  >
-                    <i className='fas fa-briefcase'></i>
-                  </a>
-                  <a
-                    href='contact'
-                    className='header-button animated fadeInRight btn-links'
-                    data-toggle='tooltip'
-                    data-placement='bottom'
-                    title='Contact'
-                  >
-                    <i className='fas fa-envelope-square'></i>
-                  </a>
-                  <a
-                    href='assets/pdf/Adolf_Schmuck_Resume.pdf'
-                    rel='noopener noreferrer'
-                    target='_blank'
-                    className='header-button animated fadeInRight btn-links'
-                    data-toggle='tooltip'
-                    data-placement='bottom'
-                    title='Resume'
-                  >
-                    <i className='far fa-file-pdf'></i>
-                  </a>
-                </div> */}
               </section>
             </header>
           </Col>
