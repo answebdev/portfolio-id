@@ -5,11 +5,11 @@
 }
 
 /* Styles for Sticky (But Not Fixed) Footer */
-*,
+/* *,
 *:before,
 *:after {
   box-sizing: inherit;
-}
+} */
 /* ========================= */
 
 /* Utilities */
@@ -20,10 +20,42 @@
   padding: 0 2rem;
 }
 
+/* html {
+  height: 100%;
+  box-sizing: border-box;
+} */
+
+/* Sticky Footer */
+/* See comments: https://css-tricks.com/couple-takes-sticky-footer/ */
 html {
   height: 100%;
   box-sizing: border-box;
 }
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: [footer-height];
+}
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: [footer-height];
+  padding: 12px;
+  background: #ff6347;
+  text-align: center;
+}
+
+#footer-text {
+  font-family: 'Quicksand', sans-serif;
+  color: #ffeeff;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* Sticky Footer End */
 
 /* Navbar */
 .navbar {
@@ -84,11 +116,11 @@ h3 {
   font-family: 'Quicksand', sans-serif;
 }
 
-/* .content-div {
+.content-div {
   margin-bottom: 80px;
 }
 
-.click {
+/* .click {
   color: #3e63bd;
 } */
 
@@ -106,7 +138,7 @@ a:hover {
 
 /* Sticky (But Not Fixed) Footer,
         Source: https://chrisbracco.com/css-sticky-footer-effect/ */
-.footer {
+/* .footer {
   position: absolute;
   right: 0;
   bottom: -5px;
@@ -114,16 +146,16 @@ a:hover {
   padding: 12px;
   background: #ff6347;
   text-align: center;
-}
+} */
 /* ========================= */
 
-#footer-text {
+/* #footer-text {
   font-family: 'Quicksand', sans-serif;
   color: #ffeeff;
   letter-spacing: 1.5px;
   font-size: 16px;
   margin-top: 5px;
-}
+} */
 /* End Footer */
 
 /* #error-msg,

@@ -4,8 +4,10 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <div class='footer'>
-          <span id='footer-text'>&copy; Copyright 2021 Adolf Schmuck</span>
+        <div className='footer'>
+          <span id='footer-text'>
+            &copy; Copyright 2021 Adolf Schmuck | adolf.schmuck@gmail.com
+          </span>
         </div>
       </div>
     );
