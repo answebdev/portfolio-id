@@ -8,9 +8,7 @@ import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import Success from './components/pages/Success';
 import Error from './components/pages/Error';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import './App.css';
 
 const App = () => {
