@@ -10,9 +10,9 @@ const About = () => {
       <Helmet>
         <title>Adolf Schmuck | About</title>
         <style type='text/css'>{`
-        // body {
-        //   background-color: #ffffff;
-        // }
+        body {
+          background-color: #ffffff;
+        }
     `}</style>
       </Helmet>
       <Container>
