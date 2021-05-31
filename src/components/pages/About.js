@@ -4,6 +4,8 @@ import { Helmet } from 'react-helmet';
 
 import '../../styles/About.css';
 
+import classes from '../../styles/About.module.css';
+
 const About = () => {
   return (
     <div>
@@ -22,7 +24,7 @@ const About = () => {
             <Col md={12}>
               <div>
                 <h1>About</h1>
-                <p>
+                <p className={classes.P}>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
