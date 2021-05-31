@@ -16,13 +16,16 @@ const Projects = () => {
     `}</style>
       </Helmet>
       <Container>
-        <Row>
-          <Col md={12}>
-            <div>
-              <h1>Projects</h1>
-            </div>
-          </Col>
-        </Row>
+        <br />
+        <div className='content-div'>
+          <Row>
+            <Col md={12}>
+              <div>
+                <h1>Projects</h1>
+              </div>
+            </Col>
+          </Row>
+        </div>
       </Container>
     </div>
   );
