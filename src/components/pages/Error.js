@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 
@@ -76,9 +75,9 @@ const Error = () => {
               <p className='text-center'>404 Page Not Found.</p>
               <br />
               <div id='back-div'>
-                <Link class='btn btn-success btn-sm' id='error-btn' to='/'>
+                <a class='btn btn-success btn-sm' id='error-btn' href='/'>
                   <i className='fa fa-home'></i> Take Me Home
-                </Link>
+                </a>
               </div>
             </div>
           </Col>
