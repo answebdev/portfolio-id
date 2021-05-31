@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
@@ -10,13 +10,22 @@ import resume from '../../pdf/AdolfSchmuckResume.pdf';
 
 import '../../styles/LandingPage.css';
 
-$(document).ready(function () {
-  setTimeout(function () {
-    $('#main').removeClass('is-loading');
-  }, 1200);
-});
+// $(document).ready(function () {
+//   setTimeout(function () {
+//     $('#main').removeClass('is-loading');
+//   }, 1200);
+// });
 
 const LandingPage = () => {
+  // Always run animation when navigating to home page
+  useEffect(() => {
+    $(document).ready(function () {
+      setTimeout(function () {
+        $('#main').removeClass('is-loading');
+      }, 1200);
+    });
+  });
+
   return (
     <div>
       <Helmet>
