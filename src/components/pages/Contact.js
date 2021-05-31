@@ -10,9 +10,9 @@ const Contact = () => {
       <Helmet>
         <title>Adolf Schmuck | Contact</title>
         <style type='text/css'>{`
-        body {
-          background-color: #ffffff;
-        }
+        // body {
+        //   background-color: #ffffff;
+        // }
     `}</style>
       </Helmet>
       <Container>
