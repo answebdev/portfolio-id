@@ -2,7 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 
-import '../../styles/Contact.css';
+// import '../../styles/Contact.css';
+
+import classes from '../../styles/Contact.module.css';
 
 const Contact = () => {
   return (
@@ -15,7 +17,7 @@ const Contact = () => {
         }
     `}</style>
       </Helmet>
-      <Container>
+      <Container className={classes.Container}>
         <br />
         <div className='content-div'>
           <Row>
