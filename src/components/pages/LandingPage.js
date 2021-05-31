@@ -6,6 +6,8 @@ import $ from 'jquery';
 import profile from '../../img/profile-alt.jpg';
 import resume from '../../pdf/AdolfSchmuckResume.pdf';
 
+// import classes from '../../styles/Landing.module.css';
+
 import '../../styles/LandingPage.css';
 
 $(document).ready(function () {
