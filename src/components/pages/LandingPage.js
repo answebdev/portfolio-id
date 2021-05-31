@@ -17,7 +17,7 @@ import '../../styles/LandingPage.css';
 // });
 
 const LandingPage = () => {
-  // Always run animation when navigating to home page
+  // Put animation effect in useEffect to ensure animation runs when component renders
   useEffect(() => {
     $(document).ready(function () {
       setTimeout(function () {
