@@ -8,7 +8,6 @@ html {
 body {
   min-height: 100%;
   position: relative;
-  /* padding-bottom: [footer-height]; */
 }
 
 .Footer {
@@ -16,8 +15,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  /* height: [footer-height]; */
   padding: 0 12px 12px 12px;
+  /* padding: 12px; */
   background: #ff6347;
   text-align: center;
 }
@@ -27,7 +26,5 @@ body {
   color: #ffeeff;
   letter-spacing: 1.5px;
   font-size: 16px;
-  /* margin-top: 5px; */
 }
-
 /* Sticky Footer End */

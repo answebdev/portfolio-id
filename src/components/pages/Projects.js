@@ -45,10 +45,27 @@ const Projects = () => {
           <Row>
             <Col md={6}>
               <div className={classes.ImgDiv}>
-                <Image
+                {/* Original Version without Fancybox */}
+                {/* <Image
                   src='https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
                   fluid
-                />
+                /> */}
+
+                {/* Fancybox Version */}
+                <p className='imglist'>
+                  <a
+                    href='https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+                    data-fancybox='images'
+                    data-caption='Dealing with Laziness'
+                  >
+                    <Image
+                      style={{ maxWidth: '100%' }}
+                      src='https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+                      alt=''
+                      fluid
+                    />
+                  </a>
+                </p>
               </div>
             </Col>
 
@@ -132,10 +149,25 @@ const Projects = () => {
           <Row>
             <Col md={6}>
               <div className={classes.ImgDiv}>
-                <Image
+                {/* <Image
                   src='https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
                   fluid
-                />
+                /> */}
+
+                <p className='imglist'>
+                  <a
+                    href='https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+                    data-fancybox='images'
+                    data-caption='How to Play Guitar'
+                  >
+                    <Image
+                      style={{ maxWidth: '100%' }}
+                      src='https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+                      alt=''
+                      fluid
+                    />
+                  </a>
+                </p>
               </div>
             </Col>
 
@@ -215,10 +247,25 @@ const Projects = () => {
           <Row>
             <Col md={6}>
               <div className={classes.ImgDiv}>
-                <Image
+                {/* <Image
                   src='https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
                   fluid
-                />
+                /> */}
+
+                <p className='imglist'>
+                  <a
+                    href='https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+                    data-fancybox='images'
+                    data-caption='Deploying a Website with Netlify'
+                  >
+                    <Image
+                      style={{ maxWidth: '100%' }}
+                      src='https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+                      alt=''
+                      fluid
+                    />
+                  </a>
+                </p>
               </div>
             </Col>
 
