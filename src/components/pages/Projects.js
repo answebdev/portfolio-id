@@ -2,8 +2,6 @@ import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 
-import '../../styles/Projects.css';
-
 import classes from '../../styles/Projects.module.css';
 
 const Projects = () => {
@@ -45,14 +43,14 @@ const Projects = () => {
           <br />
 
           <Row>
-            <Col md={5}>
-              <Image
-                src='https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
-                fluid
-              />
+            <Col md={6}>
+              <div className={classes.ImgDiv}>
+                <Image
+                  src='https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+                  fluid
+                />
+              </div>
             </Col>
-
-            <Col md={1}></Col>
 
             <Col md={6}>
               <h3>About This Project</h3>
@@ -132,14 +130,14 @@ const Projects = () => {
           <br />
 
           <Row>
-            <Col md={5}>
-              <Image
-                src='https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
-                fluid
-              />
+            <Col md={6}>
+              <div className={classes.ImgDiv}>
+                <Image
+                  src='https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+                  fluid
+                />
+              </div>
             </Col>
-
-            <Col md={1}></Col>
 
             <Col md={6}>
               <h3>About This Project</h3>
@@ -215,14 +213,16 @@ const Projects = () => {
           <br />
 
           <Row>
-            <Col md={5}>
-              <Image
-                src='https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
-                fluid
-              />
+            <Col md={6}>
+              <div className={classes.ImgDiv}>
+                <Image
+                  src='https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+                  fluid
+                />
+              </div>
             </Col>
 
-            <Col md={1}></Col>
+            {/* <Col md={1}></Col> */}
 
             <Col md={6}>
               <h3>About This Project</h3>
@@ -253,7 +253,7 @@ const Projects = () => {
                   <strong>
                     <i class='far fa-calendar-alt'></i> Date:{' '}
                   </strong>
-                  November 2021
+                  August 2021
                 </p>
               </div>
             </Col>

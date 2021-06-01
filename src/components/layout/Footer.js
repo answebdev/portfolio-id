@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import classes from '../../styles/Footer.module.css';
 
 class Footer extends Component {
   render() {
     return (
       <div>
-        <div className='footer'>
-          <span id='footer-text'>
+        <div className={classes.Footer}>
+          <span className={classes.FooterText}>
             &copy; Copyright 2021 Adolf Schmuck | adolf.schmuck@gmail.com
           </span>
         </div>

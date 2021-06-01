@@ -2,8 +2,6 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 
-// import '../../styles/About.css';
-
 import classes from '../../styles/About.module.css';
 
 const About = () => {

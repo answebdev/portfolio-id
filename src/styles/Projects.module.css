@@ -1,5 +1,13 @@
+.MainContainer {
+  margin-bottom: 400px;
+}
+
 .P {
   font-size: 16px;
+}
+
+.ImgDiv {
+  margin-right: 20px;
 }
 
 .Info {

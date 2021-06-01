@@ -1,0 +1,33 @@
+/* Sticky Footer */
+/* See comments: https://css-tricks.com/couple-takes-sticky-footer/ */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: [footer-height];
+}
+
+.Footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: [footer-height];
+  padding: 12px;
+  background: #ff6347;
+  text-align: center;
+}
+
+.FooterText {
+  font-family: 'Quicksand', sans-serif;
+  color: #ffeeff;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* Sticky Footer End */
