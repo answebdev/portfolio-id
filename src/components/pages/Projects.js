@@ -35,7 +35,7 @@ const Projects = () => {
           <Row>
             <Col md={12}>
               <div>
-                <h2 className={classes.ProjectName}>Dealing with Laziness</h2>
+                <h2 className={classes.ProjectName}>Participial Adjectives</h2>
               </div>
             </Col>
           </Row>
@@ -51,17 +51,20 @@ const Projects = () => {
                   fluid
                 /> */}
 
+                {/* Photo by <a href="https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jess Bailey</a> on <a href="https://unsplash.com/s/photos/classroom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
+
                 {/* Fancybox Version */}
                 <p className='imglist'>
                   <a
-                    href='https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+                    href='https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
                     data-fancybox='images'
-                    data-caption='Dealing with Laziness'
+                    data-caption='Participial Adjectives'
                   >
                     <Image
                       style={{ maxWidth: '100%' }}
-                      src='https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+                      src='https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
                       alt=''
+                      title='Participial Adjectives'
                       fluid
                     />
                   </a>
@@ -175,6 +178,7 @@ const Projects = () => {
                       style={{ maxWidth: '100%' }}
                       src='https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
                       alt=''
+                      title='How to Play Guitar'
                       fluid
                     />
                   </a>
@@ -275,6 +279,7 @@ const Projects = () => {
                       style={{ maxWidth: '100%' }}
                       src='https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
                       alt=''
+                      title='Deploying a Website with Netlify'
                       fluid
                     />
                   </a>
