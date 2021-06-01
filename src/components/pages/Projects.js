@@ -79,6 +79,17 @@ const Projects = () => {
                 survived not only five centuries, but also the leap into
                 electronic typesetting, remaining essentially unchanged.
               </p>
+              <p>
+                View course&nbsp;
+                <a
+                  href='https://participial-adjectives.netlify.app/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  <span>here</span>
+                </a>
+                <span>.</span>
+              </p>
             </Col>
           </Row>
 
