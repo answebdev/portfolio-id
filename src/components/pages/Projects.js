@@ -4,6 +4,8 @@ import { Helmet } from 'react-helmet';
 
 import '../../styles/Projects.css';
 
+import classes from '../../styles/Projects.module.css';
+
 const Projects = () => {
   return (
     <div>
@@ -22,7 +24,7 @@ const Projects = () => {
             <Col md={12}>
               <div>
                 <h1>Projects</h1>
-                <p>
+                <p className={classes.P}>
                   Each work sample includes a project description, associated
                   design documents, storyboard files, and/or narration scripts.
                 </p>
@@ -54,7 +56,7 @@ const Projects = () => {
 
             <Col md={6}>
               <h3>About This Project</h3>
-              <p>
+              <p className={classes.P}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
@@ -70,42 +72,48 @@ const Projects = () => {
           <Row>
             <Col md={4}>
               <h3>Details</h3>
-              <p>
-                <strong>
-                  <i class='fas fa-desktop'></i> Type:{' '}
-                </strong>
-                Custom eLearning Development
-              </p>
-              <p>
-                <strong>
-                  <i class='fas fa-user'></i> Client:{' '}
-                </strong>
-                Grossmont Client
-              </p>
-              <p>
-                <strong>
-                  <i class='far fa-calendar-alt'></i> Date:{' '}
-                </strong>
-                December 2021
-              </p>
+              <div className={classes.Info}>
+                <p>
+                  <strong>
+                    <i class='fas fa-desktop'></i> Type:{' '}
+                  </strong>
+                  Custom eLearning Development
+                </p>
+                <p>
+                  <strong>
+                    <i class='fas fa-user'></i> Client:{' '}
+                  </strong>
+                  Grossmont Client
+                </p>
+                <p>
+                  <strong>
+                    <i class='far fa-calendar-alt'></i> Date:{' '}
+                  </strong>
+                  December 2021
+                </p>
+              </div>
             </Col>
             <Col md={4}>
               <h3>Tools</h3>
-              <p>
-                <i class='far fa-check-square'></i> Articulate Storyline
-              </p>
-              <p>
-                <i class='far fa-check-square'></i> Adobe Illustrator
-              </p>
+              <div className={classes.Info}>
+                <p>
+                  <i class='far fa-check-square'></i> Articulate Storyline
+                </p>
+                <p>
+                  <i class='far fa-check-square'></i> Adobe Illustrator
+                </p>
+              </div>
             </Col>
             <Col md={4}>
               <h3>Skills</h3>
-              <p>
-                <i class='far fa-check-square'></i> Instructional Design
-              </p>
-              <p>
-                <i class='far fa-check-square'></i> eLearning Development
-              </p>
+              <div className={classes.Info}>
+                <p>
+                  <i class='far fa-check-square'></i> Instructional Design
+                </p>
+                <p>
+                  <i class='far fa-check-square'></i> eLearning Development
+                </p>
+              </div>
             </Col>
           </Row>
 
@@ -135,7 +143,7 @@ const Projects = () => {
 
             <Col md={6}>
               <h3>About This Project</h3>
-              <p>
+              <p className={classes.P}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
@@ -151,36 +159,42 @@ const Projects = () => {
           <Row>
             <Col md={4}>
               <h3>Details</h3>
-              <p>
-                <strong>
-                  <i class='fas fa-desktop'></i> Type:{' '}
-                </strong>
-                Custom eLearning Development
-              </p>
-              <p>
-                <strong>
-                  <i class='far fa-calendar-alt'></i> Date:{' '}
-                </strong>
-                October 2021
-              </p>
+              <div className={classes.Info}>
+                <p>
+                  <strong>
+                    <i class='fas fa-desktop'></i> Type:{' '}
+                  </strong>
+                  Custom eLearning Development
+                </p>
+                <p>
+                  <strong>
+                    <i class='far fa-calendar-alt'></i> Date:{' '}
+                  </strong>
+                  October 2021
+                </p>
+              </div>
             </Col>
             <Col md={4}>
               <h3>Tools</h3>
-              <p>
-                <i class='far fa-check-square'></i> Articulate Storyline
-              </p>
-              <p>
-                <i class='far fa-check-square'></i> Adobe Illustrator
-              </p>
+              <div className={classes.Info}>
+                <p>
+                  <i class='far fa-check-square'></i> Articulate Storyline
+                </p>
+                <p>
+                  <i class='far fa-check-square'></i> Adobe Illustrator
+                </p>
+              </div>
             </Col>
             <Col md={4}>
               <h3>Skills</h3>
-              <p>
-                <i class='far fa-check-square'></i> Instructional Design
-              </p>
-              <p>
-                <i class='far fa-check-square'></i> eLearning Development
-              </p>
+              <div className={classes.Info}>
+                <p>
+                  <i class='far fa-check-square'></i> Instructional Design
+                </p>
+                <p>
+                  <i class='far fa-check-square'></i> eLearning Development
+                </p>
+              </div>
             </Col>
           </Row>
 
@@ -212,7 +226,7 @@ const Projects = () => {
 
             <Col md={6}>
               <h3>About This Project</h3>
-              <p>
+              <p className={classes.P}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
@@ -228,36 +242,42 @@ const Projects = () => {
           <Row>
             <Col md={4}>
               <h3>Details</h3>
-              <p>
-                <strong>
-                  <i class='fas fa-desktop'></i> Type:{' '}
-                </strong>
-                Custom eLearning Development
-              </p>
-              <p>
-                <strong>
-                  <i class='far fa-calendar-alt'></i> Date:{' '}
-                </strong>
-                November 2021
-              </p>
+              <div className={classes.Info}>
+                <p>
+                  <strong>
+                    <i class='fas fa-desktop'></i> Type:{' '}
+                  </strong>
+                  Custom eLearning Development
+                </p>
+                <p>
+                  <strong>
+                    <i class='far fa-calendar-alt'></i> Date:{' '}
+                  </strong>
+                  November 2021
+                </p>
+              </div>
             </Col>
             <Col md={4}>
               <h3>Tools</h3>
-              <p>
-                <i class='far fa-check-square'></i> Articulate Storyline
-              </p>
-              <p>
-                <i class='far fa-check-square'></i> Adobe Illustrator
-              </p>
+              <div className={classes.Info}>
+                <p>
+                  <i class='far fa-check-square'></i> Articulate Storyline
+                </p>
+                <p>
+                  <i class='far fa-check-square'></i> Adobe Illustrator
+                </p>
+              </div>
             </Col>
             <Col md={4}>
               <h3>Skills</h3>
-              <p>
-                <i class='far fa-check-square'></i> Instructional Design
-              </p>
-              <p>
-                <i class='far fa-check-square'></i> eLearning Development
-              </p>
+              <div className={classes.Info}>
+                <p>
+                  <i class='far fa-check-square'></i> Instructional Design
+                </p>
+                <p>
+                  <i class='far fa-check-square'></i> eLearning Development
+                </p>
+              </div>
             </Col>
           </Row>
 
