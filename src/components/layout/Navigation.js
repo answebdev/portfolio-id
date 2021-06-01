@@ -2,19 +2,21 @@ import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 // import logo from '../layout/dev-logo.webp';
 
-import '../../styles/Navigation.css';
+// import '../../styles/Navigation.css';
+
+import classes from '../../styles/Navigation.module.css';
 
 const Navigation = ({ title }) => {
   return (
     <Fragment>
-      <div className='navbar bg-primary'>
-        <Link id='title' to='/'>
-          <p className='nav-title'>
+      <div className={classes.Navbar}>
+        <Link className={classes.Title} to='/'>
+          <p className={classes.NavTitle}>
             &nbsp;
             <strong>{title}</strong>
           </p>
         </Link>
-        <div id='links'>
+        <div className={classes.Links}>
           <ul>
             <li>
               <Link to='/'>Home</Link>
