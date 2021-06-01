@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <div className={classes.Footer}>
+        <div className={classes.Footer} id='footer'>
           <span className={classes.FooterText}>
             &copy; Copyright 2021 Adolf Schmuck | adolf.schmuck@gmail.com
           </span>

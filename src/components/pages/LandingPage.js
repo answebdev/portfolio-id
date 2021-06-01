@@ -44,7 +44,7 @@ const LandingPage = () => {
         }
         
         .navbar,
-        .footer {
+        #footer {
           display: none;
         }
     `}</style>
