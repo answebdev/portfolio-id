@@ -26,7 +26,7 @@ const Error = () => {
         }
         
         .navbar,
-        .footer {
+        #footer {
           display: none;
         }
 

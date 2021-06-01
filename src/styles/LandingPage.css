@@ -258,15 +258,18 @@ a.btn-links:hover,
 
 .fa-home:before,
 .fa-book:before,
-.fa-briefcase:before,
 .fa-envelope-square:before {
   /* content: "\f199"; */
-  margin-left: 3px;
+  /* margin-left: 3px; */
   font-size: 24px;
 }
 
+.fa-briefcase:before {
+  margin-left: 1.5px;
+}
+
 .fa-file-pdf:before {
-  margin-left: 4px;
+  margin-left: 2px;
 }
 
 .fa-home,
