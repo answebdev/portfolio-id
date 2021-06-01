@@ -35,7 +35,7 @@ const Projects = () => {
           <Row>
             <Col md={12}>
               <div>
-                <h2>Dealing with Laziness</h2>
+                <h2 className={classes.ProjectName}>Dealing with Laziness</h2>
               </div>
             </Col>
           </Row>
@@ -139,7 +139,7 @@ const Projects = () => {
           <Row>
             <Col md={12}>
               <div>
-                <h2>How to Play Guitar</h2>
+                <h2 className={classes.ProjectName}>How to Play Guitar</h2>
               </div>
             </Col>
           </Row>
@@ -237,7 +237,9 @@ const Projects = () => {
           <Row>
             <Col md={12}>
               <div>
-                <h2>Deploying a Website with Netlify</h2>
+                <h2 className={classes.ProjectName}>
+                  Deploying a Website with Netlify
+                </h2>
               </div>
             </Col>
           </Row>
