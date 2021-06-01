@@ -10,9 +10,9 @@
   margin-right: 20px;
 }
 
-/* .ProjectName {
-  margin-bottom: 0;
-} */
+.ProjectName {
+  font-weight: 700;
+}
 
 .Info {
   font-size: 16px;

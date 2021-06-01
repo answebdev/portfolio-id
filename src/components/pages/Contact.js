@@ -27,9 +27,9 @@ const Contact = () => {
               <hr />
               <div className='content'>
                 <p>
-                  For ideas or suggestions on how the site can be improved, or
-                  if you spot a bug or an error, feel free to send a message
-                  here.
+                  I am currently looking for an instructional design position.
+                  Contact me if you'd like to discuss potential opportunities or
+                  just say hi!
                 </p>
                 <Form
                   action='/success'
