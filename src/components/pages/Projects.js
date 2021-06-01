@@ -35,7 +35,7 @@ const Projects = () => {
           <Row>
             <Col md={12}>
               <div>
-                <h3 className={classes.ProjectName}>Dealing with Laziness</h3>
+                <h2 className={classes.ProjectName}>Dealing with Laziness</h2>
               </div>
             </Col>
           </Row>
