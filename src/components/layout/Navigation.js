@@ -9,7 +9,7 @@ import classes from '../../styles/Navigation.module.css';
 const Navigation = ({ title }) => {
   return (
     <Fragment>
-      <div className={classes.Navbar}>
+      <div id='navbar' className={classes.Navbar}>
         <Link className={classes.Title} to='/'>
           <p className={classes.NavTitle}>
             &nbsp;

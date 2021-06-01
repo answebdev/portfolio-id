@@ -26,8 +26,8 @@ const Success = () => {
           padding: 0;
         }
         
-        .navbar,
-        .footer {
+        #navbar,
+        #footer {
           display: none;
         }
 
@@ -46,6 +46,7 @@ const Success = () => {
         }
 
         #success-msg {
+          text-align: center;
           position: fixed;
           top: 50%;
           left: 50%;

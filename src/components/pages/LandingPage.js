@@ -43,7 +43,7 @@ const LandingPage = () => {
           padding: 0;
         }
         
-        .navbar,
+        #navbar,
         #footer {
           display: none;
         }
