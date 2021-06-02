@@ -118,7 +118,7 @@ const Projects = () => {
                   <strong>
                     <i class='far fa-calendar-alt'></i> Date:{' '}
                   </strong>
-                  December 2021
+                  June 2021
                 </p>
               </div>
             </Col>
@@ -129,7 +129,7 @@ const Projects = () => {
                   <i class='far fa-check-square'></i> Articulate Storyline
                 </p>
                 <p>
-                  <i class='far fa-check-square'></i> Adobe Illustrator
+                  <i class='far fa-check-square'></i> SCORM Cloud (Testing)
                 </p>
               </div>
             </Col>
