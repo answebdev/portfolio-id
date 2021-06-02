@@ -15,7 +15,7 @@ const Projects = () => {
         }
     `}</style>
       </Helmet>
-      <Container>
+      <Container className={classes.Container}>
         <br />
         <div className='content-div'>
           <Row>

@@ -26,11 +26,36 @@ const Contact = () => {
               </h3>
               <hr />
               <div className='content'>
-                <p>
+                {/* <p>
                   I am currently looking for an instructional design position.
                   Contact me if you'd like to discuss potential opportunities or
                   just say hi!
+                </p> */}
+                <p>
+                  You can contact me directly by email or through LinkedIn, or
+                  you can fill out the form below. I hope to hear from you soon!
                 </p>
+                <div
+                  style={{ display: 'flex', justifyContent: 'space-between' }}
+                >
+                  <p>
+                    <strong>Email:</strong> adolf.schmuck@gmail.com
+                  </p>
+                  <p>
+                    <a
+                      href='https://www.linkedin.com/in/adolf-schmuck/'
+                      rel='noopener noreferrer'
+                      target='_blank'
+                    >
+                      <span>
+                        <i class='fab fa-linkedin-in'></i>
+                      </span>
+                    </a>
+                  </p>
+                </div>
+
+                <br />
+
                 <Form
                   action='/success'
                   name='adolf-schmuck-contact-form'
