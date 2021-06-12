@@ -113,7 +113,7 @@ const Projects = () => {
                   <strong>
                     <i class='fas fa-user'></i> Client:{' '}
                   </strong>
-                  Grossmont Client
+                  Grossmont College
                 </p>
                 <p>
                   <strong>

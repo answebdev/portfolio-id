@@ -23,52 +23,60 @@ const About = () => {
               <div>
                 <h1>About</h1>
                 <p className={classes.P}>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  Bonbon soufflé chocolate bar jelly beans cake sesame snaps
+                  cheesecake tart caramels. Macaroon brownie jelly-o. Powder
+                  jelly beans candy donut sweet lemon drops. Tootsie roll donut
+                  pie chupa chups gummi bears oat cake tart marzipan gummies.
+                  Bonbon apple pie jujubes topping marshmallow apple pie. Gummi
+                  bears liquorice wafer ice cream gingerbread jujubes chocolate
+                  cake. Marshmallow jelly icing gummi bears. Jelly-o donut apple
+                  pie brownie chocolate cake croissant macaroon danish wafer.
+                  Marzipan cake chocolate bar carrot cake liquorice. Muffin
+                  macaroon dragée tiramisu jelly-o topping liquorice liquorice.
+                  Gummies croissant cake pudding topping. Toffee soufflé cake
+                  marshmallow dragée.
                 </p>
                 <p className={classes.P}>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  Bonbon soufflé chocolate bar jelly beans cake sesame snaps
+                  cheesecake tart caramels. Macaroon brownie jelly-o. Powder
+                  jelly beans candy donut sweet lemon drops. Tootsie roll donut
+                  pie chupa chups gummi bears oat cake tart marzipan gummies.
+                  Bonbon apple pie jujubes topping marshmallow apple pie. Gummi
+                  bears liquorice wafer ice cream gingerbread jujubes chocolate
+                  cake. Marshmallow jelly icing gummi bears. Jelly-o donut apple
+                  pie brownie chocolate cake croissant macaroon danish wafer.
+                  Marzipan cake chocolate bar carrot cake liquorice. Muffin
+                  macaroon dragée tiramisu jelly-o topping liquorice liquorice.
+                  Gummies croissant cake pudding topping. Toffee soufflé cake
+                  marshmallow dragée.
                 </p>
                 <p className={classes.P}>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  Bonbon soufflé chocolate bar jelly beans cake sesame snaps
+                  cheesecake tart caramels. Macaroon brownie jelly-o. Powder
+                  jelly beans candy donut sweet lemon drops. Tootsie roll donut
+                  pie chupa chups gummi bears oat cake tart marzipan gummies.
+                  Bonbon apple pie jujubes topping marshmallow apple pie. Gummi
+                  bears liquorice wafer ice cream gingerbread jujubes chocolate
+                  cake. Marshmallow jelly icing gummi bears. Jelly-o donut apple
+                  pie brownie chocolate cake croissant macaroon danish wafer.
+                  Marzipan cake chocolate bar carrot cake liquorice. Muffin
+                  macaroon dragée tiramisu jelly-o topping liquorice liquorice.
+                  Gummies croissant cake pudding topping. Toffee soufflé cake
+                  marshmallow dragée.
                 </p>
                 <p className={classes.P}>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  Bonbon soufflé chocolate bar jelly beans cake sesame snaps
+                  cheesecake tart caramels. Macaroon brownie jelly-o. Powder
+                  jelly beans candy donut sweet lemon drops. Tootsie roll donut
+                  pie chupa chups gummi bears oat cake tart marzipan gummies.
+                  Bonbon apple pie jujubes topping marshmallow apple pie. Gummi
+                  bears liquorice wafer ice cream gingerbread jujubes chocolate
+                  cake. Marshmallow jelly icing gummi bears. Jelly-o donut apple
+                  pie brownie chocolate cake croissant macaroon danish wafer.
+                  Marzipan cake chocolate bar carrot cake liquorice. Muffin
+                  macaroon dragée tiramisu jelly-o topping liquorice liquorice.
+                  Gummies croissant cake pudding topping. Toffee soufflé cake
+                  marshmallow dragée.
                 </p>
               </div>
             </Col>
