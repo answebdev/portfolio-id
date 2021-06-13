@@ -114,7 +114,10 @@ const ParticipialAdjectives = () => {
                   href='https://participial-adjectives.netlify.app/'
                   rel='noopener noreferrer'
                   target='_blank'
-                  style={{ marginRight: '5px' }}
+                  style={{
+                    marginRight: '5px',
+                    boxShadow: 'none',
+                  }}
                 >
                   Check It Out
                 </Button>

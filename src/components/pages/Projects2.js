@@ -62,7 +62,7 @@ const Projects2 = () => {
                 className={classes.SeeMoreBtn}
                 variant='primary'
                 href='/projects2/participial-adjectives'
-                style={{ marginRight: '5px' }}
+                style={{ marginRight: '5px', boxShadow: 'none' }}
               >
                 See More
               </Button>
