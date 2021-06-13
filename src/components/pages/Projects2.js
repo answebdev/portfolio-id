@@ -104,6 +104,7 @@ const Projects2 = () => {
           <br />
           <hr />
           <br />
+          <br />
 
           <Row>
             <Col md={12}>
@@ -202,6 +203,7 @@ const Projects2 = () => {
 
           <br />
           <hr />
+          <br />
           <br />
 
           <Row>

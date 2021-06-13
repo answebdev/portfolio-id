@@ -7,6 +7,8 @@ import Adj03 from '../../img/adj03.png';
 // import Adj04 from '../../img/adj04.png';
 import Mockup from '../../img/adjMockup02.jpg';
 
+import BackButton from '../../components/layout/BackButton';
+
 import classes from '../../styles/ParticipialAdjectives.module.css';
 
 const ParticipialAdjectives = () => {
@@ -61,7 +63,7 @@ const ParticipialAdjectives = () => {
             <Col>
               <div className={classes.ProjectDiv}>
                 <p className='imglist'>
-                  <a
+                  {/* <a
                     href={Mockup}
                     data-fancybox='images'
                     data-caption='Participial Adjectives'
@@ -72,7 +74,13 @@ const ParticipialAdjectives = () => {
                       alt=''
                       fluid
                     />
-                  </a>
+                  </a> */}
+                  <Image
+                    style={{ maxWidth: '55%' }}
+                    src={Mockup}
+                    alt='Participial Adjectives Mockup'
+                    fluid
+                  />
                 </p>
               </div>
             </Col>
@@ -177,9 +185,9 @@ const ParticipialAdjectives = () => {
                     data-caption='Participial Adjectives'
                   >
                     <Image
-                      style={{ maxWidth: '85%' }}
+                      style={{ maxWidth: '90%' }}
                       src={Adj02}
-                      alt=''
+                      alt='Participial Adjectives'
                       fluid
                     />
                   </a>
@@ -194,50 +202,27 @@ const ParticipialAdjectives = () => {
                     data-caption='Participial Adjectives'
                   >
                     <Image
-                      style={{ maxWidth: '85%' }}
+                      style={{ maxWidth: '90%' }}
                       src={Adj03}
-                      alt=''
+                      alt='Participial Adjectives'
                       fluid
                     />
                   </a>
                 </p>
               </Col>
             </Row>
+
+            <br />
+            <br />
+
+            <div>
+              <Row>
+                <Col md={12}>
+                  <BackButton />
+                </Col>
+              </Row>
+            </div>
           </div>
-          {/* <Row>
-            <Col md={6}>
-              <p className='imglist'>
-                <a
-                  href={Adj03}
-                  data-fancybox='images'
-                  data-caption='Participial Adjectives'
-                >
-                  <Image
-                    style={{ maxWidth: '100%' }}
-                    src={Adj03}
-                    alt=''
-                    fluid
-                  />
-                </a>
-              </p>
-            </Col>
-            <Col md={6}>
-              <p className='imglist'>
-                <a
-                  href={Adj04}
-                  data-fancybox='images'
-                  data-caption='Participial Adjectives'
-                >
-                  <Image
-                    style={{ maxWidth: '100%' }}
-                    src={Adj04}
-                    alt=''
-                    fluid
-                  />
-                </a>
-              </p>
-            </Col>
-          </Row> */}
 
           <br />
         </div>
