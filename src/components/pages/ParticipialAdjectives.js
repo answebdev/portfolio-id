@@ -13,7 +13,7 @@ const ParticipialAdjectives = () => {
   return (
     <div>
       <Helmet>
-        <title>Adolf Schmuck | Participial Adjectives</title>
+        <title>Adolf Schmuck | Projects | Participial Adjectives</title>
         <style type='text/css'>{`
         body {
           background-color: #ffffff;
