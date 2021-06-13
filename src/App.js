@@ -4,8 +4,8 @@ import Navigation from './components/layout/Navigation';
 import Footer from './components/layout/Footer';
 import LandingPage from './components/pages/LandingPage';
 import About from './components/pages/About';
+import ProjectsOriginal from './components/pages/ProjectsOriginal';
 import Projects from './components/pages/Projects';
-import Projects2 from './components/pages/Projects2';
 
 import ParticipialAdjectives from './components/pages/ParticipialAdjectives';
 import Contact from './components/pages/Contact';
@@ -24,8 +24,12 @@ const App = () => {
             <Switch>
               <Route exact path='/' component={LandingPage} />
               <Route exact path='/about' component={About} />
+              <Route
+                exact
+                path='/projects-original'
+                component={ProjectsOriginal}
+              />
               <Route exact path='/projects' component={Projects} />
-              <Route exact path='/projects2' component={Projects2} />
 
               <Route
                 exact

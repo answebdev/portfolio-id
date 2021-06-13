@@ -28,10 +28,17 @@ const Navigation = ({ title }) => {
               <Link to='/projects'>Projects</Link>
             </li>
             <li>
-              <Link to='/projects2'>Projects2</Link>
+              <Link to='/contact'>Contact</Link>
             </li>
             <li>
-              <Link to='/contact'>Contact</Link>
+              <a
+                href='https://www.linkedin.com/in/adolf-schmuck/'
+                rel='noopener noreferrer'
+                target='_blank'
+                title='LinkedIn'
+              >
+                <i class='fab fa-linkedin'></i>
+              </a>
             </li>
           </ul>
         </div>

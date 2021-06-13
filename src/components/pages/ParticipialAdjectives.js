@@ -104,7 +104,7 @@ const ParticipialAdjectives = () => {
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
-                <p>Articulate Storyline, Adobe XD, Adobe Illustrator</p>
+                <p>Articulate Storyline, Adobe XD, SCORM Cloud (Testing)</p>
 
                 <br />
 
