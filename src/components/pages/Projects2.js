@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-
+import pencils from '../../img/classroom-pencils.jpg';
 import classes from '../../styles/Projects2.module.css';
 
 const Projects2 = () => {
@@ -23,54 +23,24 @@ const Projects2 = () => {
               <div>
                 {/* <h1>Projects</h1> */}
                 <h1>Featured Work</h1>
-                {/* <p className={classes.P}>
-                  Each work sample includes a project description, associated
-                  design documents, storyboard files, and/or narration scripts.
-                </p> */}
               </div>
             </Col>
           </Row>
-
-          {/* <br /> */}
-
-          {/* <Row>
-            <Col md={12}>
-              <div>
-                <h2 className={classes.ProjectName}>Participial Adjectives</h2>
-              </div>
-            </Col>
-          </Row> */}
 
           <br />
 
           <Row>
             <Col md={6}>
               <div className={classes.ImgDiv}>
-                {/* Original Version without Fancybox */}
-                <Image
-                  src='https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
-                  fluid
-                />
-
                 {/* Photo by <a href="https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jess Bailey</a> on <a href="https://unsplash.com/s/photos/classroom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
+                {/* Source: https://unsplash.com/photos/l3N9Q27zULw */}
 
-                {/* Fancybox Version */}
-
-                {/* <p className='imglist'>
-                  <a
-                    href='https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
-                    data-fancybox='images'
-                    data-caption='Participial Adjectives'
-                  >
-                    <Image
-                      style={{ maxWidth: '100%' }}
-                      src='https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
-                      alt=''
-                      title='Participial Adjectives'
-                      fluid
-                    />
-                  </a>
-                </p> */}
+                <Image
+                  // src='https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+                  src={pencils}
+                  fluid
+                  alt='Classroom Pencils'
+                />
               </div>
             </Col>
 
