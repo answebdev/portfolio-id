@@ -28,6 +28,9 @@ const Navigation = ({ title }) => {
               <Link to='/projects'>Projects</Link>
             </li>
             <li>
+              <Link to='/projects2'>Projects2</Link>
+            </li>
+            <li>
               <Link to='/contact'>Contact</Link>
             </li>
           </ul>

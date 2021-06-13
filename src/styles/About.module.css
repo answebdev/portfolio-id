@@ -1,4 +1,8 @@
 .Container {
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  /* line-height: 1.6; */
+  line-height: 180%;
+  font-weight: 300;
 }

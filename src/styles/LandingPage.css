@@ -96,9 +96,37 @@ header {
 
 header:before {
   animation: fade-slide-down 2s 0.5s cubic-bezier(0, 0.5, 0, 1) forwards;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.66) 100%, transparent),
-    url('https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  /* background: linear-gradient(to bottom, rgba(0,0,0,0.66) 100%, transparent), url("../images/laptop.jpg"); */
+
+  /* Original Image */
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.66) 100%, transparent),
+    url('https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
+  /* ========== */
+
+  /* Image 1 */
+  /* Photo by <a href="https://unsplash.com/@domenicoloia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Domenico Loia</a> on <a href="https://unsplash.com/s/photos/computer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 100%, transparent),
+    /* url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'); */
+      url('../img/bg2.jpg');
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  /* ========== */
+
+  /* Image 2 */
+  /* Source: https://www.pexels.com/photo/turned-off-silver-imac-389819/ */
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 100%, transparent),
+    url('https://images.pexels.com/photos/389819/pexels-photo-389819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
+  /* ========== */
+
+  /* Image 3 */
+  /* Source: https://www.pexels.com/photo/silver-imac-turned-on-41227/ */
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 100%, transparent),
+    url('https://images.pexels.com/photos/41227/pexels-photo-41227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
+  /* ========== */
+
   background-size: cover, cover;
   background-position: center, center;
   content: '';

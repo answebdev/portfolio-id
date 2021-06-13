@@ -1,10 +1,10 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 
-import classes from '../../styles/Projects.module.css';
+import classes from '../../styles/Projects2.module.css';
 
-const Projects = () => {
+const Projects2 = () => {
   return (
     <div>
       <Helmet>
@@ -23,23 +23,23 @@ const Projects = () => {
               <div>
                 {/* <h1>Projects</h1> */}
                 <h1>Featured Work</h1>
-                <p className={classes.P}>
+                {/* <p className={classes.P}>
                   Each work sample includes a project description, associated
                   design documents, storyboard files, and/or narration scripts.
-                </p>
+                </p> */}
               </div>
             </Col>
           </Row>
 
-          <br />
+          {/* <br /> */}
 
-          <Row>
+          {/* <Row>
             <Col md={12}>
               <div>
                 <h2 className={classes.ProjectName}>Participial Adjectives</h2>
               </div>
             </Col>
-          </Row>
+          </Row> */}
 
           <br />
 
@@ -47,16 +47,16 @@ const Projects = () => {
             <Col md={6}>
               <div className={classes.ImgDiv}>
                 {/* Original Version without Fancybox */}
-                {/* <Image
-                  src='https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+                <Image
+                  src='https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
                   fluid
-                /> */}
+                />
 
                 {/* Photo by <a href="https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jess Bailey</a> on <a href="https://unsplash.com/s/photos/classroom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
 
                 {/* Fancybox Version */}
 
-                <p className='imglist'>
+                {/* <p className='imglist'>
                   <a
                     href='https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
                     data-fancybox='images'
@@ -70,12 +70,12 @@ const Projects = () => {
                       fluid
                     />
                   </a>
-                </p>
+                </p> */}
               </div>
             </Col>
 
             <Col md={6}>
-              <h3>About This Project</h3>
+              <h3>Participial Adjectives</h3>
               <p className={classes.P}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -85,68 +85,21 @@ const Projects = () => {
                 electronic typesetting, remaining essentially unchanged.
               </p>
               <p>
-                View course&nbsp;
-                <a
-                  href='https://participial-adjectives.netlify.app/'
-                  rel='noopener noreferrer'
-                  target='_blank'
-                >
-                  <span>here</span>
-                </a>
-                <span>.</span>
+                <strong>Tools used: </strong>Articulate Storyline, Adobe XD,
+                Adobe Illustrator
               </p>
+              <Button
+                className={classes.SeeMoreBtn}
+                variant='primary'
+                href='/projects2/participial-adjectives'
+                style={{ marginRight: '5px' }}
+              >
+                See More
+              </Button>
             </Col>
           </Row>
 
           <br />
-
-          <Row>
-            <Col md={4}>
-              <h3>Details</h3>
-              <div className={classes.Info}>
-                <p>
-                  <strong>
-                    <i class='fas fa-desktop'></i> Type:{' '}
-                  </strong>
-                  Custom eLearning Development
-                </p>
-                <p>
-                  <strong>
-                    <i class='fas fa-user'></i> Client:{' '}
-                  </strong>
-                  Grossmont College
-                </p>
-                <p>
-                  <strong>
-                    <i class='far fa-calendar-alt'></i> Date:{' '}
-                  </strong>
-                  June 2021
-                </p>
-              </div>
-            </Col>
-            <Col md={4}>
-              <h3>Tools</h3>
-              <div className={classes.Info}>
-                <p>
-                  <i class='far fa-check-square'></i> Articulate Storyline
-                </p>
-                <p>
-                  <i class='far fa-check-square'></i> SCORM Cloud (Testing)
-                </p>
-              </div>
-            </Col>
-            <Col md={4}>
-              <h3>Skills</h3>
-              <div className={classes.Info}>
-                <p>
-                  <i class='far fa-check-square'></i> Instructional Design
-                </p>
-                <p>
-                  <i class='far fa-check-square'></i> eLearning Development
-                </p>
-              </div>
-            </Col>
-          </Row>
 
           <br />
           <hr />
@@ -355,4 +308,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Projects2;

@@ -33,7 +33,7 @@ const Success = () => {
 
         h3,
         p {
-          color: #ff6347;
+          color: #5476b7;
         }
 
         h3 {
@@ -56,11 +56,30 @@ const Success = () => {
         #success-btn {
           font-family: 'Quicksand', sans-serif;
           font-weight: 700;
-          background: #ffffff;
+          padding: 6px 12px;
+          border-radius: 0.25rem;
+          background: #5476b7;
           border-color: #ffffff;
-          color: #ff6347;
+          color: #ffffff;
+          transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+          border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
           margin-right: 5px;
           margin-bottom: 40px;
+        }
+
+        #success-btn:hover {
+          background-color: #ffffff !important;
+          color: #5476b7 !important;
+          text-decoration: none;
+          border-color: #5476b7 !important;
+        }
+
+        #success-btn:active {
+          background-color: #5476b7 !important;
+          color: #ffffff !important;
+          border: 1px solid #5476b7 !important;
+          outline: none !important;
+          box-shadow: none !important;
         }
     `}</style>
       </Helmet>
@@ -74,7 +93,11 @@ const Success = () => {
               <p className='text-center'>Your message has been sent.</p>
               <br />
               <div id='back-div'>
-                <a class='btn btn-success btn-sm' id='back-btn' href='/contact'>
+                <a
+                  class='btn btn-primary btn-sm'
+                  id='success-btn'
+                  href='/contact'
+                >
                   <i class='fas fa-pencil-alt'></i> Back to Form
                 </a>
               </div>

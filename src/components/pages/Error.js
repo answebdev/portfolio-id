@@ -14,7 +14,7 @@ const Error = () => {
         />
         <style type='text/css'>{`
         body {
-          background-color: #ff6347;
+          background-color: #5476b7;
         }
 
         .container {
@@ -57,11 +57,29 @@ const Error = () => {
         #error-btn {
           font-family: 'Quicksand', sans-serif;
           font-weight: 700;
+          padding: 6px 12px;
+          border-radius: 0.25rem;
           background: #ffffff;
           border-color: #ffffff;
-          color: #ff6347;
+          color: #5476b7;
+          transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+          border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
           margin-right: 5px;
           margin-bottom: 40px;
+        }
+
+        #error-btn:active {
+          background-color: #5476b7 !important;
+          color: #ffffff !important;
+          outline: none !important;
+          box-shadow: none !important;
+        }
+
+        #error-btn:focus {
+          background-color: #5476b7 !important;
+          color: #ffffff !important;
+          outline: none !important;
+          box-shadow: none !important;
         }
     `}</style>
       </Helmet>
@@ -76,7 +94,7 @@ const Error = () => {
               <p className='text-center'>404 Page Not Found.</p>
               <br />
               <div id='back-div'>
-                <Link class='btn btn-success btn-sm' id='error-btn' to='/'>
+                <Link class='btn btn-primary btn-sm' id='error-btn' to='/'>
                   <i className='fa fa-home'></i> Take Me Home
                 </Link>
               </div>
