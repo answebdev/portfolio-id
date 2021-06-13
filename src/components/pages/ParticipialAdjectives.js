@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import Adj01 from '../../img/adj01.png';
+// import Adj01 from '../../img/adj01.png';
 import Adj02 from '../../img/adj02.png';
 import Adj03 from '../../img/adj03.png';
-import Adj04 from '../../img/adj04.png';
+// import Adj04 from '../../img/adj04.png';
 import Mockup from '../../img/adjMockup02.jpg';
 
 import classes from '../../styles/ParticipialAdjectives.module.css';
