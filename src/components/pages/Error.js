@@ -14,7 +14,7 @@ const Error = () => {
         />
         <style type='text/css'>{`
         body {
-          background-color: #5476b7;
+          background-color: var(--primary);
         }
 
         .container {
@@ -61,7 +61,7 @@ const Error = () => {
           border-radius: 0.25rem;
           background: #ffffff;
           border-color: #ffffff;
-          color: #5476b7;
+          color: var(--primary);
           transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
           border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
           margin-right: 5px;
@@ -76,7 +76,7 @@ const Error = () => {
         }
 
         #error-btn:focus {
-          background-color: #5476b7 !important;
+          background-color: var(--primary) !important;
           color: #ffffff !important;
           outline: none !important;
           box-shadow: none !important;

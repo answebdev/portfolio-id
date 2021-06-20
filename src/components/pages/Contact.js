@@ -84,9 +84,9 @@ const Contact = () => {
                       placeholder='email@example.com'
                       required
                     />
-                    <Form.Text className='text-muted'>
+                    {/* <Form.Text className='text-muted'>
                       Your email will never be shared with anyone else.
-                    </Form.Text>
+                    </Form.Text> */}
                   </Form.Group>
                   <Form.Group controlId='exampleForm.ControlTextarea1'>
                     <Form.Label>Message</Form.Label>

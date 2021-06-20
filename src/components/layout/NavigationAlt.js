@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 // import '../../styles/Navigation.css';
 
-import classes from '../../styles/Navigation.module.css';
+import classes from '../../styles/NavigationAlt.module.css';
 
-const Navigation = ({ title }) => {
+const NavigationAlt = ({ title }) => {
   return (
     <Fragment>
       <div id='navbar' className={classes.Navbar}>
@@ -56,8 +56,8 @@ const Navigation = ({ title }) => {
   );
 };
 
-Navigation.defaultProps = {
+NavigationAlt.defaultProps = {
   title: 'Adolf Schmuck',
 };
 
-export default Navigation;
+export default NavigationAlt;

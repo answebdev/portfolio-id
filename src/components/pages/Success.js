@@ -33,7 +33,7 @@ const Success = () => {
 
         h3,
         p {
-          color: #5476b7;
+          color: var(--primary);
         }
 
         h3 {
@@ -58,7 +58,7 @@ const Success = () => {
           font-weight: 700;
           padding: 6px 12px;
           border-radius: 0.25rem;
-          background: #5476b7;
+          background: var(--primary);
           border-color: #ffffff;
           color: #ffffff;
           transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
@@ -69,15 +69,15 @@ const Success = () => {
 
         #success-btn:hover {
           background-color: #ffffff !important;
-          color: #5476b7 !important;
+          color: var(--primary) !important;
           text-decoration: none;
-          border-color: #5476b7 !important;
+          border-color: var(--primary) !important;
         }
 
         #success-btn:active {
-          background-color: #5476b7 !important;
+          background-color: var(--primary) !important;
           color: #ffffff !important;
-          border: 1px solid #5476b7 !important;
+          border: 1px solid var(--primary) !important;
           outline: none !important;
           box-shadow: none !important;
         }

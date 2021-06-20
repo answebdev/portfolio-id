@@ -1,3 +1,7 @@
+:root {
+  --primary: #333333;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,6 +18,7 @@
 
 body {
   letter-spacing: 1px;
+  /* background-color: #e6eaea !important; */
 }
 
 h3 {

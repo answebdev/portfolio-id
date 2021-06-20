@@ -1,7 +1,9 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navigation from './components/layout/Navigation';
+import NavigationAlt from './components/layout/NavigationAlt';
 import Footer from './components/layout/Footer';
+import FooterAlt from './components/layout/FooterAlt';
 import LandingPage from './components/pages/LandingPage';
 import About from './components/pages/About';
 import ProjectsOriginal from './components/pages/ProjectsOriginal';
@@ -20,6 +22,7 @@ const App = () => {
       <Router>
         <Fragment>
           <Navigation />
+          {/* <NavigationAlt /> */}
           <div className='container'>
             <Switch>
               <Route exact path='/' component={LandingPage} />
@@ -44,6 +47,7 @@ const App = () => {
         </Fragment>
       </Router>
       <Footer />
+      {/* <FooterAlt /> */}
     </div>
   );
 };

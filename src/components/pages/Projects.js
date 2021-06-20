@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import pencils from '../../img/classroom-pencils.jpg';
+import Mockup from '../../img/mockuper.png';
 import classes from '../../styles/Projects.module.css';
 
 const Projects = () => {
@@ -22,11 +23,12 @@ const Projects = () => {
             <Col md={12}>
               <div>
                 {/* <h1>Projects</h1> */}
-                <h1>Featured Work</h1>
+                <h1 className={classes.PageTitle}>Featured Work</h1>
               </div>
             </Col>
           </Row>
 
+          <br />
           <br />
 
           <Row>
@@ -35,11 +37,14 @@ const Projects = () => {
                 {/* Photo by <a href="https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jess Bailey</a> on <a href="https://unsplash.com/s/photos/classroom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
                 {/* Source: https://unsplash.com/photos/l3N9Q27zULw */}
 
+                {/* Mockup: https://mockuper.net/generator/mockup/43/apple-cinema-display */}
+
                 <Image
                   // src='https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
                   src={pencils}
                   fluid
-                  alt='Classroom Pencils'
+                  // alt='Classroom Pencils'
+                  alt='Mockup'
                 />
               </div>
             </Col>
@@ -50,12 +55,10 @@ const Projects = () => {
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+                of type and scrambled it to make a type specimen book.
               </p>
               <p>
-                <strong>Tools used: </strong>Articulate Storyline, Adobe XD,
+                <strong>Tools used: </strong>Articulate Storyline, Camtasia,
                 SCORM Cloud (Testing)
               </p>
               <br />

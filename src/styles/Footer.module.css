@@ -17,7 +17,7 @@ body {
   bottom: 0;
   /* padding: 0 12px 12px 12px; */
   padding: 12px;
-  background: #5476b7;
+  background: var(--primary);
   text-align: center;
 }
 

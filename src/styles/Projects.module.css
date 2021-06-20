@@ -1,19 +1,39 @@
+.Container {
+  font-family: 'Lato';
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  /* line-height: 1.6; */
+  line-height: 180%;
+
+  /* padding-top: 4em;
+  padding-bottom: 4em; */
+}
+
+.PageTitle {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  /* text-transform: uppercase; */
+}
+
 .ImgDiv {
   margin-right: 20px;
 }
 
 .ProjectName {
+  font-family: 'Oxygen', sans-serif;
   font-weight: 700;
+  /* text-transform: uppercase; */
 }
 
 .SeeMoreBtn {
   /* cursor: pointer; */
   letter-spacing: 1px;
-  background-color: #5476b7 !important;
+  background-color: var(--primary) !important;
   color: #ffffff !important;
   padding: 6px 12px;
   border-radius: 0.25rem;
-  border: 1px solid #5476b7 !important;
+  border: 1px solid var(--primary) !important;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   /* box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.25); */
@@ -21,14 +41,14 @@
 
 .SeeMoreBtn:hover {
   background-color: #ffffff !important;
-  color: #5476b7 !important;
+  color: var(--primary) !important;
   text-decoration: none;
 }
 
 .SeeMoreBtn:active {
-  background-color: #5476b7 !important;
+  background-color: var(--primary) !important;
   color: #ffffff !important;
-  border: 1px solid #5476b7 !important;
+  border: 1px solid var(--primary) !important;
   outline: none !important;
   box-shadow: none !important;
 }

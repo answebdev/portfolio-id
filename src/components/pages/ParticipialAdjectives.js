@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import Adj02 from '../../img/adj02.png';
 import Adj03 from '../../img/adj03.png';
 // import Adj04 from '../../img/adj04.png';
-import Mockup from '../../img/adjMockup02.jpg';
+import Mockup from '../../img/adjMockup04.jpg';
 
 import BackButton from '../../components/layout/BackButton';
 
@@ -28,7 +28,7 @@ const ParticipialAdjectives = () => {
           <Row>
             <Col md={12}>
               <div className={classes.Title}>
-                <h1>Participial Adjectives</h1>
+                <h2>Participial Adjectives</h2>
               </div>
             </Col>
           </Row>
@@ -104,7 +104,7 @@ const ParticipialAdjectives = () => {
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
-                <p>Articulate Storyline, Adobe XD, SCORM Cloud (Testing)</p>
+                <p>Articulate Storyline, Camtasia, SCORM Cloud (Testing)</p>
 
                 <br />
 

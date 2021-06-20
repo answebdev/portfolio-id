@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+}
+
+.Footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 12px;
+  background: #fff;
+  text-align: center;
+  /* border-top: 1px solid #e6eaea; */
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.FooterText {
+  font-family: 'Oxygen', sans-serif;
+  color: #000;
+  letter-spacing: 0.14em;
+  font-size: 16px;
+}
