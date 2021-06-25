@@ -2,10 +2,10 @@ import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 // import Adj01 from '../../img/adj01.png';
-import Adj02 from '../../img/adj02.png';
-import Adj03 from '../../img/adj03.png';
+import Adj02 from '../../img/adj2.png';
+import Adj03 from '../../img/adj3.png';
 // import Adj04 from '../../img/adj04.png';
-import Mockup from '../../img/adjMockup04.jpg';
+import Mockup from '../../img/adjMockup06.jpg';
 
 import BackButton from '../../components/layout/BackButton';
 
