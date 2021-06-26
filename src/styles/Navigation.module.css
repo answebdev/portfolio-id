@@ -37,7 +37,8 @@ ul {
 
 .Links a,
 .Title {
-  color: #ffeeff !important;
+  /* color: #ffeeff !important; */
+  color: #a1a2a6 !important;
   text-decoration: none !important;
   background-color: transparent;
   padding: 0 10px;
@@ -60,7 +61,7 @@ ul {
 }
 
 .Navbar a:hover {
-  color: #ffffff;
+  color: #ffeeff !important;
 }
 
 /* ===== MEDIA QUERIES ===== */

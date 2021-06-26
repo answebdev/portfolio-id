@@ -14,7 +14,7 @@ const Error = () => {
         />
         <style type='text/css'>{`
         body {
-          background-color: var(--primary);
+          background-color: var(--primary) !important;
         }
 
         .container {
@@ -68,8 +68,12 @@ const Error = () => {
           margin-bottom: 40px;
         }
 
+        #error-btn:hover {
+          background-color: #333333;
+          color: #ffffff;
+        }
+
         #error-btn:active {
-          background-color: #5476b7 !important;
           color: #ffffff !important;
           outline: none !important;
           box-shadow: none !important;

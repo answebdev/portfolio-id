@@ -101,8 +101,9 @@ const Contact = () => {
                     <div data-netlify-recaptcha='true'></div>
                   </div>
                   <Button
-                    className='actions'
-                    variant='success'
+                    className={classes.SendBtn}
+                    // className='actions'
+                    variant='dark'
                     type='submit'
                     value='Send Message'
                     id='submit-btn'
