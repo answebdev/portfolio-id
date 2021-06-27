@@ -9,11 +9,6 @@ const Contact = () => {
     <div>
       <Helmet>
         <title>Adolf Schmuck | Contact</title>
-        <style type='text/css'>{`
-        body {
-          background-color: #ffffff;
-        }
-    `}</style>
       </Helmet>
       <Container className={classes.Container}>
         <br />
@@ -47,8 +42,9 @@ const Contact = () => {
                       rel='noopener noreferrer'
                       target='_blank'
                     >
-                      <span>
-                        <i class='fab fa-linkedin-in'></i>
+                      <span className={classes.LinkInIcon}>
+                        {/* <i class='fab fa-linkedin-in'></i> */}
+                        <i class='fab fa-linkedin'></i>
                       </span>
                     </a>
                   </p>

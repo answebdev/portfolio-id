@@ -10,11 +10,6 @@ const Projects = () => {
     <div>
       <Helmet>
         <title>Adolf Schmuck | Projects</title>
-        <style type='text/css'>{`
-        body {
-          background-color: #ffffff;
-        }
-    `}</style>
       </Helmet>
       <Container className={classes.Container}>
         <br />

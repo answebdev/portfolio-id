@@ -12,7 +12,7 @@ const BackButton = () => {
         className={classes.BackBtn}
         variant='primary'
       >
-        <i className='fas fa-arrow-left'></i>&nbsp;BACK
+        <i className='fas fa-arrow-left'></i>&nbsp;Back
       </button>
     </div>
   );

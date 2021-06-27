@@ -3,6 +3,11 @@
   letter-spacing: 1px;
 }
 
+.LinkInIcon {
+  color: #0a66c2 !important;
+  font-size: 20px;
+}
+
 .SendBtn {
   letter-spacing: 1px;
   background-color: var(--primary) !important;

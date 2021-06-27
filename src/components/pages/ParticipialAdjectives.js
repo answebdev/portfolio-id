@@ -16,11 +16,6 @@ const ParticipialAdjectives = () => {
     <div>
       <Helmet>
         <title>Adolf Schmuck | Projects | Participial Adjectives</title>
-        <style type='text/css'>{`
-        body {
-          background-color: #ffffff;
-        }
-    `}</style>
       </Helmet>
       <Container className={classes.Container}>
         <br />
