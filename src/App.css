@@ -1,5 +1,6 @@
 :root {
   --primary: #333333;
+  --background: #f7f7f7;
 }
 
 * {
@@ -19,7 +20,7 @@
 body {
   letter-spacing: 1px;
   /* background-color: #e6eaea !important; */
-  background-color: #ffeeff !important;
+  background-color: var(--background) !important;
 }
 
 h3 {

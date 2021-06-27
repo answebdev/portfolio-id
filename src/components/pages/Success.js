@@ -14,7 +14,7 @@ const Success = () => {
         <style type='text/css'>{`
         body {
           font-family: 'Quicksand', sans-serif;
-          background-color: #ffffff;
+          background-color: var(--background);
           color: #ff6347;
         }
 

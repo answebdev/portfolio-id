@@ -10,7 +10,7 @@
 
 .NavTitle {
   font-family: 'Lato';
-  color: #ffeeff;
+  color: var(--background) !important;
   font-size: 28px;
   letter-spacing: 0.1em;
   padding-bottom: 0.5em;
@@ -30,7 +30,7 @@ ul {
 .Links {
   margin-bottom: -15px;
   float: inherit;
-  color: #c7d1d8 !important;
+  /* color: #c7d1d8 !important; */
   font-family: 'Lato';
   letter-spacing: 0.14em;
 }
