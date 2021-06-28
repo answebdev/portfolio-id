@@ -11,6 +11,7 @@ body {
 }
 
 #name {
+  /* font-family: 'Oxygen', sans-serif; */
   font-family: 'Lato';
   /* font-size: 2rem; */
   font-size: 30px;

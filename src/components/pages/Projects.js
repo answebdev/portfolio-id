@@ -47,11 +47,15 @@ const Projects = () => {
             <Col md={6}>
               <h3 className={classes.ProjectName}>Participial Adjectives</h3>
               <p className={classes.P}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                An interactive lesson created using Articulate Storyline to
+                improve students' understanding of participial adjectives at an
+                international language school.
               </p>
+              {/* <p className={classes.P}>
+                A learning app that harnesses the power of data-driven design
+                for improving learner performance and enhancing learning
+                offerings at an international language school.
+              </p> */}
               <p>
                 <strong>Tools used: </strong>Articulate Storyline, Camtasia,
                 SCORM Cloud (Testing)
@@ -60,7 +64,7 @@ const Projects = () => {
               <Button
                 className={classes.SeeMoreBtn}
                 variant='primary'
-                href='/projects2/participial-adjectives'
+                href='/projects/participial-adjectives'
                 style={{ marginRight: '5px', boxShadow: 'none' }}
               >
                 See More

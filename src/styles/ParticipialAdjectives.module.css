@@ -1,5 +1,5 @@
 .Container {
-  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Lato';
   font-size: 16px;
   letter-spacing: 1.5px;
   /* line-height: 1.6; */
@@ -9,7 +9,9 @@
 
 .Title {
   text-align: center;
-  font-family: 'Rubik', sans-serif;
+  /* font-family: 'Rubik', sans-serif; */
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
 }
 
 .ProjectDiv {

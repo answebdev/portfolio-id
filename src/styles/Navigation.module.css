@@ -10,12 +10,13 @@
 
 .NavTitle {
   font-family: 'Lato';
+  font-family: 'Oxygen', sans-serif;
   color: var(--background) !important;
-  font-size: 28px;
+  font-size: 26px;
   letter-spacing: 0.1em;
   padding-bottom: 0.5em;
   margin-top: 2.5px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 ul {
@@ -56,7 +57,7 @@ ul {
   color: #dedede;
   font-size: 18px;
   margin: 0 0.25rem;
-  margin-bottom: -30px;
+  margin-bottom: -25px;
   padding: 10px;
 }
 

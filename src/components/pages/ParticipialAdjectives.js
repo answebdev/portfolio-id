@@ -22,8 +22,8 @@ const ParticipialAdjectives = () => {
         <div className='content-div'>
           <Row>
             <Col md={12}>
-              <div className={classes.Title}>
-                <h2>Participial Adjectives</h2>
+              <div>
+                <h2 className={classes.Title}>Participial Adjectives</h2>
               </div>
             </Col>
           </Row>
@@ -35,6 +35,24 @@ const ParticipialAdjectives = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
+                  Participial Adjectives is a lesson on participial adjectives
+                  for pre-intermediate (A2-B1 CEFR) ESL learners. A common
+                  grammar area of confusion for ESL learners is the use of
+                  participial adjectives, and knowing when to use the correct
+                  form (e.g., "I am bored" versus "I am boring"). This
+                  interactive Storyline lesson aims to clarify this area of
+                  confusion by reviewing the different forms, and by allowing
+                  the learner to check his or her understanding of the target
+                  grammar presented. By the end, students should be able to
+                  understand the difference between the past participle and
+                  present participle forms, and when to use each form. The
+                  lesson ends with a set of exercises aimed at testing the
+                  learner's understanding of the grammar. Upon completion, the
+                  learner is given the choice to review the answers, view the
+                  results in printable form, or retry the exercises.
+                </p>
+
+                {/* <p style={{ textAlign: 'left' }}>
                   Lingua is a learning app for students at a large foreign
                   language school. Faced with lower student performance in
                   German courses, the school needed an accessible way for
@@ -46,7 +64,7 @@ const ParticipialAdjectives = () => {
                   materials. The result is a wealth of valuable learner data
                   that allows the language school to adjust what they’re
                   offering and better meet their learners’ evolving needs.
-                </p>
+                </p> */}
               </div>
             </Col>
             <Col md={2}></Col>
@@ -126,8 +144,8 @@ const ParticipialAdjectives = () => {
 
           <Row>
             <Col md={12}>
-              <div className={classes.Title}>
-                <h2>Details</h2>
+              <div>
+                <h2 className={classes.Title}>Details</h2>
               </div>
             </Col>
           </Row>

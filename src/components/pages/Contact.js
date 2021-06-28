@@ -16,9 +16,12 @@ const Contact = () => {
           <Row>
             <Col md={3}></Col>
             <Col md={6}>
-              <h3>
+              {/* <h3>
                 <strong>Contact Form</strong>
-              </h3>
+              </h3> */}
+              <div>
+                <h1 className={classes.PageTitle}>Contact Me</h1>
+              </div>
               <hr />
               <div className='content'>
                 {/* <p>

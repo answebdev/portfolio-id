@@ -36,7 +36,7 @@ const App = () => {
 
               <Route
                 exact
-                path='/projects2/participial-adjectives'
+                path='/projects/participial-adjectives'
                 component={ParticipialAdjectives}
               />
               <Route exact path='/contact' component={Contact} />
