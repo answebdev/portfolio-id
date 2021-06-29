@@ -5,6 +5,8 @@ import mockup from '../../img/mockuper2.png';
 import canvas from '../../img/canvas.png';
 import classes from '../../styles/Projects.module.css';
 
+// Canvas logo image: https://www.pinclipart.com/pindetail/ibJJhox_canvas-logo-transparent-background-clipart/
+
 const Projects = () => {
   return (
     <div>
