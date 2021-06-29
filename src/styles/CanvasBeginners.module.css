@@ -2,29 +2,33 @@
   font-family: 'Lato';
   font-size: 16px;
   letter-spacing: 1px;
+  /* line-height: 1.6; */
   line-height: 180%;
+  /* font-weight: 300; */
 }
 
-.PageTitle {
+.Title {
+  text-align: center;
+  /* font-family: 'Rubik', sans-serif; */
   font-family: 'Oxygen', sans-serif;
   font-weight: 700;
-  /* text-align: center; */
-  font-size: 36px;
-  /* text-transform: uppercase; */
 }
 
-.ImgDiv {
-  margin-right: 20px;
+.ProjectDiv {
+  text-align: center;
 }
 
-.ProjectName {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: 700;
-  /* text-transform: uppercase; */
+.PDFViewer {
+  display: flex;
+  justify-content: center;
 }
 
-.SeeMoreBtn {
-  /* cursor: pointer; */
+.ViewerComponent {
+  height: 720px;
+  width: 640px;
+}
+
+.CheckItOut {
   letter-spacing: 1px;
   background-color: var(--primary) !important;
   color: #ffffff !important;
@@ -33,16 +37,15 @@
   border: 1px solid var(--primary) !important;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  /* box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.25); */
 }
 
-.SeeMoreBtn:hover {
+.CheckItOut:hover {
   background-color: #ffffff !important;
   color: var(--primary) !important;
   text-decoration: none;
 }
 
-.SeeMoreBtn:active {
+.CheckItOut:active {
   background-color: var(--primary) !important;
   color: #ffffff !important;
   border: 1px solid var(--primary) !important;

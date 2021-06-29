@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import pencils from '../../img/mockuper2.png';
-import Mockup from '../../img/mockuper.png';
+import mockup from '../../img/mockuper2.png';
+import canvas from '../../img/canvas.png';
 import classes from '../../styles/Projects.module.css';
 
 const Projects = () => {
@@ -24,7 +24,7 @@ const Projects = () => {
           </Row>
 
           <br />
-          <br />
+          {/* <br /> */}
 
           <Row>
             <Col md={6}>
@@ -36,9 +36,8 @@ const Projects = () => {
 
                 <Image
                   // src='https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
-                  src={pencils}
+                  src={mockup}
                   fluid
-                  // alt='Classroom Pencils'
                   alt='Mockup'
                 />
               </div>
@@ -79,7 +78,7 @@ const Projects = () => {
           <br />
           <br />
 
-          <Row>
+          {/* <Row>
             <Col md={12}>
               <div>
                 <h2 className={classes.ProjectName}>How to Play Guitar</h2>
@@ -87,93 +86,41 @@ const Projects = () => {
             </Col>
           </Row>
 
-          <br />
+          <br /> */}
 
           <Row>
             <Col md={6}>
               <div className={classes.ImgDiv}>
-                {/* <Image
-                  src='https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
-                  fluid
-                /> */}
-
-                <p className='imglist'>
-                  <a
-                    href='https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
-                    data-fancybox='images'
-                    data-caption='How to Play Guitar'
-                  >
-                    <Image
-                      style={{ maxWidth: '100%' }}
-                      src='https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
-                      alt=''
-                      title='How to Play Guitar'
-                      fluid
-                    />
-                  </a>
-                </p>
+                <Image src={canvas} fluid alt='Mockup' />
               </div>
             </Col>
 
             <Col md={6}>
-              <h3>About This Project</h3>
+              <h3 className={classes.ProjectName}>
+                Canvas Beginners (Instructor-led Training)
+              </h3>
               <p className={classes.P}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+                An interactive lesson created using Articulate Storyline to
+                improve students' understanding of participial adjectives at an
+                international language school.
               </p>
+              <p>
+                <strong>Tools used: </strong>Articulate Storyline, Camtasia,
+                SCORM Cloud (Testing)
+              </p>
+              <br />
+              <Button
+                className={classes.SeeMoreBtn}
+                variant='primary'
+                href='/projects/canvas-beginners'
+                style={{ marginRight: '5px', boxShadow: 'none' }}
+              >
+                See More
+              </Button>
             </Col>
           </Row>
 
           <br />
-
-          <Row>
-            <Col md={4}>
-              <h3>Details</h3>
-              <div className={classes.Info}>
-                <p>
-                  <strong>
-                    <i class='fas fa-desktop'></i> Type:{' '}
-                  </strong>
-                  Custom eLearning Development
-                </p>
-                <p>
-                  <strong>
-                    <i class='far fa-calendar-alt'></i> Date:{' '}
-                  </strong>
-                  October 2021
-                </p>
-              </div>
-            </Col>
-            <Col md={4}>
-              <h3>Tools</h3>
-              <div className={classes.Info}>
-                <p>
-                  <i class='far fa-check-square'></i> Articulate Storyline
-                </p>
-                <p>
-                  <i class='far fa-check-square'></i> Adobe Illustrator
-                </p>
-              </div>
-            </Col>
-            <Col md={4}>
-              <h3>Skills</h3>
-              <div className={classes.Info}>
-                <p>
-                  <i class='far fa-check-square'></i> Instructional Design
-                </p>
-                <p>
-                  <i class='far fa-check-square'></i> eLearning Development
-                </p>
-              </div>
-            </Col>
-          </Row>
-
-          <br />
-
           <br />
           <hr />
           <br />

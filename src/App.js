@@ -10,6 +10,7 @@ import ProjectsOriginal from './components/pages/ProjectsOriginal';
 import Projects from './components/pages/Projects';
 
 import ParticipialAdjectives from './components/pages/ParticipialAdjectives';
+import CanvasBeginners from './components/pages/CanvasBeginners';
 import Contact from './components/pages/Contact';
 import Success from './components/pages/Success';
 import Error from './components/pages/Error';
@@ -38,6 +39,11 @@ const App = () => {
                 exact
                 path='/projects/participial-adjectives'
                 component={ParticipialAdjectives}
+              />
+              <Route
+                exact
+                path='/projects/canvas-beginners'
+                component={CanvasBeginners}
               />
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/success' component={Success} />
