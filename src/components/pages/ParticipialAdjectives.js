@@ -6,6 +6,8 @@ import Adj02 from '../../img/adj2.png';
 import Adj03 from '../../img/adj3.png';
 // import Adj04 from '../../img/adj04.png';
 import Mockup from '../../img/adjMockup06.jpg';
+import Storyboard from '../../img/storyboard.png';
+import StoryboardPDF from '../../pdf/storyboard.pdf';
 
 import BackButton from '../../components/layout/BackButton';
 
@@ -189,6 +191,110 @@ const ParticipialAdjectives = () => {
             <Col md={2}></Col>
           </Row>
 
+          <br />
+          <br />
+
+          <Row>
+            <Col md={12}>
+              <div>
+                <h2 className={classes.Title}>Storyboard</h2>
+              </div>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row>
+            <Col md={2}></Col>
+            <Col col={8}>
+              <div className={classes.ProjectDiv}>
+                <p style={{ textAlign: 'left' }}>
+                  In the last year, I’ve become increasingly interested in how
+                  data can be leveraged to enhance the digital learning
+                  experience and to increase learning efficacy. For me,
+                  understanding specifically how learners are interacting with
+                  the experiences I build not only helps me target improvements,
+                  but allows me to make more strategic decisions for aligned
+                  learning design in the future. If my solution is designed
+                  well, the data can confirm the user research I conducted
+                  before beginning development. At the same time, the data can
+                  bring to light certain elements in my design that might not be
+                  working as well as I had planned. With this information, I can
+                  learn better what works well for particular user group and
+                  spend my time - and theirs - more wisely in the future.
+                </p>
+              </div>
+            </Col>
+            <Col md={2}></Col>
+          </Row>
+
+          <br />
+
+          <Row>
+            <Col>
+              <div className={classes.ProjectDiv}>
+                <p className='imglist'>
+                  <a
+                    href={Storyboard}
+                    data-fancybox='images'
+                    data-caption='Storyboard'
+                  >
+                    <Image
+                      style={{ maxWidth: '50%' }}
+                      src={Storyboard}
+                      alt='Storyboard'
+                      fluid
+                    />
+                  </a>
+                </p>
+                <br />
+
+                <Button
+                  className={classes.CheckItOut}
+                  variant='primary'
+                  src={StoryboardPDF}
+                  href={StoryboardPDF}
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  style={{
+                    marginRight: '5px',
+                    boxShadow: 'none',
+                  }}
+                >
+                  View Storyboard
+                </Button>
+              </div>
+            </Col>
+          </Row>
+
+          <br />
+          <br />
+
+          <Row>
+            <Col md={2}></Col>
+            <Col col={8}>
+              <div className={classes.ProjectDiv}>
+                <p style={{ textAlign: 'left' }}>
+                  In the last year, I’ve become increasingly interested in how
+                  data can be leveraged to enhance the digital learning
+                  experience and to increase learning efficacy. For me,
+                  understanding specifically how learners are interacting with
+                  the experiences I build not only helps me target improvements,
+                  but allows me to make more strategic decisions for aligned
+                  learning design in the future. If my solution is designed
+                  well, the data can confirm the user research I conducted
+                  before beginning development. At the same time, the data can
+                  bring to light certain elements in my design that might not be
+                  working as well as I had planned. With this information, I can
+                  learn better what works well for particular user group and
+                  spend my time - and theirs - more wisely in the future.
+                </p>
+              </div>
+            </Col>
+            <Col md={2}></Col>
+          </Row>
+
+          <br />
           <br />
 
           <div className={classes.ProjectDiv}>
