@@ -107,8 +107,7 @@ const Projects = () => {
                 international language school.
               </p>
               <p>
-                <strong>Tools used: </strong>Articulate Storyline, Camtasia,
-                SCORM Cloud (Testing)
+                <strong>Tools used: </strong>Canvas, Microsoft Word, screenshot
               </p>
               <br />
               <Button
