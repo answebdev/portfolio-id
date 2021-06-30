@@ -197,7 +197,7 @@ const ParticipialAdjectives = () => {
           <Row>
             <Col md={12}>
               <div>
-                <h2 className={classes.Title}>Storyboard</h2>
+                <h2 className={classes.Title}>Visual Storyboard</h2>
               </div>
             </Col>
           </Row>
@@ -209,19 +209,17 @@ const ParticipialAdjectives = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
-                  In the last year, I’ve become increasingly interested in how
-                  data can be leveraged to enhance the digital learning
-                  experience and to increase learning efficacy. For me,
-                  understanding specifically how learners are interacting with
-                  the experiences I build not only helps me target improvements,
-                  but allows me to make more strategic decisions for aligned
-                  learning design in the future. If my solution is designed
-                  well, the data can confirm the user research I conducted
-                  before beginning development. At the same time, the data can
-                  bring to light certain elements in my design that might not be
-                  working as well as I had planned. With this information, I can
-                  learn better what works well for particular user group and
-                  spend my time - and theirs - more wisely in the future.
+                  The visual storyboard includes basic information about the
+                  layout of the project such the font and the color scheme used.
+                  It also lists every slide in complete detail, along with the
+                  title of the slide, images and text used, button(s) included
+                  and what each button does, notes for the developer, and
+                  detailed notes on animations used. In the case where
+                  activities or quiz questions are used, detailed information is
+                  given regarding the questions and answers used, as well as the
+                  correct answers given (seen in later slides). To view the
+                  entire storyboard in PDF format, click the View Storyboard
+                  button below.
                 </p>
               </div>
             </Col>
@@ -237,12 +235,12 @@ const ParticipialAdjectives = () => {
                   <a
                     href={Storyboard}
                     data-fancybox='images'
-                    data-caption='Storyboard'
+                    data-caption='Visual Storyboard for Participial Adjectives'
                   >
                     <Image
                       style={{ maxWidth: '50%' }}
                       src={Storyboard}
-                      alt='Storyboard'
+                      alt='Visual Storyboard for Participial Adjectives'
                       fluid
                     />
                   </a>
