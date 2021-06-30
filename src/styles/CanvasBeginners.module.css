@@ -77,6 +77,11 @@
   /* .Container {
     background-color: brown;
   } */
+
+  .ViewerComponent {
+    height: 570px;
+    width: 490px;
+  }
 }
 
 @media screen and (min-width: 471px) and (max-width: 550px) {
