@@ -215,11 +215,11 @@ const ParticipialAdjectives = () => {
                   title of the slide, images and text used, button(s) included
                   and what each button does, notes for the developer, and
                   detailed notes on animations used. In the case where
-                  activities or quiz questions are used, detailed information is
-                  given regarding the questions and answers used, as well as the
-                  correct answers given (seen in later slides). To view the
-                  entire storyboard in PDF format, click the View Storyboard
-                  button below.
+                  activities or multiple choice questions are used, detailed
+                  information is given regarding the questions and answers used,
+                  as well as the correct answers given (seen in later slides).
+                  To view the entire storyboard in PDF format, click the View
+                  Storyboard button below.
                 </p>
               </div>
             </Col>
