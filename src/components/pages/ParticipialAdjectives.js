@@ -1,13 +1,14 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-// import Adj01 from '../../img/adj01.png';
+import Adj01 from '../../img/adj1.png';
 import Adj02 from '../../img/adj2.png';
-import Adj03 from '../../img/adj3.png';
-// import Adj04 from '../../img/adj04.png';
 import Mockup from '../../img/adjMockup06.jpg';
 import Storyboard from '../../img/storyboard.png';
 import StoryboardPDF from '../../pdf/storyboard.pdf';
+import JSCode from '../../img/JavaScriptCode.png';
+import StorylineJS from '../../img/StorylineJavaScript.png';
+import Certificate from '../../img/certificate-pdf.png';
 
 import BackButton from '../../components/layout/BackButton';
 
@@ -119,7 +120,7 @@ const ParticipialAdjectives = () => {
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
-                <p>Articulate Storyline, Camtasia, SCORM Cloud (Testing)</p>
+                <p>Articulate Storyline, Canva, SCORM Cloud (Testing)</p>
 
                 <br />
 
@@ -238,7 +239,7 @@ const ParticipialAdjectives = () => {
                     data-caption='Visual Storyboard for Participial Adjectives'
                   >
                     <Image
-                      style={{ maxWidth: '50%' }}
+                      style={{ maxWidth: '75%' }}
                       src={Storyboard}
                       alt='Visual Storyboard for Participial Adjectives'
                       fluid
@@ -269,27 +270,143 @@ const ParticipialAdjectives = () => {
           <br />
 
           <Row>
+            <Col md={12}>
+              <div>
+                <h2 className={classes.Title}>Printable PDF</h2>
+              </div>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row>
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
-                  In the last year, I’ve become increasingly interested in how
-                  data can be leveraged to enhance the digital learning
-                  experience and to increase learning efficacy. For me,
-                  understanding specifically how learners are interacting with
-                  the experiences I build not only helps me target improvements,
-                  but allows me to make more strategic decisions for aligned
-                  learning design in the future. If my solution is designed
-                  well, the data can confirm the user research I conducted
-                  before beginning development. At the same time, the data can
-                  bring to light certain elements in my design that might not be
-                  working as well as I had planned. With this information, I can
-                  learn better what works well for particular user group and
-                  spend my time - and theirs - more wisely in the future.
+                  To provide the option of implementing this lesson on its own
+                  without the need for an LMS, I wanted to integrate a
+                  certificate of completion into the course. To do this, I
+                  created a custom branded certificate on Canva, with an image,
+                  fonts, and colors that matched my lesson scheme. I then used
+                  JavaScript to print the student's name and date on the
+                  certificate, so that the name and current date would appear on
+                  the certificate when downloaded in PDF format. The jsPDF
+                  library is used to generate the PDF, and a script is added in
+                  the <code>story.html</code> file to communicate this to the
+                  Storyline course. The following code was added in Storyline to
+                  the <strong>Download Certificate</strong> button Trigger as
+                  Executable JavaScript. I first used Visual Studio Code so that
+                  I could more easy add the setting appropriate to my project,
+                  such as setting the font size and color, choosing a name for
+                  the downloaded file (i.e., Certificate.pdf), calling the name
+                  variable used in Storyline, etc.
                 </p>
               </div>
             </Col>
             <Col md={2}></Col>
+          </Row>
+
+          <br />
+
+          <Row>
+            <Col>
+              <div className={classes.ProjectDiv}>
+                <p className='imglist'>
+                  <a
+                    href={JSCode}
+                    data-fancybox='images'
+                    data-caption='JavaScript Code for PDF Certificate'
+                  >
+                    <Image
+                      style={{ maxWidth: '75%' }}
+                      src={JSCode}
+                      alt='JavaScript Code for PDF Certificate'
+                      fluid
+                    />
+                  </a>
+                </p>
+              </div>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col>
+              <div className={classes.ProjectDiv}>
+                <p className='imglist'>
+                  <a
+                    href={StorylineJS}
+                    data-fancybox='images'
+                    data-caption='JavaScript Code in Storyline'
+                  >
+                    <Image
+                      style={{ maxWidth: '75%' }}
+                      src={StorylineJS}
+                      alt='JavaScript Code in Storyline'
+                      fluid
+                    />
+                  </a>
+                </p>
+              </div>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col>
+              <div className={classes.ProjectDiv}>
+                <p className='imglist'>
+                  <a
+                    href={Certificate}
+                    data-fancybox='images'
+                    data-caption='Certificate in PDF Format'
+                  >
+                    <Image
+                      style={{ maxWidth: '75%' }}
+                      src={Certificate}
+                      alt='Certificate in PDF Format'
+                      fluid
+                    />
+                  </a>
+                </p>
+              </div>
+            </Col>
+          </Row>
+
+          <br />
+          <br />
+
+          <Row>
+            <Col md={2}></Col>
+            <Col col={8}>
+              <div className={classes.ProjectDiv}>
+                <p style={{ textAlign: 'left' }}>
+                  Cake carrot cake liquorice macaroon jelly dessert macaroon
+                  jelly-o cake. Cookie ice cream sweet chocolate cake lemon
+                  drops icing. Biscuit sugar plum dragée liquorice jujubes
+                  dessert cotton candy tart. Jelly-o donut sweet croissant.
+                  Cotton candy lollipop chocolate bar ice cream donut brownie.
+                  Pie sesame snaps soufflé pastry chupa chups jelly beans.
+                  Gummies croissant oat cake jujubes cake sweet. Jelly-o
+                  chocolate cake apple pie gummies gingerbread bonbon. Croissant
+                  caramels candy canes. Cupcake caramels soufflé marshmallow
+                  topping liquorice apple pie. Marzipan biscuit pastry dessert
+                  lemon drops. Danish halvah cupcake fruitcake. Cake candy
+                  bonbon pudding sesame snaps.
+                </p>
+              </div>
+            </Col>
+            <Col md={2}></Col>
+          </Row>
+
+          <br />
+          <br />
+
+          <Row>
+            <Col md={12}>
+              <div>
+                <h2 className={classes.Title}>Project Screenshots</h2>
+              </div>
+            </Col>
           </Row>
 
           <br />
@@ -300,13 +417,13 @@ const ParticipialAdjectives = () => {
               <Col md={6}>
                 <p className='imglist'>
                   <a
-                    href={Adj02}
+                    href={Adj01}
                     data-fancybox='images'
                     data-caption='Participial Adjectives'
                   >
                     <Image
                       style={{ maxWidth: '90%' }}
-                      src={Adj02}
+                      src={Adj01}
                       alt='Participial Adjectives'
                       fluid
                     />
@@ -317,13 +434,13 @@ const ParticipialAdjectives = () => {
               <Col md={6}>
                 <p className='imglist'>
                   <a
-                    href={Adj03}
+                    href={Adj02}
                     data-fancybox='images'
                     data-caption='Participial Adjectives'
                   >
                     <Image
                       style={{ maxWidth: '90%' }}
-                      src={Adj03}
+                      src={Adj02}
                       alt='Participial Adjectives'
                       fluid
                     />

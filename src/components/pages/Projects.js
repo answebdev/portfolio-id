@@ -58,8 +58,8 @@ const Projects = () => {
                 offerings at an international language school.
               </p> */}
               <p>
-                <strong>Tools used: </strong>Articulate Storyline, Camtasia,
-                SCORM Cloud (Testing)
+                <strong>Tools used: </strong>Articulate Storyline, Canva, SCORM
+                Cloud (Testing)
               </p>
               <br />
               <Button

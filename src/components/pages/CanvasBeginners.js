@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import Adj01 from '../../img/adj1.png';
 import Adj02 from '../../img/adj2.png';
-import Adj03 from '../../img/adj3.png';
 import pdf from '../../pdf/grading-submitted-media-assignments-on-canvas.pdf';
 import BackButton from '../../components/layout/BackButton';
 import classes from '../../styles/CanvasBeginners.module.css';
@@ -201,13 +201,13 @@ const CanvasBeginners = () => {
               <Col md={6}>
                 <p className='imglist'>
                   <a
-                    href={Adj03}
+                    href={Adj01}
                     data-fancybox='images'
                     data-caption='Participial Adjectives'
                   >
                     <Image
                       style={{ maxWidth: '90%' }}
-                      src={Adj03}
+                      src={Adj01}
                       alt='Participial Adjectives'
                       fluid
                     />
