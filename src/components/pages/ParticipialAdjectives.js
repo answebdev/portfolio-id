@@ -297,10 +297,10 @@ const ParticipialAdjectives = () => {
                   Storyline course. The following code was added in Storyline to
                   the <strong>Download Certificate</strong> button Trigger as
                   Executable JavaScript. I first used Visual Studio Code so that
-                  I could more easy add the setting appropriate to my project,
-                  such as setting the font size and color, choosing a name for
-                  the downloaded file (i.e., Certificate.pdf), calling the name
-                  variable used in Storyline, etc.
+                  I could more easily add the settings appropriate to my
+                  project, such as setting the font size and color, choosing a
+                  name for the downloaded file (i.e., Certificate.pdf), calling
+                  the name variable used in Storyline, etc.
                 </p>
               </div>
             </Col>
