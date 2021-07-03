@@ -39,6 +39,15 @@ const About = () => {
             </Col>
 
             <Col md={7}>
+              {/* <p className={classes.P}>
+                Hello and nice to meet you. I am a learning professional with a
+                focus on instructional design and eLearning development. I am
+                passionate about helping others learn and I love creating
+                learning content and learning experiences that inspire interest.
+                Most recently, I have been creating course content using the
+                online Canvas LMS at Grossmont Community College, where I am
+                currently employed as an instructor.
+              </p> */}
               <p className={classes.P}>
                 Hello and nice to meet you. I am passionate about helping others
                 learn and I love creating learning content and learning

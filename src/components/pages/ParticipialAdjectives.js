@@ -6,6 +6,7 @@ import Adj02 from '../../img/adj2.png';
 import Mockup from '../../img/adjMockup06.jpg';
 import Storyboard from '../../img/storyboard.png';
 import StoryboardPDF from '../../pdf/storyboard.pdf';
+import certificate from '../../pdf/certificate.pdf';
 import JSCode from '../../img/JavaScriptCode.png';
 import StorylineJS from '../../img/StorylineJavaScript.png';
 import Certificate from '../../img/certificate-pdf.png';
@@ -368,6 +369,21 @@ const ParticipialAdjectives = () => {
                     />
                   </a>
                 </p>
+                <br />
+                <Button
+                  className={classes.CheckItOut}
+                  variant='primary'
+                  src={certificate}
+                  href={certificate}
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  style={{
+                    marginRight: '5px',
+                    boxShadow: 'none',
+                  }}
+                >
+                  View Certificate
+                </Button>
               </div>
             </Col>
           </Row>
