@@ -40,8 +40,14 @@ const ParticipialAdjectives = () => {
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
                   Participial Adjectives is a lesson on participial adjectives
-                  for pre-intermediate (A2-B1 CEFR) ESL learners. A common
-                  grammar area of confusion for ESL learners is the use of
+                  for pre-intermediate (A2-B1 CEFR
+                  <sup>
+                    <a style={{ textDecoration: 'none' }} href='#fn1' id='ref1'>
+                      1
+                    </a>
+                  </sup>
+                  ) ESL learners. A common grammar area of confusion for ESL
+                  (English as a Second Language) learners is the use of
                   participial adjectives, and knowing when to use the correct
                   form (e.g., "I am bored" versus "I am boring"). This
                   interactive Storyline lesson aims to clarify this area of
@@ -55,7 +61,19 @@ const ParticipialAdjectives = () => {
                   learner is given the choice to review the answers, view the
                   results in printable form, or retry the exercises.
                 </p>
-
+                <p style={{ float: 'left' }}>
+                  <hr />
+                  <sup id='fn1'>
+                    1. CEFR: The Common European Framework of Reference for
+                    Languages.
+                    <a
+                      href='#ref1'
+                      title='Jump back to footnote 1 in the text.'
+                    >
+                      ↩
+                    </a>
+                  </sup>
+                </p>
                 {/* <p style={{ textAlign: 'left' }}>
                   Lingua is a learning app for students at a large foreign
                   language school. Faced with lower student performance in
