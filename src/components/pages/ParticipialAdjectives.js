@@ -61,15 +61,13 @@ const ParticipialAdjectives = () => {
                   learner is given the choice to review the answers, view the
                   results in printable form, or retry the exercises.
                 </p>
-                <p style={{ float: 'left' }}>
+                {/* <p style={{ float: 'left' }}> */}
+                <p style={{ textAlign: 'left', marginTop: '30px' }}>
                   <hr />
                   <sup id='fn1'>
                     1. CEFR: The Common European Framework of Reference for
                     Languages.
-                    <a
-                      href='#ref1'
-                      title='Jump back to footnote 1 in the text.'
-                    >
+                    <a href='#ref1' title='Jump back to footnote 1'>
                       ↩
                     </a>
                   </sup>
@@ -111,7 +109,7 @@ const ParticipialAdjectives = () => {
                     />
                   </a> */}
                   <Image
-                    style={{ maxWidth: '55%' }}
+                    className={classes.Image}
                     src={Mockup}
                     alt='Participial Adjectives Mockup'
                     fluid
@@ -258,7 +256,8 @@ const ParticipialAdjectives = () => {
                     data-caption='Visual Storyboard for Participial Adjectives'
                   >
                     <Image
-                      style={{ maxWidth: '75%' }}
+                      className={classes.Image2}
+                      // style={{ maxWidth: '75%' }}
                       src={Storyboard}
                       alt='Visual Storyboard for Participial Adjectives'
                       fluid
@@ -338,7 +337,8 @@ const ParticipialAdjectives = () => {
                     data-caption='JavaScript Code for PDF Certificate'
                   >
                     <Image
-                      style={{ maxWidth: '75%' }}
+                      className={classes.Image2}
+                      // style={{ maxWidth: '75%' }}
                       src={JSCode}
                       alt='JavaScript Code for PDF Certificate'
                       fluid
@@ -359,7 +359,8 @@ const ParticipialAdjectives = () => {
                     data-caption='JavaScript Code in Storyline'
                   >
                     <Image
-                      style={{ maxWidth: '75%' }}
+                      className={classes.Image2}
+                      // style={{ maxWidth: '75%' }}
                       src={StorylineJS}
                       alt='JavaScript Code in Storyline'
                       fluid
@@ -380,7 +381,8 @@ const ParticipialAdjectives = () => {
                     data-caption='Certificate in PDF Format'
                   >
                     <Image
-                      style={{ maxWidth: '75%' }}
+                      className={classes.Image2}
+                      // style={{ maxWidth: '75%' }}
                       src={Certificate}
                       alt='Certificate in PDF Format'
                       fluid
@@ -456,7 +458,8 @@ const ParticipialAdjectives = () => {
                     data-caption='Participial Adjectives'
                   >
                     <Image
-                      style={{ maxWidth: '90%' }}
+                      className={classes.Image3}
+                      // style={{ maxWidth: '90%' }}
                       src={Adj01}
                       alt='Participial Adjectives'
                       fluid
@@ -473,7 +476,8 @@ const ParticipialAdjectives = () => {
                     data-caption='Participial Adjectives'
                   >
                     <Image
-                      style={{ maxWidth: '90%' }}
+                      className={classes.Image3}
+                      // style={{ maxWidth: '90%' }}
                       src={Adj02}
                       alt='Participial Adjectives'
                       fluid
