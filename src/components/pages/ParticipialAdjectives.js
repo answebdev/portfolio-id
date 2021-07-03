@@ -136,7 +136,7 @@ const ParticipialAdjectives = () => {
                     boxShadow: 'none',
                   }}
                 >
-                  Check It Out
+                  View Lesson
                 </Button>
               </div>
             </Col>
