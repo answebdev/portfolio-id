@@ -102,12 +102,13 @@ const Projects = () => {
                 Canvas Beginners (Instructor-led Training)
               </h3>
               <p className={classes.P}>
-                An interactive lesson created using Articulate Storyline to
-                improve students' understanding of participial adjectives at an
-                international language school.
+                A learning module on how to complete different aspects of Canvas
+                developed for instructor learners who have minimal experience
+                using Canvas, as well as limited technological knowledge.
               </p>
               <p>
-                <strong>Tools used: </strong>Canvas, Microsoft Word, screenshot
+                <strong>Tools used: </strong>Canvas, Microsoft Word, Snagit,
+                Canva
               </p>
               <br />
               <Button
@@ -119,6 +120,12 @@ const Projects = () => {
                 See More
               </Button>
             </Col>
+
+            {/* <Col md={6}>
+              <div className={classes.ImgDiv}>
+                <Image src={canvas} fluid alt='Mockup' />
+              </div>
+            </Col> */}
           </Row>
 
           <br />

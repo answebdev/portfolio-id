@@ -177,32 +177,32 @@ const ParticipialAdjectives = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
-                  In the last year, I’ve become increasingly interested in how
-                  data can be leveraged to enhance the digital learning
-                  experience and to increase learning efficacy. For me,
-                  understanding specifically how learners are interacting with
-                  the experiences I build not only helps me target improvements,
-                  but allows me to make more strategic decisions for aligned
-                  learning design in the future. If my solution is designed
-                  well, the data can confirm the user research I conducted
-                  before beginning development. At the same time, the data can
-                  bring to light certain elements in my design that might not be
-                  working as well as I had planned. With this information, I can
-                  learn better what works well for particular user group and
-                  spend my time - and theirs - more wisely in the future.
+                  Cake carrot cake liquorice macaroon jelly dessert macaroon
+                  jelly-o cake. Cookie ice cream sweet chocolate cake lemon
+                  drops icing. Biscuit sugar plum dragée liquorice jujubes
+                  dessert cotton candy tart. Jelly-o donut sweet croissant.
+                  Cotton candy lollipop chocolate bar ice cream donut brownie.
+                  Pie sesame snaps soufflé pastry chupa chups jelly beans.
+                  Gummies croissant oat cake jujubes cake sweet. Jelly-o
+                  chocolate cake apple pie gummies gingerbread bonbon. Croissant
+                  caramels candy canes. Cupcake caramels soufflé marshmallow
+                  topping liquorice apple pie. Marzipan biscuit pastry dessert
+                  lemon drops. Danish halvah cupcake fruitcake. Cake candy
+                  bonbon pudding sesame snaps.
                 </p>
                 <p style={{ textAlign: 'left' }}>
-                  This xAPI-enabled Lingua app was built in this spirit.
-                  Designed to be used together with students’ existing curricula
-                  as a blended learning solution, the app allows users to log
-                  in, enter their credentials, and practice their language at a
-                  personalized level. Inspired by the UI/UX heritage of popular
-                  language-learning apps, Lingua presents learners with a series
-                  of staggered exercises that build their competency with the
-                  subject matter. The format ranges from multiple choice to free
-                  response. At the end, learners receive feedback on their
-                  performance, and this information, along with the data
-                  collected, is relayed to the LRS for further analysis.
+                  Cake carrot cake liquorice macaroon jelly dessert macaroon
+                  jelly-o cake. Cookie ice cream sweet chocolate cake lemon
+                  drops icing. Biscuit sugar plum dragée liquorice jujubes
+                  dessert cotton candy tart. Jelly-o donut sweet croissant.
+                  Cotton candy lollipop chocolate bar ice cream donut brownie.
+                  Pie sesame snaps soufflé pastry chupa chups jelly beans.
+                  Gummies croissant oat cake jujubes cake sweet. Jelly-o
+                  chocolate cake apple pie gummies gingerbread bonbon. Croissant
+                  caramels candy canes. Cupcake caramels soufflé marshmallow
+                  topping liquorice apple pie. Marzipan biscuit pastry dessert
+                  lemon drops. Danish halvah cupcake fruitcake. Cake candy
+                  bonbon pudding sesame snaps.
                 </p>
               </div>
             </Col>

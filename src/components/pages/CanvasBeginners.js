@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import Canvas from '../../img/canvas.png';
 import Adj01 from '../../img/adj1.png';
 import Adj02 from '../../img/adj2.png';
-import pdf from '../../pdf/grading-submitted-media-assignments-on-canvas.pdf';
+import pdf from '../../pdf/CanvasBasics.pdf';
 import BackButton from '../../components/layout/BackButton';
 import classes from '../../styles/CanvasBeginners.module.css';
 
@@ -47,22 +48,74 @@ const CanvasBeginners = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
-                  Participial Adjectives is a lesson on participial adjectives
-                  for pre-intermediate (A2-B1 CEFR) ESL learners. A common
-                  grammar area of confusion for ESL learners is the use of
-                  participial adjectives, and knowing when to use the correct
-                  form (e.g., "I am bored" versus "I am boring"). This
-                  interactive Storyline lesson aims to clarify this area of
-                  confusion by reviewing the different forms, and by allowing
-                  the learner to check his or her understanding of the target
-                  grammar presented. By the end, students should be able to
-                  understand the difference between the past participle and
-                  present participle forms, and when to use each form. The
-                  lesson ends with a set of exercises aimed at testing the
-                  learner's understanding of the grammar. Upon completion, the
-                  learner is given the choice to review the answers, view the
-                  results in printable form, or retry the exercises.
+                  I designed and developed this project for instructors who have
+                  minimal experience using Canvas, as well as limited
+                  technological knowledge. More specifically, it details
+                  step-by-step how to create a module in Canvas, along with
+                  pages belonging to a module. It begins with a basic navigation
+                  overview to familiarize learners with the dashboard and
+                  sidebar navigation. It then explains in details how to create
+                  a module. This module will give learners the knowledge that
+                  they will be able to apply when creating their own course
+                  modules.
                 </p>
+              </div>
+            </Col>
+            <Col md={2}></Col>
+          </Row>
+
+          <br />
+
+          <Row>
+            <Col>
+              <div className={classes.ProjectDiv}>
+                <p className='imglist'>
+                  <Image
+                    className={classes.Image}
+                    src={Canvas}
+                    alt='Canvas Logo'
+                    fluid
+                  />
+                </p>
+              </div>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row>
+            <Col md={2}></Col>
+            <Col col={8}>
+              <div className={classes.ProjectDiv}>
+                <p>
+                  <strong>Tools used: </strong>
+                </p>
+              </div>
+            </Col>
+            <Col md={2}></Col>
+          </Row>
+
+          <Row>
+            <Col md={2}></Col>
+            <Col col={8}>
+              <div className={classes.ProjectDiv}>
+                <p>Canvas, Microsoft Word, Snagit, Canva</p>
+
+                <br />
+
+                {/* <Button
+                  className={classes.CheckItOut}
+                  variant='primary'
+                  href='https://participial-adjectives.netlify.app/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  style={{
+                    marginRight: '5px',
+                    boxShadow: 'none',
+                  }}
+                >
+                  Check It Out
+                </Button> */}
               </div>
             </Col>
             <Col md={2}></Col>
@@ -89,51 +142,13 @@ const CanvasBeginners = () => {
 
           <br />
 
-          <Row>
-            <Col md={2}></Col>
-            <Col col={8}>
-              <div className={classes.ProjectDiv}>
-                <p>
-                  <strong>Tools used: </strong>
-                </p>
-              </div>
-            </Col>
-            <Col md={2}></Col>
-          </Row>
-
-          <Row>
-            <Col md={2}></Col>
-            <Col col={8}>
-              <div className={classes.ProjectDiv}>
-                <p>Canvas, Microsoft Word, screenshot</p>
-
-                <br />
-
-                <Button
-                  className={classes.CheckItOut}
-                  variant='primary'
-                  href='https://participial-adjectives.netlify.app/'
-                  rel='noopener noreferrer'
-                  target='_blank'
-                  style={{
-                    marginRight: '5px',
-                    boxShadow: 'none',
-                  }}
-                >
-                  Check It Out
-                </Button>
-              </div>
-            </Col>
-            <Col md={2}></Col>
-          </Row>
-
           <br />
           <br />
 
           <Row>
             <Col md={12}>
               <div>
-                <h2 className={classes.Title}>Details</h2>
+                <h2 className={classes.Title}>Challenge</h2>
               </div>
             </Col>
           </Row>
@@ -145,32 +160,18 @@ const CanvasBeginners = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
-                  In the last year, I’ve become increasingly interested in how
-                  data can be leveraged to enhance the digital learning
-                  experience and to increase learning efficacy. For me,
-                  understanding specifically how learners are interacting with
-                  the experiences I build not only helps me target improvements,
-                  but allows me to make more strategic decisions for aligned
-                  learning design in the future. If my solution is designed
-                  well, the data can confirm the user research I conducted
-                  before beginning development. At the same time, the data can
-                  bring to light certain elements in my design that might not be
-                  working as well as I had planned. With this information, I can
-                  learn better what works well for particular user group and
-                  spend my time - and theirs - more wisely in the future.
-                </p>
-                <p style={{ textAlign: 'left' }}>
-                  This xAPI-enabled Lingua app was built in this spirit.
-                  Designed to be used together with students’ existing curricula
-                  as a blended learning solution, the app allows users to log
-                  in, enter their credentials, and practice their language at a
-                  personalized level. Inspired by the UI/UX heritage of popular
-                  language-learning apps, Lingua presents learners with a series
-                  of staggered exercises that build their competency with the
-                  subject matter. The format ranges from multiple choice to free
-                  response. At the end, learners receive feedback on their
-                  performance, and this information, along with the data
-                  collected, is relayed to the LRS for further analysis.
+                  Cake carrot cake liquorice macaroon jelly dessert macaroon
+                  jelly-o cake. Cookie ice cream sweet chocolate cake lemon
+                  drops icing. Biscuit sugar plum dragée liquorice jujubes
+                  dessert cotton candy tart. Jelly-o donut sweet croissant.
+                  Cotton candy lollipop chocolate bar ice cream donut brownie.
+                  Pie sesame snaps soufflé pastry chupa chups jelly beans.
+                  Gummies croissant oat cake jujubes cake sweet. Jelly-o
+                  chocolate cake apple pie gummies gingerbread bonbon. Croissant
+                  caramels candy canes. Cupcake caramels soufflé marshmallow
+                  topping liquorice apple pie. Marzipan biscuit pastry dessert
+                  lemon drops. Danish halvah cupcake fruitcake. Cake candy
+                  bonbon pudding sesame snaps.
                 </p>
               </div>
             </Col>
@@ -217,6 +218,76 @@ const CanvasBeginners = () => {
             </Row>
 
             <br />
+            <br />
+
+            <Row>
+              <Col md={12}>
+                <div>
+                  <h2 className={classes.Title}>Solution</h2>
+                </div>
+              </Col>
+            </Row>
+
+            <br />
+
+            <Row>
+              <Col md={2}></Col>
+              <Col col={8}>
+                <div className={classes.ProjectDiv}>
+                  <p style={{ textAlign: 'left' }}>
+                    Cake carrot cake liquorice macaroon jelly dessert macaroon
+                    jelly-o cake. Cookie ice cream sweet chocolate cake lemon
+                    drops icing. Biscuit sugar plum dragée liquorice jujubes
+                    dessert cotton candy tart. Jelly-o donut sweet croissant.
+                    Cotton candy lollipop chocolate bar ice cream donut brownie.
+                    Pie sesame snaps soufflé pastry chupa chups jelly beans.
+                    Gummies croissant oat cake jujubes cake sweet. Jelly-o
+                    chocolate cake apple pie gummies gingerbread bonbon.
+                    Croissant caramels candy canes. Cupcake caramels soufflé
+                    marshmallow topping liquorice apple pie. Marzipan biscuit
+                    pastry dessert lemon drops. Danish halvah cupcake fruitcake.
+                    Cake candy bonbon pudding sesame snaps.
+                  </p>
+                </div>
+              </Col>
+              <Col md={2}></Col>
+            </Row>
+
+            <br />
+
+            <Row>
+              <Col md={12}>
+                <div>
+                  <h2 className={classes.Title}>Result</h2>
+                </div>
+              </Col>
+            </Row>
+
+            <br />
+
+            <Row>
+              <Col md={2}></Col>
+              <Col col={8}>
+                <div className={classes.ProjectDiv}>
+                  <p style={{ textAlign: 'left' }}>
+                    Cake carrot cake liquorice macaroon jelly dessert macaroon
+                    jelly-o cake. Cookie ice cream sweet chocolate cake lemon
+                    drops icing. Biscuit sugar plum dragée liquorice jujubes
+                    dessert cotton candy tart. Jelly-o donut sweet croissant.
+                    Cotton candy lollipop chocolate bar ice cream donut brownie.
+                    Pie sesame snaps soufflé pastry chupa chups jelly beans.
+                    Gummies croissant oat cake jujubes cake sweet. Jelly-o
+                    chocolate cake apple pie gummies gingerbread bonbon.
+                    Croissant caramels candy canes. Cupcake caramels soufflé
+                    marshmallow topping liquorice apple pie. Marzipan biscuit
+                    pastry dessert lemon drops. Danish halvah cupcake fruitcake.
+                    Cake candy bonbon pudding sesame snaps.
+                  </p>
+                </div>
+              </Col>
+              <Col md={2}></Col>
+            </Row>
+
             <br />
 
             <div>

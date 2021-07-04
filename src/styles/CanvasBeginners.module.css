@@ -18,6 +18,11 @@
   text-align: center;
 }
 
+.Image {
+  width: 55%;
+  height: auto;
+}
+
 .PDFViewer {
   display: flex;
   justify-content: center;
