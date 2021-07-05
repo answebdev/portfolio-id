@@ -326,14 +326,14 @@ a.btn-links:hover,
 /* Tooltips adapted from: https://codepen.io/tutsplus/pen/WROvdG */
 /* START TOOLTIP STYLES */
 [tooltip] {
-  position: relative; /* opinion 1 */
+  position: relative;
 }
 
 /* Applies to all tooltips */
 [tooltip]::before,
 [tooltip]::after {
-  text-transform: none; /* opinion 2 */
-  font-size: 0.9em; /* opinion 3 */
+  text-transform: none;
+  font-size: 0.9em;
   line-height: 1;
   user-select: none;
   pointer-events: none;
@@ -344,11 +344,11 @@ a.btn-links:hover,
 }
 [tooltip]::before {
   content: '';
-  border: 5px solid transparent; /* opinion 4 */
-  z-index: 1001; /* absurdity 1 */
+  border: 5px solid transparent;
+  z-index: 1001;
 }
 [tooltip]::after {
-  content: attr(tooltip); /* magic! */
+  content: attr(tooltip);
 
   /* most of the rest of this is opinion */
   font-family: 'Lato';
@@ -369,7 +369,7 @@ a.btn-links:hover,
   box-shadow: 0 1em 2em -0.5em rgba(0, 0, 0, 0.35);
   background: #fff;
   color: #000;
-  z-index: 1000; /* absurdity 2 */
+  z-index: 1000;
 }
 
 /* Make the tooltips respond to hover */
