@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import mockup from '../../img/mockuper2.png';
+import mockup from '../../img/PartAdjProject.png';
 import canvas from '../../img/canvas.png';
 import classes from '../../styles/Projects.module.css';
 
