@@ -160,18 +160,18 @@ const CanvasBeginners = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
-                  Cake carrot cake liquorice macaroon jelly dessert macaroon
-                  jelly-o cake. Cookie ice cream sweet chocolate cake lemon
-                  drops icing. Biscuit sugar plum dragée liquorice jujubes
-                  dessert cotton candy tart. Jelly-o donut sweet croissant.
-                  Cotton candy lollipop chocolate bar ice cream donut brownie.
-                  Pie sesame snaps soufflé pastry chupa chups jelly beans.
-                  Gummies croissant oat cake jujubes cake sweet. Jelly-o
-                  chocolate cake apple pie gummies gingerbread bonbon. Croissant
-                  caramels candy canes. Cupcake caramels soufflé marshmallow
-                  topping liquorice apple pie. Marzipan biscuit pastry dessert
-                  lemon drops. Danish halvah cupcake fruitcake. Cake candy
-                  bonbon pudding sesame snaps.
+                  Using Canvas to create a course can be daunting when one's
+                  knowledge of Canvas is limited, especially when it is a
+                  learner's first time using it. As an instructor, I remember
+                  how daunting it was at first when switching over from
+                  Blackboard to Canvas. Moreover, not everyone's technological
+                  skills are at the same level, and a learner's limited
+                  technological knowledge may also make certain tasks in Canvas
+                  all the more difficult. The aim of this facilitator guide,
+                  therefore, is to help instructors who are new to Canvas, or
+                  who are not yet comfortable using Canvas, familiarize
+                  themmselves with the basic navigation and to help instructors
+                  create modules and pages for their own courses.
                 </p>
               </div>
             </Col>
@@ -235,18 +235,11 @@ const CanvasBeginners = () => {
               <Col col={8}>
                 <div className={classes.ProjectDiv}>
                   <p style={{ textAlign: 'left' }}>
-                    Cake carrot cake liquorice macaroon jelly dessert macaroon
-                    jelly-o cake. Cookie ice cream sweet chocolate cake lemon
-                    drops icing. Biscuit sugar plum dragée liquorice jujubes
-                    dessert cotton candy tart. Jelly-o donut sweet croissant.
-                    Cotton candy lollipop chocolate bar ice cream donut brownie.
-                    Pie sesame snaps soufflé pastry chupa chups jelly beans.
-                    Gummies croissant oat cake jujubes cake sweet. Jelly-o
-                    chocolate cake apple pie gummies gingerbread bonbon.
-                    Croissant caramels candy canes. Cupcake caramels soufflé
-                    marshmallow topping liquorice apple pie. Marzipan biscuit
-                    pastry dessert lemon drops. Danish halvah cupcake fruitcake.
-                    Cake candy bonbon pudding sesame snaps.
+                    In creating this learning module, I took screenshots of
+                    Canvas using Snagit to show the basic navigation layout, and
+                    to show how to use the features necessary to create modules
+                    and pages. I used screenshots and gave detailed instructions
+                    on how to complete specific tasks.
                   </p>
                 </div>
               </Col>
@@ -270,18 +263,15 @@ const CanvasBeginners = () => {
               <Col col={8}>
                 <div className={classes.ProjectDiv}>
                   <p style={{ textAlign: 'left' }}>
-                    Cake carrot cake liquorice macaroon jelly dessert macaroon
-                    jelly-o cake. Cookie ice cream sweet chocolate cake lemon
-                    drops icing. Biscuit sugar plum dragée liquorice jujubes
-                    dessert cotton candy tart. Jelly-o donut sweet croissant.
-                    Cotton candy lollipop chocolate bar ice cream donut brownie.
-                    Pie sesame snaps soufflé pastry chupa chups jelly beans.
-                    Gummies croissant oat cake jujubes cake sweet. Jelly-o
-                    chocolate cake apple pie gummies gingerbread bonbon.
-                    Croissant caramels candy canes. Cupcake caramels soufflé
-                    marshmallow topping liquorice apple pie. Marzipan biscuit
-                    pastry dessert lemon drops. Danish halvah cupcake fruitcake.
-                    Cake candy bonbon pudding sesame snaps.
+                    After completing this learning module, learners will be able
+                    to use Canvas effectively. While going through the detailed
+                    steps in the module, learners can follow along and apply the
+                    same steps taken in their own course in Canvas. The learner
+                    will be able to refer back to the screenshots and detailed
+                    steps when struggling with concepts with accuracy. As a
+                    result, learners will be able to set up their own module in
+                    their own courses effectively and have the confidence to set
+                    up modules on their own in the future.
                   </p>
                 </div>
               </Col>
