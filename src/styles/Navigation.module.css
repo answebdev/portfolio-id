@@ -145,8 +145,13 @@ ul {
   }
 
   .NavTitle {
+    font-size: 24px;
     margin-top: -10px;
     margin-bottom: -30px;
+  }
+
+  .Navbar a {
+    font-size: 16px;
   }
 
   .Navbar ul {
@@ -163,8 +168,13 @@ ul {
   }
 
   .NavTitle {
+    font-size: 24px;
     margin-top: -10px;
     margin-bottom: -30px;
+  }
+
+  .Navbar a {
+    font-size: 16px;
   }
 
   .Navbar ul {
@@ -181,8 +191,13 @@ ul {
   }
 
   .NavTitle {
+    font-size: 24px;
     margin-top: -10px;
     margin-bottom: -30px;
+  }
+
+  .Navbar a {
+    font-size: 16px;
   }
 
   .Navbar ul {

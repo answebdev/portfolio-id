@@ -61,20 +61,35 @@
 /* ===== MEDIA QUERIES ===== */
 
 @media screen and (min-width: 981px) and (max-width: 1200px) {
-  /*   .Container {
+  /* .Container {
     background-color: red;
+  } */
+
+  /* .Image {
+    width: 70%;
+    height: auto;
   } */
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
-  /*   .Container {
+  /* .Container {
     background-color: yellow;
+  } */
+
+  /* .Image {
+    width: 95%;
+    height: auto;
   } */
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
   /* .Container {
     background-color: steelblue;
+  } */
+
+  /* .Image {
+    width: 100%;
+    height: auto;
   } */
 
   .ViewerComponent {
@@ -88,6 +103,11 @@
     background-color: brown;
   } */
 
+  /* .Image {
+    width: 100%;
+    height: auto;
+  } */
+
   .ViewerComponent {
     height: 570px;
     width: 490px;
@@ -97,6 +117,11 @@
 @media screen and (min-width: 471px) and (max-width: 550px) {
   /* .Container {
     background-color: salmon;
+  } */
+
+  /* .Image {
+    width: 100%;
+    height: auto;
   } */
 
   .ViewerComponent {
@@ -110,6 +135,11 @@
     background-color: black;
   } */
 
+  /* .Image {
+    width: 100%;
+    height: auto;
+  } */
+
   .ViewerComponent {
     height: 470px;
     width: 390px;
@@ -119,6 +149,11 @@
 @media screen and (min-width: 401px) and (max-width: 430px) {
   /*   .Container {
     background-color: burlywood;
+  } */
+
+  /* .Image {
+    width: 100%;
+    height: auto;
   } */
 
   .ViewerComponent {

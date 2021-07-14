@@ -91,13 +91,13 @@ const Projects = () => {
           <br /> */}
 
           <Row>
-            <Col md={6}>
+            {/* <Col md={6}>
               <div className={classes.ImgDiv}>
-                <Image src={canvas} fluid alt='Mockup' />
+                <Image src={canvas} fluid alt='Canvas Logo' />
               </div>
-            </Col>
+            </Col> */}
 
-            <Col md={6}>
+            <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>
               <h3 className={classes.ProjectName}>
                 Canvas Modules (Instructor-led Training)
               </h3>
@@ -121,11 +121,11 @@ const Projects = () => {
               </Button>
             </Col>
 
-            {/* <Col md={6}>
+            <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}>
               <div className={classes.ImgDiv}>
-                <Image src={canvas} fluid alt='Mockup' />
+                <Image src={canvas} fluid alt='Canvas Logo' />
               </div>
-            </Col> */}
+            </Col>
           </Row>
 
           <br />

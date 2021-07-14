@@ -2,11 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import Canvas from '../../img/canvas.png';
-import Adj01 from '../../img/adj1.png';
-import Adj02 from '../../img/adj2.png';
 import pdf from '../../pdf/CanvasModules.pdf';
 import BackButton from '../layout/BackButton';
-import classes from '../../styles/CanvasBeginners.module.css';
+import classes from '../../styles/CanvasModules.module.css';
 
 // React PDF Viewer: https://react-pdf-viewer.dev/
 import { Worker } from '@react-pdf-viewer/core';
