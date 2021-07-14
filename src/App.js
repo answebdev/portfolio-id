@@ -1,16 +1,16 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navigation from './components/layout/Navigation';
-import NavigationAlt from './components/layout/NavigationAlt';
+// import NavigationAlt from './components/layout/NavigationAlt';
 import Footer from './components/layout/Footer';
-import FooterAlt from './components/layout/FooterAlt';
+// import FooterAlt from './components/layout/FooterAlt';
 import LandingPage from './components/pages/LandingPage';
 import About from './components/pages/About';
 import ProjectsOriginal from './components/pages/ProjectsOriginal';
 import Projects from './components/pages/Projects';
 
 import ParticipialAdjectives from './components/pages/ParticipialAdjectives';
-import CanvasBeginners from './components/pages/CanvasBeginners';
+import CanvasModules from './components/pages/CanvasModules';
 import Contact from './components/pages/Contact';
 import Success from './components/pages/Success';
 import Error from './components/pages/Error';
@@ -42,8 +42,8 @@ const App = () => {
               />
               <Route
                 exact
-                path='/projects/canvas-beginners'
-                component={CanvasBeginners}
+                path='/projects/canvas-modules'
+                component={CanvasModules}
               />
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/success' component={Success} />

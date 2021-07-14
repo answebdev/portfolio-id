@@ -99,12 +99,12 @@ const Projects = () => {
 
             <Col md={6}>
               <h3 className={classes.ProjectName}>
-                Canvas Beginners (Instructor-led Training)
+                Canvas Modules (Instructor-led Training)
               </h3>
               <p className={classes.P}>
                 A learning module on how to complete different aspects of Canvas
                 developed for instructor learners who have minimal experience
-                using Canvas, as well as limited technological knowledge.
+                with Canvas, as well as limited technological knowledge.
               </p>
               <p>
                 <strong>Tools used: </strong>Canvas, Microsoft Word, Snagit,
@@ -114,7 +114,7 @@ const Projects = () => {
               <Button
                 className={classes.SeeMoreBtn}
                 variant='primary'
-                href='/projects/canvas-beginners'
+                href='/projects/canvas-modules'
                 style={{ marginRight: '5px', boxShadow: 'none' }}
               >
                 See More
