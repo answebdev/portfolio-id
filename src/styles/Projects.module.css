@@ -131,9 +131,9 @@
 }
 
 @media screen and (min-width: 100px) and (max-width: 400px) {
-  .Container {
+  /* .Container {
     background-color: pink;
-  }
+  } */
 
   .ImgDiv {
     width: 100%;
