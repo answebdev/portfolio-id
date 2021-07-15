@@ -55,7 +55,8 @@ const Error = () => {
         }
 
         #error-btn {
-          font-family: 'Quicksand', sans-serif;
+          font-family: 'Lato';
+          font-size: 16px;
           font-weight: 700;
           padding: 6px 12px;
           border-radius: 0.25rem;

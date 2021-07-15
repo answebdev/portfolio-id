@@ -13,7 +13,7 @@ const Success = () => {
         />
         <style type='text/css'>{`
         body {
-          font-family: 'Quicksand', sans-serif;
+          font-family: 'Lato';
           background-color: var(--background);
           color: #ff6347;
         }
@@ -37,6 +37,7 @@ const Success = () => {
         }
 
         h3 {
+          font-family: 'Oxygen', sans-serif;
           letter-spacing: 1.5px;
           font-weight: 700;
         }
@@ -54,7 +55,8 @@ const Success = () => {
         }
 
         #success-btn {
-          font-family: 'Quicksand', sans-serif;
+          font-family: 'Lato';
+          font-size: 16px;
           font-weight: 700;
           padding: 6px 12px;
           border-radius: 0.25rem;

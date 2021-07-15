@@ -1,6 +1,7 @@
 .BackBtn {
   letter-spacing: 1px;
   background-color: var(--primary) !important;
+
   color: #ffffff !important;
   padding: 6px 12px;
   border-radius: 0.25rem;

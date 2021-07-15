@@ -9,7 +9,6 @@
 }
 
 .NavTitle {
-  font-family: 'Lato';
   font-family: 'Oxygen', sans-serif;
   color: var(--background) !important;
   font-size: 26px;
