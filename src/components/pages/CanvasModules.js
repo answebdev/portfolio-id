@@ -47,14 +47,15 @@ const CanvasBeginners = () => {
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
                   I designed and developed this learning module for instructors
-                  who have minimal experience using Canvas, as well as limited
-                  technological knowledge. Specifically, it details step-by-step
-                  how to create a module in Canvas, as well as the different
-                  types of pages that can be created in a module. Although it is
-                  intended as a guide to help instructors set up their courses
-                  before the start of the semester, it can also be used as a
-                  reference guide that can be referred to at any time. The table
-                  of contents allows instructors using this guide to easily
+                  in the ESL Department at Grossmont College who have minimal
+                  experience using Canvas, as well as limited technological
+                  knowledge. Specifically, it details step-by-step how to create
+                  a module in Canvas, as well as the different types of pages
+                  that can be created in a module. Although it is intended as a
+                  guide to help instructors set up their courses before the
+                  start of the semester, it can also be used as a reference
+                  guide that can be referred to at any time. The table of
+                  contents allows instructors using this guide to easily
                   navigate to a section of their choice. The learning guide
                   begins with a basic navigation overview to familiarize
                   learners with the Dashboard and the Global Navigation Menu. It
@@ -240,14 +241,14 @@ const CanvasBeginners = () => {
               <Col col={8}>
                 <div className={classes.ProjectDiv}>
                   <p style={{ textAlign: 'left' }}>
-                    After completing this learning module, learners will be able
-                    to use Canvas effectively, with confidence and accuracy.
-                    While going through the detailed steps in the module,
-                    learners can follow along and apply the same steps taken in
-                    their own course in Canvas. The learner will be able to
-                    refer back to the screenshots and detailed steps when
-                    struggling with concepts with accuracy. As a result,
-                    learners will be able to set up their own modules in their
+                    After completing this learning module, learners should be
+                    able to use Canvas effectively, with confidence and
+                    accuracy. While going through the detailed steps in the
+                    module, learners can follow along and apply the same steps
+                    taken in their own course in Canvas. The learner will be
+                    able to refer back to the screenshots and detailed steps
+                    when struggling with concepts with accuracy. As a result,
+                    learners should be able to set up their own modules in their
                     own courses effectively and have the confidence to set up
                     modules on their own in the future.
                   </p>

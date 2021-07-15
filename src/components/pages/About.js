@@ -58,12 +58,12 @@ const About = () => {
                 instructor.
               </p>
               <p className={classes.P}>
-                I enjoy designing for various environment such as face-to-face,
-                online, and blended learning. I especially enjoy creating
-                e-learning as I can tap into my artistic skills to incorporate
-                multimedia and storytelling. I like to incorporate my media and
-                artistic skills with my instructional design skills to create
-                engaging and dynamic learning programs and opportunities.
+                I am a client-oriented learning professional with experience in
+                creating engaging learning content and developing
+                learner-centered solutions. I enjoy designing for various
+                environments, such as face-to-face, online, and blended
+                learning, and am a skilled trainer and communicator adept at
+                delivering training and presentations for various audiences.
               </p>
               <p className={classes.P}>
                 I have lived and worked abroad in Taiwan and South Korea. This

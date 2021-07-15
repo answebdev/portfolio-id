@@ -158,7 +158,7 @@ const ParticipialAdjectives = () => {
           <Row>
             <Col md={12}>
               <div>
-                <h2 className={classes.Title}>Details</h2>
+                <h2 className={classes.Title}>Challenge</h2>
               </div>
             </Col>
           </Row>
@@ -170,32 +170,17 @@ const ParticipialAdjectives = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
-                  Cake carrot cake liquorice macaroon jelly dessert macaroon
-                  jelly-o cake. Cookie ice cream sweet chocolate cake lemon
-                  drops icing. Biscuit sugar plum dragée liquorice jujubes
-                  dessert cotton candy tart. Jelly-o donut sweet croissant.
-                  Cotton candy lollipop chocolate bar ice cream donut brownie.
-                  Pie sesame snaps soufflé pastry chupa chups jelly beans.
-                  Gummies croissant oat cake jujubes cake sweet. Jelly-o
-                  chocolate cake apple pie gummies gingerbread bonbon. Croissant
-                  caramels candy canes. Cupcake caramels soufflé marshmallow
-                  topping liquorice apple pie. Marzipan biscuit pastry dessert
-                  lemon drops. Danish halvah cupcake fruitcake. Cake candy
-                  bonbon pudding sesame snaps.
-                </p>
-                <p style={{ textAlign: 'left' }}>
-                  Cake carrot cake liquorice macaroon jelly dessert macaroon
-                  jelly-o cake. Cookie ice cream sweet chocolate cake lemon
-                  drops icing. Biscuit sugar plum dragée liquorice jujubes
-                  dessert cotton candy tart. Jelly-o donut sweet croissant.
-                  Cotton candy lollipop chocolate bar ice cream donut brownie.
-                  Pie sesame snaps soufflé pastry chupa chups jelly beans.
-                  Gummies croissant oat cake jujubes cake sweet. Jelly-o
-                  chocolate cake apple pie gummies gingerbread bonbon. Croissant
-                  caramels candy canes. Cupcake caramels soufflé marshmallow
-                  topping liquorice apple pie. Marzipan biscuit pastry dessert
-                  lemon drops. Danish halvah cupcake fruitcake. Cake candy
-                  bonbon pudding sesame snaps.
+                  A common area of confusion for ESL learners is participial
+                  adjectives. Coming from an ESL teaching background, I
+                  recognize this area of confusion and the common mistakes that
+                  are made when participial adjectives are used. It is not
+                  uncommon, for example, for learners to use the present
+                  participle form (e.g., "I am boring"), instead of using the
+                  past participle form ("I am bored"). The aim of this lesson,
+                  therefore, is to help ESL learners understand the different
+                  participial adjective forms, and to understand when to use
+                  each form, so that they are able to use the correct form with
+                  confidence.
                 </p>
               </div>
             </Col>
@@ -203,6 +188,81 @@ const ParticipialAdjectives = () => {
           </Row>
 
           <br />
+
+          <Row>
+            <Col md={12}>
+              <div>
+                <h2 className={classes.Title}>Solution</h2>
+              </div>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row>
+            <Col md={2}></Col>
+            <Col col={8}>
+              <div className={classes.ProjectDiv}>
+                <p style={{ textAlign: 'left' }}>
+                  I created this lesson using Articulate Storyline to help
+                  learners understand the difference between the participial
+                  adjective forms, and in what situations to use each form. An
+                  explanation of each form is given, along with example
+                  sentences using the grammatical forms. For review, a summary
+                  of the target grammar is presented in a table, along with a
+                  downloadable PDF of common participial adjectives that
+                  learners can use for supplemental study. I then created an
+                  interactive drag and drop matching exercise for learners to
+                  engage in before testing their knowledge in the set of
+                  exercise that follows. In the exercises that follow, learners
+                  are given the opportunity to test their knowledge with a set
+                  of mutliple choice exercises. Learners are given feedback and
+                  are also able to review and/or retry the exercises. The option
+                  to print the results provides a comprehensive report of the
+                  exercises, which allows learners to visually compare their
+                  answers to the correct answers. This feedback is important for
+                  learners so that they are able to know how well they are able
+                  to understand the target grammar.
+                </p>
+              </div>
+            </Col>
+            <Col md={2}></Col>
+          </Row>
+
+          <br />
+
+          <Row>
+            <Col md={12}>
+              <div>
+                <h2 className={classes.Title}>Result</h2>
+              </div>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row>
+            <Col md={2}></Col>
+            <Col col={8}>
+              <div className={classes.ProjectDiv}>
+                <p style={{ textAlign: 'left' }}>
+                  After completing the lesson, learners should be able to
+                  recognize the different participial adjective forms and use
+                  them with confidence. Given a set of exercises at the end of
+                  the lesson, learners should be able to select the correct
+                  participial adjective form for each sentence. Furthermore,
+                  students will be able to download a supplemental PDF of common
+                  participial adjectives that contains a list of common
+                  adjectives in both the past and present participle forms,
+                  along with examples for each. This can be downloaded and saved
+                  by the learner to use as a supplemental resource for reference
+                  in his or her studies.
+                </p>
+              </div>
+            </Col>
+            <Col md={2}></Col>
+          </Row>
+
           <br />
 
           <Row>
@@ -223,14 +283,14 @@ const ParticipialAdjectives = () => {
                   The visual storyboard includes basic information about the
                   layout of the project such the font and the color scheme used.
                   It also lists every slide in complete detail, along with the
-                  title of the slide, images and text used, button(s) included
-                  and what each button does, notes for the developer, and
-                  detailed notes on animations used. In the case where
-                  activities or multiple choice questions are used, detailed
-                  information is given regarding the questions and answers used,
-                  as well as the correct answers given (seen in later slides).
-                  To view the entire storyboard in PDF format, click the View
-                  Storyboard button below.
+                  title of the slide, images and text used, buttons included and
+                  what each button does, notes for the developer, and detailed
+                  notes on animations used. In the case where activities or
+                  multiple choice questions are used, detailed information is
+                  given regarding the questions and answers used, as well as the
+                  correct answers given (seen in later slides). To view the
+                  entire storyboard in PDF format, click the View Storyboard
+                  button below.
                 </p>
               </div>
             </Col>
@@ -297,7 +357,7 @@ const ParticipialAdjectives = () => {
                 <p style={{ textAlign: 'left' }}>
                   To provide the option of implementing this lesson on its own
                   without the need for an LMS, I wanted to integrate a
-                  certificate of completion into the course. To do this, I
+                  certificate of completion into the lesson. To do this, I
                   created a custom branded certificate on Canva, with an image,
                   fonts, and colors that matched my lesson scheme. I then used
                   JavaScript to print the student's name and date on the
@@ -305,13 +365,14 @@ const ParticipialAdjectives = () => {
                   the certificate when downloaded in PDF format. The jsPDF
                   library is used to generate the PDF, and a script is added in
                   the <code>story.html</code> file to communicate this to the
-                  Storyline course. The following code was added in Storyline to
-                  the <strong>Download Certificate</strong> button Trigger as
+                  Storyline course. The following code in the image below was
+                  added in Storyline to the{' '}
+                  <strong>Download Certificate</strong> button Trigger as
                   Executable JavaScript. I first used Visual Studio Code so that
-                  I could more easily add the settings appropriate to my
+                  I could more easily configure the settings appropriate to my
                   project, such as setting the font size and color, choosing a
                   name for the downloaded file (i.e., Certificate.pdf), calling
-                  the name variable used in Storyline, etc.
+                  the variable used for the name in Storyline, etc.
                 </p>
               </div>
             </Col>
@@ -341,7 +402,7 @@ const ParticipialAdjectives = () => {
               </div>
             </Col>
           </Row>
-
+          <br />
           <Row>
             <Col>
               <div className={classes.ProjectDiv}>
@@ -363,7 +424,7 @@ const ParticipialAdjectives = () => {
               </div>
             </Col>
           </Row>
-
+          <br />
           <Row>
             <Col>
               <div className={classes.ProjectDiv}>
@@ -405,32 +466,6 @@ const ParticipialAdjectives = () => {
           <br />
 
           <Row>
-            <Col md={2}></Col>
-            <Col col={8}>
-              <div className={classes.ProjectDiv}>
-                <p style={{ textAlign: 'left' }}>
-                  Cake carrot cake liquorice macaroon jelly dessert macaroon
-                  jelly-o cake. Cookie ice cream sweet chocolate cake lemon
-                  drops icing. Biscuit sugar plum dragée liquorice jujubes
-                  dessert cotton candy tart. Jelly-o donut sweet croissant.
-                  Cotton candy lollipop chocolate bar ice cream donut brownie.
-                  Pie sesame snaps soufflé pastry chupa chups jelly beans.
-                  Gummies croissant oat cake jujubes cake sweet. Jelly-o
-                  chocolate cake apple pie gummies gingerbread bonbon. Croissant
-                  caramels candy canes. Cupcake caramels soufflé marshmallow
-                  topping liquorice apple pie. Marzipan biscuit pastry dessert
-                  lemon drops. Danish halvah cupcake fruitcake. Cake candy
-                  bonbon pudding sesame snaps.
-                </p>
-              </div>
-            </Col>
-            <Col md={2}></Col>
-          </Row>
-
-          <br />
-          <br />
-
-          <Row>
             <Col md={12}>
               <div>
                 <h2 className={classes.Title}>Project Screenshots</h2>
@@ -438,7 +473,6 @@ const ParticipialAdjectives = () => {
             </Col>
           </Row>
 
-          <br />
           <br />
 
           <div className={classes.ProjectDiv}>
