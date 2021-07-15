@@ -47,19 +47,24 @@ const ParticipialAdjectives = () => {
                     </a>
                   </sup>
                   ) ESL learners. A common grammar area of confusion for ESL
-                  (English as a Second Language) learners is the use of
-                  participial adjectives, and knowing when to use the correct
-                  form (e.g., "I am bored" versus "I am boring"). This
-                  interactive Storyline lesson aims to clarify this area of
-                  confusion by reviewing the different forms, and by allowing
-                  the learner to check his or her understanding of the target
-                  grammar presented. By the end, students should be able to
-                  understand the difference between the past participle and
+                  (English as a Second Language) learners is participial
+                  adjectives, and knowing when to use the correct form (e.g., "I
+                  am bored" versus "I am boring"). This interactive Storyline
+                  lesson aims to clarify this area of confusion by reviewing the
+                  different forms and providing examples for each, and by
+                  allowing the learner to check his or her understanding of the
+                  target grammar presented. The lesson includes an interactive
+                  drag and drop matching exercise, along with a summary of the
+                  forms presented, and a downloadable PDF of common participial
+                  adjectives for learners. By the end, students should be able
+                  to understand the difference between the past participle and
                   present participle forms, and when to use each form. The
                   lesson ends with a set of exercises aimed at testing the
                   learner's understanding of the grammar. Upon completion, the
                   learner is given the choice to review the answers, view the
-                  results in printable form, or retry the exercises.
+                  results in printable form, or retry the exercises, as well as
+                  download a personalized certificate of completion in PDF
+                  format that includes the learners name.
                 </p>
                 {/* <p style={{ float: 'left' }}> */}
                 <p style={{ textAlign: 'left', marginTop: '30px' }}>
@@ -278,7 +283,7 @@ const ParticipialAdjectives = () => {
           <Row>
             <Col md={12}>
               <div>
-                <h2 className={classes.Title}>Printable PDF</h2>
+                <h2 className={classes.Title}>Printable PDF Certificate</h2>
               </div>
             </Col>
           </Row>
