@@ -64,21 +64,11 @@
   /* .Container {
     background-color: red;
   } */
-
-  /* .Image {
-    width: 70%;
-    height: auto;
-  } */
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
   /* .Container {
     background-color: yellow;
-  } */
-
-  /* .Image {
-    width: 95%;
-    height: auto;
   } */
 }
 
@@ -87,10 +77,10 @@
     background-color: steelblue;
   } */
 
-  /* .Image {
+  .Image {
     width: 100%;
     height: auto;
-  } */
+  }
 
   .ViewerComponent {
     height: 570px;
@@ -103,10 +93,10 @@
     background-color: brown;
   } */
 
-  /* .Image {
+  .Image {
     width: 100%;
     height: auto;
-  } */
+  }
 
   .ViewerComponent {
     height: 570px;
@@ -119,10 +109,10 @@
     background-color: salmon;
   } */
 
-  /* .Image {
+  .Image {
     width: 100%;
     height: auto;
-  } */
+  }
 
   .ViewerComponent {
     height: 520px;
@@ -135,10 +125,10 @@
     background-color: black;
   } */
 
-  /* .Image {
+  .Image {
     width: 100%;
     height: auto;
-  } */
+  }
 
   .ViewerComponent {
     height: 470px;
@@ -151,10 +141,10 @@
     background-color: burlywood;
   } */
 
-  /* .Image {
+  .Image {
     width: 100%;
     height: auto;
-  } */
+  }
 
   .ViewerComponent {
     height: 420px;
@@ -166,6 +156,11 @@
   /*   .Container {
     background-color: pink;
   } */
+
+  .Image {
+    width: 100%;
+    height: auto;
+  }
 
   .ViewerComponent {
     height: 420px;

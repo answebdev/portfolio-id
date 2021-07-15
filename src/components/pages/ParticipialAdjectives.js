@@ -96,18 +96,6 @@ const ParticipialAdjectives = () => {
             <Col>
               <div className={classes.ProjectDiv}>
                 <p className='imglist'>
-                  {/* <a
-                    href={Mockup}
-                    data-fancybox='images'
-                    data-caption='Participial Adjectives'
-                  >
-                    <Image
-                      style={{ maxWidth: '45%' }}
-                      src={Mockup}
-                      alt=''
-                      fluid
-                    />
-                  </a> */}
                   <Image
                     className={classes.Image}
                     src={Mockup}
