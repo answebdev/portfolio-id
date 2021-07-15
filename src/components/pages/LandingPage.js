@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import $ from 'jquery';
-import profile from '../../img/profile-alt.jpg';
+import profile from '../../img/profile-alt.webp';
 import resume from '../../pdf/AdolfSchmuckResume.pdf';
 
 // import classes from '../../styles/Landing.module.css';

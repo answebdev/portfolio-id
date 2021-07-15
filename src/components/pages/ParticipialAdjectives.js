@@ -1,15 +1,15 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import Adj01 from '../../img/adj1.png';
-import Adj02 from '../../img/adj2.png';
-import Mockup from '../../img/adjMockup06.jpg';
-import Storyboard from '../../img/storyboard.png';
+import Adj01 from '../../img/adj1.webp';
+import Adj02 from '../../img/adj2.webp';
+import Mockup from '../../img/adjMockup06.webp';
+import Storyboard from '../../img/storyboard.webp';
 import StoryboardPDF from '../../pdf/storyboard.pdf';
 import certificate from '../../pdf/certificate.pdf';
-import JSCode from '../../img/JavaScriptCode.png';
-import StorylineJS from '../../img/StorylineJavaScript.png';
-import Certificate from '../../img/certificate-pdf.png';
+import JSCode from '../../img/JavaScriptCode.webp';
+import StorylineJS from '../../img/StorylineJavaScript.webp';
+import Certificate from '../../img/certificate-pdf.webp';
 
 import BackButton from '../../components/layout/BackButton';
 

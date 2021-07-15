@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import mockup from '../../img/PartAdjProject.png';
-import canvas from '../../img/canvas.png';
+import mockup from '../../img/PartAdjProject.webp';
+import canvas from '../../img/canvas.webp';
 import classes from '../../styles/Projects.module.css';
 
 // Canvas logo image: https://www.pinclipart.com/pindetail/ibJJhox_canvas-logo-transparent-background-clipart/

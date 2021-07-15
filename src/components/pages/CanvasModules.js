@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import Canvas from '../../img/canvas.png';
+import Canvas from '../../img/canvas.webp';
 import pdf from '../../pdf/CanvasModules.pdf';
 import BackButton from '../layout/BackButton';
 import classes from '../../styles/CanvasModules.module.css';
