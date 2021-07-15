@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-
 import classes from '../../styles/Contact.module.css';
 
 const Contact = () => {

@@ -5,7 +5,7 @@ import mockup from '../../img/PartAdjProject.webp';
 import canvas from '../../img/canvas.webp';
 import classes from '../../styles/Projects.module.css';
 
-// Canvas logo image: https://www.pinclipart.com/pindetail/ibJJhox_canvas-logo-transparent-background-clipart/
+// Canvas logo image source: https://www.pinclipart.com/pindetail/ibJJhox_canvas-logo-transparent-background-clipart/
 
 const Projects = () => {
   return (
@@ -19,29 +19,17 @@ const Projects = () => {
           <Row>
             <Col md={12}>
               <div>
-                {/* <h1>Projects</h1> */}
                 <h1 className={classes.PageTitle}>Featured Work</h1>
               </div>
             </Col>
           </Row>
 
           <br />
-          {/* <br /> */}
 
           <Row>
             <Col md={6}>
               <div className={classes.ImgDiv}>
-                {/* Photo by <a href="https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jess Bailey</a> on <a href="https://unsplash.com/s/photos/classroom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
-                {/* Source: https://unsplash.com/photos/l3N9Q27zULw */}
-
-                {/* Mockup: https://mockuper.net/generator/mockup/43/apple-cinema-display */}
-
-                <Image
-                  // src='https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
-                  src={mockup}
-                  fluid
-                  alt='Mockup'
-                />
+                <Image src={mockup} fluid alt='Mockup' />
               </div>
             </Col>
 
@@ -52,11 +40,6 @@ const Projects = () => {
                 improve students' understanding of participial adjectives at an
                 international language school.
               </p>
-              {/* <p className={classes.P}>
-                A learning app that harnesses the power of data-driven design
-                for improving learner performance and enhancing learning
-                offerings at an international language school.
-              </p> */}
               <p>
                 <strong>Tools used: </strong>Articulate Storyline, Canva, SCORM
                 Cloud (Testing)

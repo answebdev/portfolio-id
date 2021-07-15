@@ -10,9 +10,7 @@ import certificate from '../../pdf/certificate.pdf';
 import JSCode from '../../img/JavaScriptCode.webp';
 import StorylineJS from '../../img/StorylineJavaScript.webp';
 import Certificate from '../../img/certificate-pdf.webp';
-
 import BackButton from '../../components/layout/BackButton';
-
 import classes from '../../styles/ParticipialAdjectives.module.css';
 
 const ParticipialAdjectives = () => {
@@ -66,7 +64,6 @@ const ParticipialAdjectives = () => {
                   download a personalized certificate of completion in PDF
                   format that includes the learners name.
                 </p>
-                {/* <p style={{ float: 'left' }}> */}
                 <p style={{ textAlign: 'left', marginTop: '30px' }}>
                   <hr />
                   <sup id='fn1'>
@@ -77,19 +74,6 @@ const ParticipialAdjectives = () => {
                     </a>
                   </sup>
                 </p>
-                {/* <p style={{ textAlign: 'left' }}>
-                  Lingua is a learning app for students at a large foreign
-                  language school. Faced with lower student performance in
-                  German courses, the school needed an accessible way for
-                  students to gain targeted practice. As it affords this
-                  practice, the Lingua app also utilizes Javascript xAPI to
-                  collect information about learner interactions with the
-                  materials - how long they took to complete it, what answers
-                  they chose, and how many times they visited the help
-                  materials. The result is a wealth of valuable learner data
-                  that allows the language school to adjust what they’re
-                  offering and better meet their learners’ evolving needs.
-                </p> */}
               </div>
             </Col>
             <Col md={2}></Col>
@@ -310,7 +294,6 @@ const ParticipialAdjectives = () => {
                   >
                     <Image
                       className={classes.Image2}
-                      // style={{ maxWidth: '75%' }}
                       src={Storyboard}
                       alt='Visual Storyboard for Participial Adjectives'
                       fluid
@@ -392,7 +375,6 @@ const ParticipialAdjectives = () => {
                   >
                     <Image
                       className={classes.Image2}
-                      // style={{ maxWidth: '75%' }}
                       src={JSCode}
                       alt='JavaScript Code for PDF Certificate'
                       fluid
@@ -414,7 +396,6 @@ const ParticipialAdjectives = () => {
                   >
                     <Image
                       className={classes.Image2}
-                      // style={{ maxWidth: '75%' }}
                       src={StorylineJS}
                       alt='JavaScript Code in Storyline'
                       fluid
@@ -436,7 +417,6 @@ const ParticipialAdjectives = () => {
                   >
                     <Image
                       className={classes.Image2}
-                      // style={{ maxWidth: '75%' }}
                       src={Certificate}
                       alt='Certificate in PDF Format'
                       fluid
@@ -477,40 +457,44 @@ const ParticipialAdjectives = () => {
 
           <div className={classes.ProjectDiv}>
             <Row>
-              <Col md={6}>
-                <p className='imglist'>
-                  <a
-                    href={Adj01}
-                    data-fancybox='images'
-                    data-caption='Participial Adjectives'
-                  >
-                    <Image
-                      className={classes.Image3}
-                      // style={{ maxWidth: '90%' }}
-                      src={Adj01}
-                      alt='Participial Adjectives'
-                      fluid
-                    />
-                  </a>
-                </p>
+              <Col>
+                <div className={classes.ProjectDiv}>
+                  <p className='imglist'>
+                    <a
+                      href={Adj01}
+                      data-fancybox='images'
+                      data-caption='Screenshot of Participial Adjectives Lesson'
+                    >
+                      <Image
+                        className={classes.Image}
+                        src={Adj01}
+                        alt='Screenshot of Participial Adjectives Lesson'
+                        fluid
+                      />
+                    </a>
+                  </p>
+                </div>
               </Col>
-
-              <Col md={6}>
-                <p className='imglist'>
-                  <a
-                    href={Adj02}
-                    data-fancybox='images'
-                    data-caption='Participial Adjectives'
-                  >
-                    <Image
-                      className={classes.Image3}
-                      // style={{ maxWidth: '90%' }}
-                      src={Adj02}
-                      alt='Participial Adjectives'
-                      fluid
-                    />
-                  </a>
-                </p>
+            </Row>
+            <br />
+            <Row>
+              <Col>
+                <div className={classes.ProjectDiv}>
+                  <p className='imglist'>
+                    <a
+                      href={Adj02}
+                      data-fancybox='images'
+                      data-caption='Screenshot of Participial Adjectives Lesson'
+                    >
+                      <Image
+                        className={classes.Image}
+                        src={Adj02}
+                        alt='Screenshot of Participial Adjectives Lesson'
+                        fluid
+                      />
+                    </a>
+                  </p>
+                </div>
               </Col>
             </Row>
 
