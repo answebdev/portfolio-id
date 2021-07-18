@@ -17,7 +17,9 @@ const Netlify = () => {
   return (
     <div>
       <Helmet>
-        <title>Adolf Schmuck | Projects | Using Netlify To Host Your Web Application</title>
+        <title>
+          Adolf Schmuck | Projects | Using Netlify To Host Your Web Application
+        </title>
       </Helmet>
       <Container className={classes.Container}>
         <br />
@@ -39,17 +41,17 @@ const Netlify = () => {
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
                   Participial Adjectives is a lesson on participial adjectives
-                  for pre-intermediate (A2-B1 CEFR
-                  ) ESL learners. A common grammar area of confusion for ESL
-                  (English as a Second Language) learners is participial
-                  adjectives, and knowing when to use the correct form (e.g., "I
-                  am bored" versus "I am boring"). This interactive Storyline
-                  lesson aims to clarify this area of confusion by reviewing the
-                  different forms and providing examples for each, and by
-                  allowing the learner to check his or her understanding of the
-                  target grammar presented. The lesson includes an interactive
-                  drag and drop matching exercise, along with a summary of the
-                  forms presented, and a downloadable PDF of common participial
+                  for pre-intermediate (A2-B1 CEFR ) ESL learners. A common
+                  grammar area of confusion for ESL (English as a Second
+                  Language) learners is participial adjectives, and knowing when
+                  to use the correct form (e.g., "I am bored" versus "I am
+                  boring"). This interactive Storyline lesson aims to clarify
+                  this area of confusion by reviewing the different forms and
+                  providing examples for each, and by allowing the learner to
+                  check his or her understanding of the target grammar
+                  presented. The lesson includes an interactive drag and drop
+                  matching exercise, along with a summary of the forms
+                  presented, and a downloadable PDF of common participial
                   adjectives for learners. By the end, students should be able
                   to understand the difference between the past participle and
                   present participle forms, and when to use each form. The
@@ -60,7 +62,6 @@ const Netlify = () => {
                   download a personalized certificate of completion in PDF
                   format that includes the learners name.
                 </p>
-               
               </div>
             </Col>
             <Col md={2}></Col>
@@ -125,7 +126,8 @@ const Netlify = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'center' }}>
-                To view the video in a separate window, click the View Video button below.
+                  To view the video in a separate window, click the View Video
+                  button below.
                 </p>
               </div>
             </Col>
@@ -137,10 +139,18 @@ const Netlify = () => {
           <Row>
             <Col>
               <div className={classes.ProjectDiv}>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/MGv3zpf4Ljg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              
-              <br />
-              <br />
+                <iframe
+                  width='560'
+                  height='315'
+                  src='https://www.youtube.com/embed/MGv3zpf4Ljg'
+                  title='YouTube video player'
+                  frameborder='0'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                  allowfullscreen
+                ></iframe>
+
+                <br />
+                <br />
 
                 <Button
                   className={classes.ViewVideo}
@@ -155,7 +165,6 @@ const Netlify = () => {
                 >
                   View Video
                 </Button>
-              
               </div>
             </Col>
           </Row>
