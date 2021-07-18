@@ -8,8 +8,8 @@ import LandingPage from './components/pages/LandingPage';
 import About from './components/pages/About';
 import ProjectsOriginal from './components/pages/ProjectsOriginal';
 import Projects from './components/pages/Projects';
-
 import ParticipialAdjectives from './components/pages/ParticipialAdjectives';
+import Netlify from './components/pages/Netlify';
 import CanvasModules from './components/pages/CanvasModules';
 import Contact from './components/pages/Contact';
 import Success from './components/pages/Success';
@@ -39,6 +39,11 @@ const App = () => {
                 exact
                 path='/projects/participial-adjectives'
                 component={ParticipialAdjectives}
+              />
+              <Route
+                exact
+                path='/projects/using-netlify-to-host-your-web-application'
+                component={Netlify}
               />
               <Route
                 exact
