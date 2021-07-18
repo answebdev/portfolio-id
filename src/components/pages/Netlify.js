@@ -125,7 +125,7 @@ const Netlify = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'center' }}>
-                To view the video in a new window, click the View Video button below.
+                To view the video in a separate window, click the View Video button below.
                 </p>
               </div>
             </Col>
