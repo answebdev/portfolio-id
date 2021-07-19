@@ -332,7 +332,7 @@ const Netlify = () => {
           <Row>
             <Col md={12}>
               <div>
-                <h2 className={classes.Title}>Project Screenshots</h2>
+                <h2 className={classes.Title}>Production Screenshots</h2>
               </div>
             </Col>
           </Row>
