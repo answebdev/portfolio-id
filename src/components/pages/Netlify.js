@@ -53,12 +53,12 @@ const Netlify = () => {
                   website, for example, with the intention of sharing it with
                   others across the web, hosting is needed to be able to share
                   it with others. Netlify's free plan not only allows one to
-                  host their website or application for free, but it also sets
-                  up a free domain name that can be used to share with others.
-                  My eLearning video is intended for those who are using Netlify
-                  to host their web applications for the first time, or for
-                  those who may be unsure as to how to go about doing so, or
-                  need a reminder as to how to do it.
+                  host his or her website or application for free, but it also
+                  provides a free domain name that can be shared with others. My
+                  eLearning video is intended for those who are using Netlify to
+                  host their web applications for the first time, or for those
+                  who may be unsure as to how to go about doing so, or need a
+                  reminder as to how to do it.
                 </p>
               </div>
             </Col>
@@ -123,9 +123,11 @@ const Netlify = () => {
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
-                <p style={{ textAlign: 'center' }}>
+                <p style={{ textAlign: 'left' }}>
                   To view the video in a separate window, click the View Video
-                  button below.
+                  button below. This will open up the version of the video as
+                  produced in Camtasia. You may also view the YouTube video
+                  below.
                 </p>
               </div>
             </Col>
@@ -221,26 +223,26 @@ const Netlify = () => {
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
                   I created this video using Camtasia and Snagit. I decided to
-                  go through the process of hosting a web application that I had
-                  previously created to ensure that the steps that I showed in
-                  the video were accurate and up-to-date. I recorded my screen
-                  using Camtasia Recorder as I went through the steps. These
-                  video captures were used in the video, including the use of a
-                  screenshot captured with Snagit. During the video production,
-                  I used zooming techniques and features like Sketch Motion and
-                  Highlight to bring the learner's attention to important parts
-                  of the video, such as showing which button to click, bringing
-                  attention to important messages on the screen in the Netlify
-                  dashboard, etc. By doing so, the learner would know what to
-                  focus on each step of the way, so that the learner would know
-                  what to notice and what action to take (e.g., clicking a
-                  particular button, typing in the name of the project, etc.).
-                  In addition, I added transition text introducing each step of
-                  the process, so that the learner would know which step is next
-                  (e.g. "Create a GitHub Repository for Your Code"). At the end
-                  of the video, the learner is shown how to open their live
-                  application, along with an example of the application that is
-                  deployed in the video.
+                  go through actual the process of hosting a web application
+                  that I had previously created to ensure that the steps that I
+                  showed in the video were accurate and up-to-date. I recorded
+                  my screen using Camtasia Recorder as I went through the steps.
+                  These video captures were used in the video, including the use
+                  of a screenshot captured with Snagit. During the video
+                  production, I used zooming techniques and features like Sketch
+                  Motion and Highlight to bring the learner's attention to
+                  important parts of the video, such as showing which button to
+                  click, bringing attention to important messages on the screen
+                  in the Netlify dashboard, etc. By doing so, the learner would
+                  know what to focus on each step of the way, so that the
+                  learner would know what to notice and what action to take
+                  (e.g., clicking a particular button, typing in the name of the
+                  project, etc.). In addition, I added transition text
+                  introducing each step of the process, so that the learner
+                  would be aware of each step (e.g., "Create a GitHub Repository
+                  for Your Code"). At the end of the video, the learner is shown
+                  how to open their live application, along with an example of
+                  the application that is deployed in the video.
                 </p>
               </div>
             </Col>
@@ -267,12 +269,12 @@ const Netlify = () => {
                   After viewing the video, learners should be able to follow the
                   steps taken in the video and deploy and host their own static
                   web applications. If necessary, the learners will be able to
-                  rewatch parts of the video that they need to rewatch, and
-                  pausing at certain points if necessary. In addition, the video
+                  rewatch parts of the video that they need to rewatch, pausing
+                  at certain points if necessary. In addition, the video
                   captures of each step and effects used for drawing attention
                   ensures that learners know exactly what to do at each step. As
                   a result, learners should be able to deploy and host their
-                  static web applications using Netlify with ease.
+                  static web applications on their own with ease using Netlify.
                 </p>
               </div>
             </Col>
@@ -297,30 +299,30 @@ const Netlify = () => {
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
                   After I imported the video files into Camtasia, I began
-                  putting everything together. I added text, effects, background
-                  music, and added transition text to introduce each step of the
-                  process. Throughout the video, I wanted to highlight some of
-                  the points of the video that I wanted to learner to focus on,
-                  such as focusing on important messages, in which input fields
-                  to type in text, which buttons to click, etc. For this reason,
-                  I used effects in Camtasia, such as using arrows and Sketch
-                  Motion to draw a sqaure around certain elements I wanted to
-                  learner to focus on, using the Highlight effect to highlight
-                  important messages to notice, and zooming in at certain points
-                  to ensure that the learner knows what to notice, particular on
-                  text- and/or element-heavy pages.
+                  putting everything together. I added effects, animation,
+                  background music, and added transition text to introduce each
+                  step of the process. Throughout the video, I wanted to
+                  highlight some of the points of the video that I wanted the
+                  learner to focus on, such as focusing on important messages,
+                  which input fields to type in text, which buttons to click,
+                  etc. For this reason, I used effects in Camtasia, such as
+                  using arrows and Sketch Motion to draw a square around certain
+                  elements I wanted to learner to focus on, using the Highlight
+                  effect to highlight important messages to notice, and zooming
+                  in at certain points to ensure that the learner knows what to
+                  notice, particularly on text- and/or element-heavy pages.
                 </p>
                 <p style={{ textAlign: 'left' }}>
-                  For the visuals of the production, I added fade-in and
-                  fade-out effects on the transitions before and after the
-                  different video clips. I also added a slide-in effect to
-                  introduce each video section. These effects, along with the
-                  upbeat background music, were added to make the experience
-                  more aesthetically pleasing to the learner. Finally, in
-                  keeping with the Netlify branding, I used an eye dropper tool
-                  to match the color hex code of used on Netlify's dashboard in
-                  the video. I also used the Netlify logo in the opening slide
-                  in the video to go along with the branding.
+                  For the visuals, I added fade-in and fade-out animation
+                  effects on the transitions before and after the different
+                  video clips. I also added a slide-in effect to introduce each
+                  video section. These effects, along with the upbeat background
+                  music, were added to make the experience more aesthetically
+                  pleasing to the learner. Finally, in keeping with the Netlify
+                  branding, I used an eye dropper tool to match the color hex
+                  code used on Netlify's dashboard in the video. I also used the
+                  Netlify logo in the opening slide in the video to match the
+                  branding.
                 </p>
               </div>
             </Col>
