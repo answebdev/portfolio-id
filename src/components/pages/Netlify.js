@@ -139,15 +139,17 @@ const Netlify = () => {
           <Row>
             <Col>
               <div className={classes.ProjectDiv}>
-                <iframe
-                  width='560'
-                  height='315'
-                  src='https://www.youtube.com/embed/MGv3zpf4Ljg'
-                  title='YouTube video player'
-                  frameborder='0'
-                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                  allowfullscreen
-                ></iframe>
+                <div className={classes.VideoWrapper}>
+                  <iframe
+                    width='560'
+                    height='315'
+                    src='https://www.youtube.com/embed/MGv3zpf4Ljg'
+                    title='YouTube video player'
+                    frameborder='0'
+                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                    allowfullscreen
+                  ></iframe>
+                </div>
 
                 <br />
                 <br />
