@@ -2,7 +2,8 @@ import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import mockup from '../../img/PartAdjProject.webp';
-import netlify from '../../img/netlify.webp'
+// import netlify from '../../img/netlify.webp';
+import netlify from '../../img/net.png';
 import canvas from '../../img/canvas.webp';
 import classes from '../../styles/Projects.module.css';
 
@@ -65,8 +66,6 @@ const Projects = () => {
           <br />
 
           <Row>
-           
-
             <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>
               <h3 className={classes.ProjectName}>
                 Canvas Modules (Instructor-led Training)
@@ -107,16 +106,22 @@ const Projects = () => {
           <Row>
             <Col md={6}>
               <div className={classes.ImgDiv}>
-                <Image src={netlify} fluid alt='Using Netlify To Host Your Web Application' />
+                <Image
+                  src={netlify}
+                  fluid
+                  alt='Using Netlify To Host Your Web Application'
+                />
               </div>
             </Col>
 
             <Col md={6}>
-              <h3 className={classes.ProjectName}>Using Netlify To Host Your Web Application</h3>
+              <h3 className={classes.ProjectName}>
+                Using Netlify To Host Your Web Application
+              </h3>
               <p className={classes.P}>
-                An interactive lesson created using Articulate Storyline to
-                improve students' understanding of participial adjectives at an
-                international language school.
+                An eLearning video created using Camtasia to help Netlify
+                customers learn how to host their static web applications on
+                Netlify.
               </p>
               <p>
                 <strong>Tools used: </strong>Camtasia, Snagit
@@ -132,10 +137,6 @@ const Projects = () => {
               </Button>
             </Col>
           </Row>
-
-   
-
-
 
           <br />
         </div>

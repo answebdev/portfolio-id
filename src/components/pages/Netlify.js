@@ -1,15 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import Adj01 from '../../img/adj1.webp';
-import Adj02 from '../../img/adj2.webp';
-import netlify from '../../img/netlify.webp';
-import Storyboard from '../../img/storyboard.webp';
-import StoryboardPDF from '../../pdf/storyboard.pdf';
-import certificate from '../../pdf/certificate.pdf';
-import JSCode from '../../img/JavaScriptCode.webp';
-import StorylineJS from '../../img/StorylineJavaScript.webp';
-import Certificate from '../../img/certificate-pdf.webp';
+import camtasia1 from '../../img/camtasia01.webp';
+import camtasia2 from '../../img/camtasia02.webp';
+// import netlify from '../../img/netlify.webp';
+import netlify from '../../img/net.png';
 import BackButton from '../../components/layout/BackButton';
 import classes from '../../styles/Netlify.module.css';
 
@@ -40,27 +35,30 @@ const Netlify = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
-                  Participial Adjectives is a lesson on participial adjectives
-                  for pre-intermediate (A2-B1 CEFR ) ESL learners. A common
-                  grammar area of confusion for ESL (English as a Second
-                  Language) learners is participial adjectives, and knowing when
-                  to use the correct form (e.g., "I am bored" versus "I am
-                  boring"). This interactive Storyline lesson aims to clarify
-                  this area of confusion by reviewing the different forms and
-                  providing examples for each, and by allowing the learner to
-                  check his or her understanding of the target grammar
-                  presented. The lesson includes an interactive drag and drop
-                  matching exercise, along with a summary of the forms
-                  presented, and a downloadable PDF of common participial
-                  adjectives for learners. By the end, students should be able
-                  to understand the difference between the past participle and
-                  present participle forms, and when to use each form. The
-                  lesson ends with a set of exercises aimed at testing the
-                  learner's understanding of the grammar. Upon completion, the
-                  learner is given the choice to review the answers, view the
-                  results in printable form, or retry the exercises, as well as
-                  download a personalized certificate of completion in PDF
-                  format that includes the learners name.
+                  This eLearning video was created to help Netlify customers
+                  learn how to host their static web applications on&nbsp;
+                  <a
+                    href='https://www.netlify.com/'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                  >
+                    <span>Netlify</span>
+                  </a>
+                  <span>.</span> Netlify is a cloud computing company that
+                  offers hosting and serverless backend services for web
+                  applications and static websites. Among its different
+                  services, plans, and price options, Netlify offers a starter
+                  plan providing free hosting for personal projects, hobby
+                  sites, or experiments. If a customer creates a personal
+                  website, for example, with the intention of sharing it with
+                  others across the web, hosting is needed to be able to share
+                  it with others. Netlify's free plan not only allows one to
+                  host their website or application for free, but it also sets
+                  up a free domain name that can be used to share with others.
+                  My eLearning video is intended for those who are using Netlify
+                  to host their web applications for the first time, or for
+                  those who may be unsure as to how to go about doing so, or
+                  need a reminder as to how to do it.
                 </p>
               </div>
             </Col>
@@ -187,17 +185,18 @@ const Netlify = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
-                  A common area of confusion for ESL learners is participial
-                  adjectives. Coming from an ESL teaching background, I
-                  recognize this area of confusion and the common mistakes that
-                  are made when participial adjectives are used. It is not
-                  uncommon, for example, for learners to use the present
-                  participle form (e.g., "I am boring"), instead of using the
-                  past participle form ("I am bored"). The aim of this lesson,
-                  therefore, is to help ESL learners understand the different
-                  participial adjective forms, and to understand when to use
-                  each form, so that they are able to use the correct form with
-                  confidence.
+                  Hosting a static website or web application for the first
+                  time, or on a new service for the first time, can be
+                  challenging. There are different services available that can
+                  be used to host web applications (e.g., GitHub). I remember
+                  when I first started using Netlify to host my applications, it
+                  was challenging at first, especially because it was the first
+                  time I had used Netlify for hosting. As always when learning
+                  something new, I took notes of the steps that are needed when
+                  going through the process of hosting a web application. I
+                  created this video to help Netlify customers learn the steps
+                  that they need to take to host their own web applications
+                  using Netlify.
                 </p>
               </div>
             </Col>
@@ -221,25 +220,27 @@ const Netlify = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
-                  I created this lesson using Articulate Storyline to help
-                  learners understand the difference between the participial
-                  adjective forms, and in what situations to use each form. An
-                  explanation of each form is given, along with example
-                  sentences using the grammatical forms. For review, a summary
-                  of the target grammar is presented in a table, along with a
-                  downloadable PDF of common participial adjectives that
-                  learners can use for supplemental study. I then created an
-                  interactive drag and drop matching exercise for learners to
-                  engage in before testing their knowledge in the set of
-                  exercise that follows. In the exercises that follow, learners
-                  are given the opportunity to test their knowledge with a set
-                  of mutliple choice exercises. Learners are given feedback and
-                  are also able to review and/or retry the exercises. The option
-                  to print the results provides a comprehensive report of the
-                  exercises, which allows learners to visually compare their
-                  answers to the correct answers. This feedback is important for
-                  learners so that they are able to know how well they are able
-                  to understand the target grammar.
+                  I created this video using Camtasia and Snagit. I decided to
+                  go through the process of hosting a web application that I had
+                  previously created to ensure that the steps that I showed in
+                  the video were accurate and up-to-date. I recorded my screen
+                  using Camtasia Recorder as I went through the steps. These
+                  video captures were used in the video, including the use of a
+                  screenshot captured with Snagit. During the video production,
+                  I used zooming techniques and features like Sketch Motion and
+                  Highlight to bring the learner's attention to important parts
+                  of the video, such as showing which button to click, bringing
+                  attention to important messages on the screen in the Netlify
+                  dashboard, etc. By doing so, the learner would know what to
+                  focus on each step of the way, so that the learner would know
+                  what to notice and what action to take (e.g., clicking a
+                  particular button, typing in the name of the project, etc.).
+                  In addition, I added transition text introducing each step of
+                  the process, so that the learner would know which step is next
+                  (e.g. "Create a GitHub Repository for Your Code"). At the end
+                  of the video, the learner is shown how to open their live
+                  application, along with an example of the application that is
+                  deployed in the video.
                 </p>
               </div>
             </Col>
@@ -263,17 +264,63 @@ const Netlify = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
-                  After completing the lesson, learners should be able to
-                  recognize the different participial adjective forms and use
-                  them with confidence. Given a set of exercises at the end of
-                  the lesson, learners should be able to select the correct
-                  participial adjective form for each sentence. Furthermore,
-                  students will be able to download a supplemental PDF of common
-                  participial adjectives that contains a list of common
-                  adjectives in both the past and present participle forms,
-                  along with examples for each. This can be downloaded and saved
-                  by the learner to use as a supplemental resource for reference
-                  in his or her studies.
+                  After viewing the video, learners should be able to follow the
+                  steps taken in the video and deploy and host their own static
+                  web applications. If necessary, the learners will be able to
+                  rewatch parts of the video that they need to rewatch, and
+                  pausing at certain points if necessary. In addition, the video
+                  captures of each step and effects used for drawing attention
+                  ensures that learners know exactly what to do at each step. As
+                  a result, learners should be able to deploy and host their
+                  static web applications using Netlify with ease.
+                </p>
+              </div>
+            </Col>
+            <Col md={2}></Col>
+          </Row>
+
+          <br />
+
+          <Row>
+            <Col md={12}>
+              <div>
+                <h2 className={classes.Title}>Video Production</h2>
+              </div>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row>
+            <Col md={2}></Col>
+            <Col col={8}>
+              <div className={classes.ProjectDiv}>
+                <p style={{ textAlign: 'left' }}>
+                  After I imported the video files into Camtasia, I began
+                  putting everything together. I added text, effects, background
+                  music, and added transition text to introduce each step of the
+                  process. Throughout the video, I wanted to highlight some of
+                  the points of the video that I wanted to learner to focus on,
+                  such as focusing on important messages, in which input fields
+                  to type in text, which buttons to click, etc. For this reason,
+                  I used effects in Camtasia, such as using arrows and Sketch
+                  Motion to draw a sqaure around certain elements I wanted to
+                  learner to focus on, using the Highlight effect to highlight
+                  important messages to notice, and zooming in at certain points
+                  to ensure that the learner knows what to notice, particular on
+                  text- and/or element-heavy pages.
+                </p>
+                <p style={{ textAlign: 'left' }}>
+                  For the visuals of the production, I added fade-in and
+                  fade-out effects on the transitions before and after the
+                  different video clips. I also added a slide-in effect to
+                  introduce each video section. These effects, along with the
+                  upbeat background music, were added to make the experience
+                  more aesthetically pleasing to the learner. Finally, in
+                  keeping with the Netlify branding, I used an eye dropper tool
+                  to match the color hex code of used on Netlify's dashboard in
+                  the video. I also used the Netlify logo in the opening slide
+                  in the video to go along with the branding.
                 </p>
               </div>
             </Col>
@@ -298,14 +345,14 @@ const Netlify = () => {
                 <div className={classes.ProjectDiv}>
                   <p className='imglist'>
                     <a
-                      href={Adj01}
+                      href={camtasia1}
                       data-fancybox='images'
-                      data-caption='Screenshot of Participial Adjectives Lesson'
+                      data-caption='Video Production in Camtasia'
                     >
                       <Image
                         className={classes.Image}
-                        src={Adj01}
-                        alt='Screenshot of Participial Adjectives Lesson'
+                        src={camtasia1}
+                        alt='Video Production in Camtasia'
                         fluid
                       />
                     </a>
@@ -313,20 +360,22 @@ const Netlify = () => {
                 </div>
               </Col>
             </Row>
+
             <br />
+
             <Row>
               <Col>
                 <div className={classes.ProjectDiv}>
                   <p className='imglist'>
                     <a
-                      href={Adj02}
+                      href={camtasia2}
                       data-fancybox='images'
-                      data-caption='Screenshot of Participial Adjectives Lesson'
+                      data-caption='Detail of Timeline in Camtasia'
                     >
                       <Image
                         className={classes.Image}
-                        src={Adj02}
-                        alt='Screenshot of Participial Adjectives Lesson'
+                        src={camtasia2}
+                        alt='Detail of Timeline in Camtasia'
                         fluid
                       />
                     </a>

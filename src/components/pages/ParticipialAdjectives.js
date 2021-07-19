@@ -345,11 +345,18 @@ const ParticipialAdjectives = () => {
                   fonts, and colors that matched my lesson scheme. I then used
                   JavaScript to print the student's name and date on the
                   certificate, so that the name and current date would appear on
-                  the certificate when downloaded in PDF format. The jsPDF
-                  library is used to generate the PDF, and a script is added in
-                  the <code>story.html</code> file to communicate this to the
-                  Storyline course. The following code in the image below was
-                  added in Storyline to the{' '}
+                  the certificate when downloaded in PDF format. The&nbsp;
+                  <a
+                    href='https://rawgit.com/MrRio/jsPDF/master/docs/index.html'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                  >
+                    <span>jsPDF</span>
+                  </a>
+                  &nbsp;library is used to generate the PDF, and a script is
+                  added in the <code>story.html</code> file to communicate this
+                  to the Storyline course. The following code in the image below
+                  was added in Storyline to the{' '}
                   <strong>Download Certificate</strong> button Trigger as
                   Executable JavaScript. I first used Visual Studio Code so that
                   I could more easily configure the settings appropriate to my
