@@ -143,7 +143,7 @@ const Netlify = () => {
                   <iframe
                     width='560'
                     height='315'
-                    src='https://www.youtube.com/embed/MGv3zpf4Ljg'
+                    src='https://www.youtube.com/embed/tAO5N80fGE4'
                     title='YouTube video player'
                     frameborder='0'
                     allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
@@ -321,10 +321,8 @@ const Netlify = () => {
                   video section. These effects, along with the upbeat background
                   music, were added to make the experience more aesthetically
                   pleasing to the learner. Finally, in keeping with the Netlify
-                  branding, I used an eye dropper tool to match the color hex
-                  code used on Netlify's dashboard in the video. I also used the
-                  Netlify logo in the opening slide in the video to match the
-                  branding.
+                  branding, I used the Netlify logo in the opening slide in the
+                  video.
                 </p>
               </div>
             </Col>
