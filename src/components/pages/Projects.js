@@ -2,8 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import mockup from '../../img/PartAdjProject.webp';
-// import netlify from '../../img/netlify.webp';
-import netlify from '../../img/net.png';
+import netlify from '../../img/netlify.webp';
 import canvas from '../../img/canvas.webp';
 import classes from '../../styles/Projects.module.css';
 

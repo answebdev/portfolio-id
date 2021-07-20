@@ -3,8 +3,7 @@ import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import camtasia1 from '../../img/camtasia01.webp';
 import camtasia2 from '../../img/camtasia02.webp';
-// import netlify from '../../img/netlify.webp';
-import netlify from '../../img/net.png';
+import netlify from '../../img/netlify.webp';
 import BackButton from '../../components/layout/BackButton';
 import classes from '../../styles/Netlify.module.css';
 
