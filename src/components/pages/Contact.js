@@ -21,7 +21,7 @@ const Contact = () => {
               <div>
                 <h1 className={classes.PageTitle}>Contact Me</h1>
               </div>
-              <hr />
+              <br />
               <div className='content'>
                 {/* <p>
                   I am currently looking for an instructional design position.

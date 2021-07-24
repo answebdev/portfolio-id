@@ -8,9 +8,8 @@
 .PageTitle {
   font-family: 'Oxygen', sans-serif;
   font-weight: 700;
-  /* text-align: center; */
   font-size: 36px;
-  /* text-transform: uppercase; */
+  text-align: center;
 }
 
 .ImgDiv {
@@ -21,11 +20,9 @@
 .ProjectName {
   font-family: 'Oxygen', sans-serif;
   font-weight: 700;
-  /* text-transform: uppercase; */
 }
 
 .SeeMoreBtn {
-  /* cursor: pointer; */
   letter-spacing: 1px;
   background-color: var(--primary) !important;
   color: #ffffff !important;

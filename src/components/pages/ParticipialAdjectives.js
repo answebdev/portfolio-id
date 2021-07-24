@@ -114,7 +114,7 @@ const ParticipialAdjectives = () => {
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
-                <p>Articulate Storyline, Canva, SCORM Cloud (Testing)</p>
+                <p>Articulate Storyline, Canva, jsPDF, SCORM Cloud (Testing)</p>
 
                 <br />
 

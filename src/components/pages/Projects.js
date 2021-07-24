@@ -21,6 +21,9 @@ const Projects = () => {
             <Col md={12}>
               <div>
                 <h1 className={classes.PageTitle}>Featured Work</h1>
+                <h5 style={{ fontWeight: '400' }} class='animated zoomIn'>
+                  eLearning &bull; Instructor-Led Training
+                </h5>
               </div>
             </Col>
           </Row>
@@ -36,14 +39,17 @@ const Projects = () => {
 
             <Col md={6}>
               <h3 className={classes.ProjectName}>Participial Adjectives</h3>
-              <p className={classes.P}>
+              <p>
                 An interactive lesson created using Articulate Storyline to
                 improve students' understanding of participial adjectives at an
                 international language school.
               </p>
               <p>
-                <strong>Tools used: </strong>Articulate Storyline, Canva, SCORM
-                Cloud (Testing)
+                <strong>Type: </strong>eLearning
+              </p>
+              <p>
+                <strong>Tools used: </strong>Articulate Storyline, Canva, jsPDF,
+                SCORM Cloud (Testing)
               </p>
               <br />
               <Button
@@ -66,13 +72,14 @@ const Projects = () => {
 
           <Row>
             <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>
-              <h3 className={classes.ProjectName}>
-                Canvas Modules (Instructor-led Training)
-              </h3>
-              <p className={classes.P}>
+              <h3 className={classes.ProjectName}>Canvas Modules</h3>
+              <p>
                 A learning module on how to complete different aspects of Canvas
                 developed for instructor learners who have minimal experience
                 with Canvas, as well as limited technological knowledge.
+              </p>
+              <p>
+                <strong>Type: </strong>Instructor-Led Training
               </p>
               <p>
                 <strong>Tools used: </strong>Canvas, Microsoft Word, Snagit,
@@ -117,10 +124,13 @@ const Projects = () => {
               <h3 className={classes.ProjectName}>
                 Using Netlify To Host Your Web Application
               </h3>
-              <p className={classes.P}>
-                An eLearning video created using Camtasia to help Netlify
+              <p>
+                An eLearning video created using Camta sia to help Netlify
                 customers learn how to host their static web applications on
                 Netlify.
+              </p>
+              <p>
+                <strong>Type: </strong>eLearning
               </p>
               <p>
                 <strong>Tools used: </strong>Camtasia, Snagit
