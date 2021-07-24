@@ -106,7 +106,6 @@ const Netlify = () => {
           </Row>
 
           <br />
-          <br />
 
           <Row>
             <Col md={12}>
