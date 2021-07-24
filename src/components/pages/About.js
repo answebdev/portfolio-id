@@ -1,7 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+
 import classes from '../../styles/About.module.css';
+
+// import profile from '../../img/profile-alt.jpg';
 import busan from '../../img/busan-crop.webp';
 
 const About = () => {

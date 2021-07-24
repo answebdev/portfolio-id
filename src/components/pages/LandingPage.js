@@ -5,7 +5,16 @@ import { Helmet } from 'react-helmet';
 import $ from 'jquery';
 import profile from '../../img/profile-alt.webp';
 import resume from '../../pdf/AdolfSchmuckResume.pdf';
+
+// import classes from '../../styles/Landing.module.css';
+
 import '../../styles/LandingPage.css';
+
+// $(document).ready(function () {
+//   setTimeout(function () {
+//     $('#main').removeClass('is-loading');
+//   }, 1200);
+// });
 
 const LandingPage = () => {
   // Put animation effect in useEffect to ensure animation runs when component renders

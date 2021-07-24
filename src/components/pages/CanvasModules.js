@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import Canvas from '../../img/canvas.webp';
 import pdf from '../../pdf/CanvasModules.pdf';
