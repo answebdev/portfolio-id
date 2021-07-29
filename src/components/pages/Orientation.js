@@ -179,28 +179,34 @@ const Orientation = () => {
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
                   I created this course using Articulate Rise to help learners
-                  orient themselves in their new environment and to help them
-                  understand the workings of their new company, its culture, and
-                  organizational structure. The course is divided into sections
-                  (company, workplace, services), beginning with an introduction
-                  that provides a description of the course and its objectives,
-                  and ends with a knowledge check that tests learners on the
-                  information presented. Each of the sections contains lessons
-                  with basic important information that a new employee needs to
-                  learn when beginning employment at a new organization (e.g.,
-                  company history, team structure, services offered, etc.). A
-                  variety of interactive features are used (e.g., tabs,
+                  orient themselves in their new work environment and to help
+                  them understand the workings of their new company, its
+                  culture, and organizational structure. The course is divided
+                  into sections (company, workplace, services), beginning with
+                  an introduction that provides a description of the course and
+                  its objectives, and ends with a knowledge check that tests
+                  learners on the information presented. Each of the sections
+                  contains lessons with information that a new employee needs to
+                  know when beginning employment at a new organization (e.g.,
+                  company history, team structure, services offered, etc.).
+                </p>
+                <p style={{ textAlign: 'left' }}>
+                  A variety of interactive features are used (e.g., tabs,
                   flashcard, interactive labeled graphic) in the presentation of
-                  the material to promote learner interest. A sidebar is kept
+                  the material to promote learner interest. One such feature is
+                  the interactive labeled graphic feature that allows learners
+                  to explore different areas of the building by clicking on the
+                  different markers on the floor plan. To provide for a
+                  convenient navigation experience, the sidebar is kept
                   displayed so that learners can easily navigate to different
-                  sections if they feel they need to refer to a particular
-                  lesson. The knowledge check at the end contains a mix of
-                  multiple-choice and multiple-response questions, which allow
-                  the learners to check how much of the new information they
-                  have remembered. Learners are given feedback and are also able
-                  to retake the quiz. The feedback given provides learners with
-                  an explanation of the information in the question, thereby
-                  reminding learners of the information presented in the
+                  sections of the course if they feel they need to refer to a
+                  particular lesson. The knowledge check at the end contains a
+                  mix of multiple-choice and multiple-response questions, which
+                  allow the learners to check how much of the new information
+                  they have remembered. Learners are given feedback and are also
+                  able to retake the quiz. The feedback given provides learners
+                  with an explanation of the information in the question,
+                  thereby reminding learners of the information presented in the
                   lessons.
                 </p>
               </div>
@@ -230,9 +236,11 @@ const Orientation = () => {
                   including information about the company, the workplace, and
                   the services that are offered. Given a set of exercises at the
                   end of the course, learners should be able to select the
-                  correct answer(s) for each question. Furthermore, learners are
-                  able to easily navigate to any lesson at any time, if they
-                  ever need to refer to any lesson.
+                  correct answer(s) for each question. Furthermore, learners
+                  will be able to refer back to any part of the course at any
+                  time when struggling to remember any of the information. As a
+                  result, learners will be comfortable with the information
+                  pertaining to the organization that they are joining.
                 </p>
               </div>
             </Col>
@@ -257,14 +265,18 @@ const Orientation = () => {
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
                   The visual storyboard includes basic information about the
-                  layout of the project such the font and the color scheme used.
-                  It also lists every slide in complete detail, along with the
-                  title of the slide, images and text used, buttons included and
-                  what each button does, notes for the developer, and detailed
-                  notes on animations used. In the case where activities or
-                  multiple choice questions are used, detailed information is
-                  given regarding the questions and answers used, as well as the
-                  correct answers given (seen in later slides). To view the
+                  layout of the course, such as the font and the colors used. It
+                  also lists every lesson in complete detail, detailing each
+                  block used (e.g. text, list, image, etc.), along with the type
+                  of block used, its content, the settings used for each block,
+                  etc. In the case where images are used, the storyboard notes
+                  whether the images used come from the Content Library, or in
+                  the case where files are used, the names of the image files
+                  are given. For the knowledge check questions at the end, the
+                  questions and question types (i.e., multiple-choice or
+                  multiple-response) are provided, along with the choices and
+                  the correct answer(s). Finally, the feedback given for each
+                  question is also provided in the storyboard. To view the
                   entire storyboard in PDF format, click the View Storyboard
                   button below.
                 </p>
@@ -330,31 +342,32 @@ const Orientation = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
-                  To provide the option of implementing this lesson on its own
-                  without the need for an LMS, I wanted to integrate a
-                  certificate of completion into the lesson. To do this, I
-                  created a custom branded certificate on Canva, with an image,
-                  fonts, and colors that matched my lesson scheme. I then used
-                  JavaScript to print the student's name and date on the
-                  certificate, so that the name and current date would appear on
-                  the certificate when downloaded in PDF format. The&nbsp;
+                  Since the course has a lesson dedicated to the company's
+                  website and its goals, I built a mock Home Page using HTML,
+                  CSS, and Bootstrap. Although the Home Page is not functional,
+                  a screenshot of the Home Page is used in the lesson to help
+                  reinforce the goals that the company has for its website.
+                  Since the goals of the website are presented as a numbered
+                  list, the learner can refer to the screenshot of the Home Page
+                  while reading the different goals presented in the numbered
+                  list.
+                </p>
+                <p style={{ textAlign: 'left' }}>
+                  Similary, I also created a mock floor plan of the company
+                  building with a tool called{' '}
                   <a
-                    href='https://rawgit.com/MrRio/jsPDF/master/docs/index.html'
+                    href='https://floorplancreator.net/'
                     rel='noopener noreferrer'
                     target='_blank'
                   >
-                    <span>jsPDF</span>
+                    <span>Floor Plan Creator</span>
                   </a>
-                  &nbsp;library is used to generate the PDF, and a script is
-                  added in the <code>story.html</code> file to communicate this
-                  to the Storyline course. The following code in the image below
-                  was added in Storyline to the{' '}
-                  <strong>Download Certificate</strong> button Trigger as
-                  Executable JavaScript. I first used Visual Studio Code so that
-                  I could more easily configure the settings appropriate to my
-                  project, such as setting the font size and color, choosing a
-                  name for the downloaded file (i.e., Certificate.pdf), calling
-                  the variable used for the name in Storyline, etc.
+                  . This floor plan is used in the course as an interactive
+                  labeled graphic. Here, learners are able to explore different
+                  areas of the building by clicking on the different markers on
+                  the floor plan. After creating the floor plan, I downloaded it
+                  as an image file, then used this image in Articulate Rise in
+                  the lesson when creating the labeled graphic block.
                 </p>
               </div>
             </Col>

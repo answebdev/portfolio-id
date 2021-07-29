@@ -265,16 +265,16 @@ const ParticipialAdjectives = () => {
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
                   The visual storyboard includes basic information about the
-                  layout of the project such the font and the color scheme used.
-                  It also lists every slide in complete detail, along with the
-                  title of the slide, images and text used, buttons included and
-                  what each button does, notes for the developer, and detailed
-                  notes on animations used. In the case where activities or
-                  multiple choice questions are used, detailed information is
-                  given regarding the questions and answers used, as well as the
-                  correct answers given (seen in later slides). To view the
-                  entire storyboard in PDF format, click the View Storyboard
-                  button below.
+                  layout of the project, such as the font and the color scheme
+                  used. It also lists every slide in complete detail, along with
+                  the title of the slide, images and text used, buttons included
+                  and what each button does, notes for the developer, and
+                  detailed notes on animations used. In the case where
+                  activities or multiple choice questions are used, detailed
+                  information is given regarding the questions and answers used,
+                  as well as the correct answers given (seen in later slides).
+                  To view the entire storyboard in PDF format, click the View
+                  Storyboard button below.
                 </p>
               </div>
             </Col>
