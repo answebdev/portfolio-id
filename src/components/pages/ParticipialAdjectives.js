@@ -5,7 +5,7 @@ import Adj01 from '../../img/adj1.webp';
 import Adj02 from '../../img/adj2.webp';
 import Mockup from '../../img/adjMockup06.webp';
 import Storyboard from '../../img/storyboard.webp';
-import StoryboardPDF from '../../pdf/storyboard.pdf';
+import StoryboardPDF from '../../pdf/participial-adjectives-storyboard.pdf';
 import certificate from '../../pdf/certificate.pdf';
 import JSCode from '../../img/JavaScriptCode.webp';
 import StorylineJS from '../../img/StorylineJavaScript.webp';

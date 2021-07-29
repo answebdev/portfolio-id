@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import mockup from '../../img/PartAdjProject.webp';
+import orientation from '../../img/new-employee-orientation.webp';
+
 import netlify from '../../img/netlify.webp';
 import canvas from '../../img/canvas.webp';
 import classes from '../../styles/Projects.module.css';
@@ -72,6 +74,89 @@ const Projects = () => {
 
           <Row>
             <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>
+              <h3 className={classes.ProjectName}>New Employee Orientation</h3>
+              <p>
+                An Articulate Rise course designed as an orientation training
+                module for new employees to learn about their new company, its
+                culture, and organizational structure.
+              </p>
+              <p>
+                <strong>Type: </strong>eLearning
+              </p>
+              <p>
+                <strong>Tools used: </strong>Articulate Rise, Snagit, Canva,
+                HTML, CSS, Bootstrap, Floor Plan Creator
+              </p>
+              <br />
+              <Button
+                className={classes.SeeMoreBtn}
+                variant='primary'
+                href='/projects/new-employee-orientation'
+                style={{ marginRight: '5px', boxShadow: 'none' }}
+              >
+                See More
+              </Button>
+            </Col>
+
+            <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}>
+              <div className={classes.ImgDiv}>
+                <Image src={orientation} fluid alt='Canvas Logo' />
+              </div>
+            </Col>
+          </Row>
+
+          <br />
+          <br />
+          <hr />
+          <br />
+          <br />
+
+          <Row>
+            <Col md={6}>
+              <div className={classes.ImgDiv}>
+                <Image
+                  src={netlify}
+                  fluid
+                  alt='Using Netlify To Host Your Web Application'
+                />
+              </div>
+            </Col>
+
+            <Col md={6}>
+              <h3 className={classes.ProjectName}>
+                Using Netlify To Host Your Web Application
+              </h3>
+              <p>
+                An eLearning video created using Camtasia to help Netlify
+                customers learn how to host their static web applications on
+                Netlify.
+              </p>
+              <p>
+                <strong>Type: </strong>eLearning
+              </p>
+              <p>
+                <strong>Tools used: </strong>Camtasia, Snagit
+              </p>
+              <br />
+              <Button
+                className={classes.SeeMoreBtn}
+                variant='primary'
+                href='/projects/using-netlify-to-host-your-web-application'
+                style={{ marginRight: '5px', boxShadow: 'none' }}
+              >
+                See More
+              </Button>
+            </Col>
+          </Row>
+
+          <br />
+          <br />
+          <hr />
+          <br />
+          <br />
+
+          <Row>
+            <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>
               <h3 className={classes.ProjectName}>Canvas Modules</h3>
               <p>
                 A learning module on how to complete different aspects of Canvas
@@ -100,50 +185,6 @@ const Projects = () => {
               <div className={classes.ImgDiv}>
                 <Image src={canvas} fluid alt='Canvas Logo' />
               </div>
-            </Col>
-          </Row>
-
-          <br />
-          <br />
-          <hr />
-          <br />
-          <br />
-
-          <Row>
-            <Col md={6}>
-              <div className={classes.ImgDiv}>
-                <Image
-                  src={netlify}
-                  fluid
-                  alt='Using Netlify To Host Your Web Application'
-                />
-              </div>
-            </Col>
-
-            <Col md={6}>
-              <h3 className={classes.ProjectName}>
-                Using Netlify To Host Your Web Application
-              </h3>
-              <p>
-                An eLearning video created using Camta sia to help Netlify
-                customers learn how to host their static web applications on
-                Netlify.
-              </p>
-              <p>
-                <strong>Type: </strong>eLearning
-              </p>
-              <p>
-                <strong>Tools used: </strong>Camtasia, Snagit
-              </p>
-              <br />
-              <Button
-                className={classes.SeeMoreBtn}
-                variant='primary'
-                href='/projects/using-netlify-to-host-your-web-application'
-                style={{ marginRight: '5px', boxShadow: 'none' }}
-              >
-                See More
-              </Button>
             </Col>
           </Row>
 
