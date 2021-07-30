@@ -195,12 +195,12 @@ const Orientation = () => {
                   sections of the course if they feel they need to refer to a
                   particular lesson. The knowledge check at the end contains a
                   mix of multiple-choice and multiple-response questions, which
-                  allow the learners to check how much of the new information
-                  they have remembered. Learners are given feedback and are also
-                  able to retake the quiz. The feedback given provides learners
-                  with an explanation of the information in the question,
-                  thereby reinforcing the information and reminding learners of
-                  the information presented in the lessons.
+                  allows learners to check how much of the new information they
+                  have remembered. Learners are given feedback and are also able
+                  to retake the quiz. The feedback given provides learners with
+                  an explanation of the information in the question, thereby
+                  reinforcing the information and reminding learners of the
+                  information presented in the lessons.
                 </p>
               </div>
             </Col>
