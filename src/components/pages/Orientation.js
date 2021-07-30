@@ -48,17 +48,14 @@ const Orientation = () => {
                   lessons. The course begins with an introduction that presents
                   a description of the course and its objectives, and ends with
                   a knowledge check to see how much of the information the
-                  learner is able to remember. The sidebar is always accessible
-                  so that the learner can easily navigate to any lesson for
-                  reference. Since the course contains a lesson with information
-                  on the company's website, I created a mockup Home Page using
-                  HTML and CSS for the lesson. Similarly, I also created a
-                  mockup floor plan of the building, since the course contains
-                  an interactive labeled graphic of the floor plan of the
-                  company building. This course will help orient new employees
-                  and help them learn about the company for which they will
-                  work, as well as help them learn about the inner workings and
-                  structure of its organization.
+                  learner is able to remember. Also included is an interactive
+                  labeled graphic activity that allows learners to explore
+                  different areas of the office floor plan. To make navigation
+                  convenient, the sidebar is always accessible so that learners
+                  can easily navigate to any lesson for reference. By the end,
+                  learners should be able to understand the workings of the
+                  organization, including information about the company, the
+                  workplace, and the services that are offered.
                 </p>
               </div>
             </Col>
@@ -100,10 +97,7 @@ const Orientation = () => {
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
-                <p>
-                  Articulate Rise, Snagit, Canva, HTML, CSS, Bootstrap, Floor
-                  Plan Creator
-                </p>
+                <p>Articulate Rise, Snagit, Canva, Floor Plan Creator</p>
 
                 <br />
 
@@ -146,15 +140,14 @@ const Orientation = () => {
                   Starting a new job can be overwhelming. There is a lot of new
                   information that new employees need to know and learn, such as
                   the organizational structure, the company culture, the
-                  different roles within an organization and what each person is
-                  responsible for, etc. Depending on the organization, the
-                  amount of information a new employee needs to learn can vary.
-                  The aim of this course, therefore, is to help new employees
-                  familiarize themselves with key areas of the company (ACME Web
-                  Services) for which they will work. Moreover, this course was
-                  designed in such a way that employees can go back and easily
-                  navigate to any section of the course for reference at any
-                  time.
+                  different roles within an organization and what each person in
+                  the role is responsible for, etc. Depending on the
+                  organization, the amount of information a new employee needs
+                  to learn can vary. The aim of this course, therefore, is to
+                  help new employees familiarize themselves with key features of
+                  the company (ACME Web Services) for which they will work, so
+                  that they are comfortable with the information pertaining to
+                  the organization that they are joining.
                 </p>
               </div>
             </Col>
@@ -191,11 +184,11 @@ const Orientation = () => {
                   company history, team structure, services offered, etc.).
                 </p>
                 <p style={{ textAlign: 'left' }}>
-                  A variety of interactive features are used (e.g., tabs,
+                  A variety of interactive Rise features are used (e.g., tabs,
                   flashcard, interactive labeled graphic) in the presentation of
                   the material to promote learner interest. One such feature is
                   the interactive labeled graphic feature that allows learners
-                  to explore different areas of the building by clicking on the
+                  to explore different areas of the office by clicking on the
                   different markers on the floor plan. To provide for a
                   convenient navigation experience, the sidebar is kept
                   displayed so that learners can easily navigate to different
@@ -206,8 +199,8 @@ const Orientation = () => {
                   they have remembered. Learners are given feedback and are also
                   able to retake the quiz. The feedback given provides learners
                   with an explanation of the information in the question,
-                  thereby reminding learners of the information presented in the
-                  lessons.
+                  thereby reinforcing the information and reminding learners of
+                  the information presented in the lessons.
                 </p>
               </div>
             </Col>
@@ -236,11 +229,11 @@ const Orientation = () => {
                   including information about the company, the workplace, and
                   the services that are offered. Given a set of exercises at the
                   end of the course, learners should be able to select the
-                  correct answer(s) for each question. Furthermore, learners
-                  will be able to refer back to any part of the course at any
-                  time when struggling to remember any of the information. As a
-                  result, learners will be comfortable with the information
-                  pertaining to the organization that they are joining.
+                  correct answer(s) for each question. Furthermore, using the
+                  sidebar for convenient navigation between lessons, learners
+                  will be able to use this course as a reference guide and refer
+                  back to any part of the course at any time when struggling to
+                  remember any of the information.
                 </p>
               </div>
             </Col>
@@ -344,17 +337,25 @@ const Orientation = () => {
                 <p style={{ textAlign: 'left' }}>
                   Since the course has a lesson dedicated to the company's
                   website and its goals, I built a mock Home Page using HTML,
-                  CSS, and Bootstrap. Although the Home Page is not functional,
-                  a screenshot of the Home Page is used in the lesson to help
-                  reinforce the goals that the company has for its website.
-                  Since the goals of the website are presented as a numbered
-                  list, the learner can refer to the screenshot of the Home Page
-                  while reading the different goals presented in the numbered
-                  list.
+                  CSS, and&nbsp;
+                  <a
+                    href='https://getbootstrap.com/'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                  >
+                    <span>Bootstrap</span>
+                  </a>
+                  . Although the Home Page is not functional, I used a
+                  screenshot of the Home Page in the lesson to help reinforce
+                  the goals that the company has for its website. Since the
+                  goals of the website are presented as a numbered list, the
+                  learner can refer to the screenshot of the Home Page while
+                  reading the different goals presented in the numbered list in
+                  the lesson.
                 </p>
                 <p style={{ textAlign: 'left' }}>
                   Similary, I also created a mock floor plan of the company
-                  building with a tool called{' '}
+                  office building with a tool called{' '}
                   <a
                     href='https://floorplancreator.net/'
                     rel='noopener noreferrer'
@@ -364,7 +365,7 @@ const Orientation = () => {
                   </a>
                   . This floor plan is used in the course as an interactive
                   labeled graphic. Here, learners are able to explore different
-                  areas of the building by clicking on the different markers on
+                  areas of the office by clicking on the different markers on
                   the floor plan. After creating the floor plan, I downloaded it
                   as an image file, then used this image in Articulate Rise in
                   the lesson when creating the labeled graphic block.

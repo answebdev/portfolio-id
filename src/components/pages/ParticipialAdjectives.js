@@ -54,7 +54,7 @@ const ParticipialAdjectives = () => {
                   target grammar presented. The lesson includes an interactive
                   drag and drop matching exercise, along with a summary of the
                   forms presented, and a downloadable PDF of common participial
-                  adjectives for learners. By the end, students should be able
+                  adjectives for learners. By the end, learners should be able
                   to understand the difference between the past participle and
                   present participle forms, and when to use each form. The
                   lesson ends with a set of exercises aimed at testing the
@@ -114,7 +114,7 @@ const ParticipialAdjectives = () => {
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
-                <p>Articulate Storyline, Canva, jsPDF, SCORM Cloud (Testing)</p>
+                <p>Articulate Storyline, Canva, jsPDF</p>
 
                 <br />
 
@@ -235,7 +235,7 @@ const ParticipialAdjectives = () => {
                   them with confidence. Given a set of exercises at the end of
                   the lesson, learners should be able to select the correct
                   participial adjective form for each sentence. Furthermore,
-                  students will be able to download a supplemental PDF of common
+                  learners will be able to download a supplemental PDF of common
                   participial adjectives that contains a list of common
                   adjectives in both the past and present participle forms,
                   along with examples for each. This can be downloaded and saved
@@ -270,7 +270,7 @@ const ParticipialAdjectives = () => {
                   the title of the slide, images and text used, buttons included
                   and what each button does, notes for the developer, and
                   detailed notes on animations used. In the case where
-                  activities or multiple choice questions are used, detailed
+                  activities or multiple-choice questions are used, detailed
                   information is given regarding the questions and answers used,
                   as well as the correct answers given (seen in later slides).
                   To view the entire storyboard in PDF format, click the View
@@ -343,7 +343,7 @@ const ParticipialAdjectives = () => {
                   certificate of completion into the lesson. To do this, I
                   created a custom branded certificate on Canva, with an image,
                   fonts, and colors that matched my lesson scheme. I then used
-                  JavaScript to print the student's name and date on the
+                  JavaScript to print the learner's name and date on the
                   certificate, so that the name and current date would appear on
                   the certificate when downloaded in PDF format. The&nbsp;
                   <a

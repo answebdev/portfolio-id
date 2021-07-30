@@ -50,8 +50,7 @@ const Projects = () => {
                 <strong>Type: </strong>eLearning
               </p>
               <p>
-                <strong>Tools used: </strong>Articulate Storyline, Canva, jsPDF,
-                SCORM Cloud (Testing)
+                <strong>Tools used: </strong>Articulate Storyline, Canva, jsPDF
               </p>
               <br />
               <Button
@@ -85,7 +84,7 @@ const Projects = () => {
               </p>
               <p>
                 <strong>Tools used: </strong>Articulate Rise, Snagit, Canva,
-                HTML, CSS, Bootstrap, Floor Plan Creator
+                Floor Plan Creator
               </p>
               <br />
               <Button
