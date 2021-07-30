@@ -6,7 +6,7 @@ import orientation from '../../img/new-employee-orientation.webp';
 
 import netlify from '../../img/netlify.webp';
 import canvas from '../../img/canvas.webp';
-import classes from '../../styles/Projects.module.css';
+import classes from '../../styles/Portfolio.module.css';
 
 // Canvas logo image source: https://www.pinclipart.com/pindetail/ibJJhox_canvas-logo-transparent-background-clipart/
 
