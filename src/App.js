@@ -7,7 +7,7 @@ import Footer from './components/layout/Footer';
 import LandingPage from './components/pages/LandingPage';
 import About from './components/pages/About';
 import ProjectsOriginal from './components/pages/ProjectsOriginal';
-import Projects from './components/pages/Projects';
+import Portfolio from './components/pages/Portfolio';
 import ParticipialAdjectives from './components/pages/ParticipialAdjectives';
 import Orientation from './components/pages/Orientation';
 import Netlify from './components/pages/Netlify';
@@ -34,25 +34,25 @@ const App = () => {
                 path='/projects-original'
                 component={ProjectsOriginal}
               />
-              <Route exact path='/projects' component={Projects} />
+              <Route exact path='/portfolio' component={Portfolio} />
               <Route
                 exact
-                path='/projects/participial-adjectives'
+                path='/portfolio/participial-adjectives'
                 component={ParticipialAdjectives}
               />
               <Route
                 exact
-                path='/projects/new-employee-orientation'
+                path='/portfolio/new-employee-orientation'
                 component={Orientation}
               />
               <Route
                 exact
-                path='/projects/using-netlify-to-host-your-web-application'
+                path='/portfolio/using-netlify-to-host-your-web-application'
                 component={Netlify}
               />
               <Route
                 exact
-                path='/projects/canvas-modules'
+                path='/portfolio/canvas-modules'
                 component={CanvasModules}
               />
               <Route exact path='/contact' component={Contact} />

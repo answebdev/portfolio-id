@@ -96,10 +96,10 @@ const LandingPage = () => {
                     </Link>
                   </span>
 
-                  <span tooltip='Projects' flow='down'>
+                  <span tooltip='Portfolio' flow='down'>
                     <Link
                       // data-tooltip='Projects'
-                      to='/projects'
+                      to='/portfolio'
                       className='header-button animated fadeInUp btn-links'
                     >
                       <i className='fas fa-briefcase'></i>

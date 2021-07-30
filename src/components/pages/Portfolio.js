@@ -10,11 +10,11 @@ import classes from '../../styles/Projects.module.css';
 
 // Canvas logo image source: https://www.pinclipart.com/pindetail/ibJJhox_canvas-logo-transparent-background-clipart/
 
-const Projects = () => {
+const Portfolio = () => {
   return (
     <div>
       <Helmet>
-        <title>Adolf Schmuck | Projects</title>
+        <title>Adolf Schmuck | Portfolio</title>
       </Helmet>
       <Container className={classes.Container}>
         <br />
@@ -22,7 +22,7 @@ const Projects = () => {
           <Row>
             <Col md={12}>
               <div>
-                <h1 className={classes.PageTitle}>Featured Work</h1>
+                <h1 className={classes.PageTitle}>Portfolio</h1>
                 <h5 style={{ fontWeight: '400' }} class='animated zoomIn'>
                   eLearning &bull; Instructor-Led Training
                 </h5>
@@ -56,7 +56,7 @@ const Projects = () => {
               <Button
                 className={classes.SeeMoreBtn}
                 variant='primary'
-                href='/projects/participial-adjectives'
+                href='/portfolio/participial-adjectives'
                 style={{ marginRight: '5px', boxShadow: 'none' }}
               >
                 See More
@@ -90,7 +90,7 @@ const Projects = () => {
               <Button
                 className={classes.SeeMoreBtn}
                 variant='primary'
-                href='/projects/new-employee-orientation'
+                href='/portfolio/new-employee-orientation'
                 style={{ marginRight: '5px', boxShadow: 'none' }}
               >
                 See More
@@ -140,7 +140,7 @@ const Projects = () => {
               <Button
                 className={classes.SeeMoreBtn}
                 variant='primary'
-                href='/projects/using-netlify-to-host-your-web-application'
+                href='/portfolio/using-netlify-to-host-your-web-application'
                 style={{ marginRight: '5px', boxShadow: 'none' }}
               >
                 See More
@@ -173,7 +173,7 @@ const Projects = () => {
               <Button
                 className={classes.SeeMoreBtn}
                 variant='primary'
-                href='/projects/canvas-modules'
+                href='/portfolio/canvas-modules'
                 style={{ marginRight: '5px', boxShadow: 'none' }}
               >
                 See More
@@ -194,4 +194,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Portfolio;

@@ -29,8 +29,8 @@ const Navigation = ({ title }) => {
               </Link>
             </li>
             <li>
-              <Link className={classes.PageLink} to='/projects'>
-                Projects
+              <Link className={classes.PageLink} to='/portfolio'>
+                Portfolio
               </Link>
             </li>
             <li>
