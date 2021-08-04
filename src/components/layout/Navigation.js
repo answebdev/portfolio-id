@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
+import resume from '../../pdf/AdolfSchmuckResume.pdf';
+
 // import logo from '../layout/dev-logo.webp';
 
 // import '../../styles/Navigation.css';
@@ -41,6 +43,17 @@ const Navigation = ({ title }) => {
             <li>
               <a
                 className={classes.PageLink}
+                href={resume}
+                rel='noopener noreferrer'
+                target='_blank'
+                title='Resume'
+              >
+                <i class='fas fa-file-pdf'></i>
+              </a>
+            </li>
+            {/* <li>
+              <a
+                className={classes.PageLink}
                 href='https://www.linkedin.com/in/adolf-schmuck/'
                 rel='noopener noreferrer'
                 target='_blank'
@@ -48,7 +61,7 @@ const Navigation = ({ title }) => {
               >
                 <i class='fab fa-linkedin'></i>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

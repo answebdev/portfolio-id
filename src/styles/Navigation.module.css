@@ -134,6 +134,10 @@ ul {
     text-align: center;
     justify-content: center;
   }
+
+  .Links {
+    font-size: 8px;
+  }
 }
 
 @media screen and (min-width: 431px) and (max-width: 470px) {
@@ -157,6 +161,10 @@ ul {
     text-align: center;
     justify-content: center;
   }
+
+  .Links {
+    font-size: 8px;
+  }
 }
 
 @media screen and (min-width: 401px) and (max-width: 430px) {
@@ -179,6 +187,10 @@ ul {
   .Navbar ul {
     text-align: center;
     justify-content: center;
+  }
+
+  .Links {
+    font-size: 8px;
   }
 }
 
@@ -206,5 +218,9 @@ ul {
 
   .Navbar a {
     font-size: 12.5px;
+  }
+
+  .Links {
+    font-size: 8px;
   }
 }

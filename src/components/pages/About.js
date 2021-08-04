@@ -19,7 +19,7 @@ const About = () => {
           <Row>
             <Col md={12}>
               <div>
-                <h1 className={classes.PageTitle}>About</h1>
+                <h1 className={classes.PageTitle}>About Me</h1>
               </div>
             </Col>
           </Row>
