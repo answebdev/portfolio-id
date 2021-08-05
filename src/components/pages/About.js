@@ -7,6 +7,10 @@ import classes from '../../styles/About.module.css';
 // import profile from '../../img/profile-alt.jpg';
 import busan from '../../img/busan-crop.webp';
 
+import thumb from '../../img/thumb-up.png';
+import gear from '../../img/gear.png';
+import checkmark from '../../img/checkmark.png';
+
 const About = () => {
   return (
     <div>
@@ -70,6 +74,155 @@ const About = () => {
                 experience has taught me to be adaptable and open to various
                 ways of working.
               </p>
+            </Col>
+          </Row>
+
+          <br />
+
+          <hr />
+
+          <Row>
+            <Col md={12}>
+              <div>
+                <h5 style={{ fontWeight: '400' }}>Skills and Competencies</h5>
+              </div>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row>
+            <Col md={4} style={{ marginBottom: '40px' }}>
+              <div>
+                <div>
+                  <Image
+                    className={classes.Icon}
+                    class='animated fadeIn'
+                    src={checkmark}
+                    fluid
+                  />
+                </div>
+                <p
+                  style={{
+                    textAlign: 'center',
+                    fontSize: '17.5px',
+                    fontWeight: '700',
+                    textTransform: 'uppercase',
+                  }}
+                >
+                  Competencies
+                </p>
+                <div style={{ textAlign: 'center' }}>
+                  <p>
+                    ADDIE & Agile
+                    <br />
+                    Assessments
+                    <br />
+                    Authoring Tools <br />
+                    eLearning
+                    <br />
+                    Intercultural Communication
+                    <br />
+                    Instructor-Led Training
+                    <br />
+                    Learning Management Systems <br />
+                    Web Development
+                    <br />
+                    Needs Analysis
+                    <br />
+                    Online/Blended Learning
+                    <br />
+                    Storyboarding
+                    <br />
+                    Course Development
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col md={4} style={{ marginBottom: '40px' }}>
+              <div>
+                <div>
+                  <Image className={classes.Icon} src={gear} fluid />
+                </div>
+                <p
+                  style={{
+                    textAlign: 'center',
+                    fontSize: '17.5px',
+                    fontWeight: '700',
+                    textTransform: 'uppercase',
+                  }}
+                >
+                  Technical
+                </p>
+                <div style={{ textAlign: 'center' }}>
+                  <p>
+                    Articulate Storyline
+                    <br />
+                    Articulate Rise
+                    <br />
+                    Camtasia
+                    <br />
+                    Snagit
+                    <br />
+                    Canvas (LMS)
+                    <br />
+                    Blackboard (LMS)
+                    <br />
+                    Audacity
+                    <br />
+                    Screencastify
+                    <br />
+                    Canva
+                    <br />
+                    GIMP
+                    <br />
+                    InVideo
+                    <br />
+                    PowerPoint
+                  </p>
+                </div>
+              </div>
+            </Col>
+
+            <Col md={4} style={{ marginBottom: '40px' }}>
+              <div>
+                <div>
+                  <Image className={classes.Icon} src={thumb} fluid />
+                </div>
+                <p
+                  style={{
+                    textAlign: 'center',
+                    fontSize: '17.5px',
+                    fontWeight: '700',
+                    textTransform: 'uppercase',
+                  }}
+                >
+                  Other
+                </p>
+                <div style={{ textAlign: 'center' }}>
+                  <p>
+                    HTML
+                    <br />
+                    CSS
+                    <br />
+                    JavaScript
+                    <br />
+                    jQuery
+                    <br />
+                    Bootstrap
+                    <br />
+                    Visual Studio Code
+                    <br />
+                    Zoom
+                    <br />
+                    Trello
+                    <br />
+                    Jira
+                    <br />
+                    Slack
+                  </p>
+                </div>
+              </div>
             </Col>
           </Row>
         </div>

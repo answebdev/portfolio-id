@@ -21,3 +21,12 @@
 .ProfileImage {
   width: 75% !important;
 }
+
+.Icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
