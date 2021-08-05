@@ -7,9 +7,9 @@ import classes from '../../styles/About.module.css';
 // import profile from '../../img/profile-alt.jpg';
 import busan from '../../img/busan-crop.webp';
 
-import thumb from '../../img/thumb-up.png';
-import gear from '../../img/gear.png';
-import checkmark from '../../img/checkmark.png';
+import thumb from '../../img/thumb-up.webp';
+import gear from '../../img/gear.webp';
+import checkmark from '../../img/checkmark.webp';
 
 const About = () => {
   return (
