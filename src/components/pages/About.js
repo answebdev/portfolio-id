@@ -44,11 +44,11 @@ const About = () => {
 
             <Col md={7}>
               <p className={classes.P}>
-                Hello and welcome to my website. I am an adult learning
-                professional based in San Diego, California. I am experienced in
-                designing, developing, and delivering engaging learning content
-                to improve learner performance. I love helping others learn by
-                creating learning content and experiences that inspire interest.
+                Hello and welcome to my website. I am a learning professional
+                based in San Diego, California. I am experienced in designing,
+                developing, and delivering engaging learning content to improve
+                learner performance. I love helping others learn by creating
+                learning content and experiences that inspire interest.
               </p>
               <p className={classes.P}>
                 I am a client-oriented learning professional who is comfortable
