@@ -6,7 +6,6 @@ import classes from '../../styles/About.module.css';
 
 // import profile from '../../img/profile-alt.jpg';
 import busan from '../../img/busan-crop.webp';
-
 import thumb from '../../img/thumb-up.webp';
 import gear from '../../img/gear.webp';
 import checkmark from '../../img/checkmark.webp';
@@ -44,35 +43,53 @@ const About = () => {
             </Col>
 
             <Col md={7}>
-              {/* <p className={classes.P}>
-                Hello and nice to meet you. I am a learning professional with a
-                focus on instructional design and eLearning development. I am
-                passionate about helping others learn and I love creating
-                learning content and learning experiences that inspire interest.
-                Most recently, I have been creating course content using the
-                online Canvas LMS at Grossmont Community College, where I am
-                currently employed as an instructor.
-              </p> */}
               <p className={classes.P}>
+                Hello and welcome to my website. I am an adult learning
+                professional based in San Diego, California. I am experienced in
+                designing, developing, and delivering engaging learning content
+                to improve learner performance. I love helping others learn by
+                creating learning content and experiences that inspire interest.
+              </p>
+              <p className={classes.P}>
+                I am a client-oriented learning professional who is comfortable
+                leveraging technology to discover problems and develop
+                learner-based solutions that align with organizational goals. I
+                enjoy designing for various environments, such as face-to-face,
+                online, and blended learning, and am a skilled communicator
+                adept at delivering presentations for diverse audiences and
+                building relationships with learners and stakeholders.
+              </p>
+              {/* <p className={classes.P}>
                 Hello and nice to meet you. I am passionate about helping others
                 learn and I love creating learning content and learning
                 experiences that inspire interest. Most recently, I have been
                 creating course content using the online Canvas LMS at Grossmont
                 Community College, where I am currently employed as an
                 instructor.
-              </p>
-              <p className={classes.P}>
+              </p> */}
+              {/* <p className={classes.P}>
                 I am a client-oriented learning professional with experience in
                 creating engaging learning content and developing
                 learner-centered solutions. I enjoy designing for various
                 environments, such as face-to-face, online, and blended
                 learning, and am a skilled trainer and communicator adept at
                 delivering training and presentations for various audiences.
-              </p>
+              </p> */}
               <p className={classes.P}>
                 I have lived and worked abroad in Taiwan and South Korea. This
                 experience has taught me to be adaptable and open to various
                 ways of working.
+              </p>
+              <p className={classes.P}>
+                Check out my{' '}
+                <a style={{ textDecoration: 'none' }} href='/portfolio'>
+                  portfolio&nbsp;
+                </a>
+                for samples of my work and{' '}
+                <a style={{ textDecoration: 'none' }} href='/contact'>
+                  connect
+                </a>{' '}
+                with me!
               </p>
             </Col>
           </Row>
