@@ -4,7 +4,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import $ from 'jquery';
 import profile from '../../img/profile-alt.webp';
-import resume from '../../pdf/AdolfSchmuckResume.pdf';
+import resume from '../../pdf/AdolfSchmuck_Resume.pdf';
 
 // import classes from '../../styles/Landing.module.css';
 

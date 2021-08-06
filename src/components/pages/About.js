@@ -81,11 +81,11 @@ const About = () => {
                 ways of working.
               </p>
               <p className={classes.P}>
-                Check out my{' '}
+                Feel free to check out some of my work in my{' '}
                 <a style={{ textDecoration: 'none' }} href='/portfolio'>
                   portfolio&nbsp;
                 </a>
-                for samples of my work and{' '}
+                and{' '}
                 <a style={{ textDecoration: 'none' }} href='/contact'>
                   connect
                 </a>{' '}

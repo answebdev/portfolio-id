@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import resume from '../../pdf/AdolfSchmuckResume.pdf';
+import resume from '../../pdf/AdolfSchmuck_Resume.pdf';
 
 // import logo from '../layout/dev-logo.webp';
 
