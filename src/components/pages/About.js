@@ -133,25 +133,27 @@ const About = () => {
                   <p>
                     ADDIE & Agile
                     <br />
-                    Assessments
+                    Course Development
                     <br />
-                    Authoring Tools <br />
+                    Authoring Tools
+                    <br />
                     eLearning
+                    <br />
+                    Storyboarding
+                    <br />
+                    Online/Blended Learning
                     <br />
                     Intercultural Communication
                     <br />
                     Instructor-Led Training
                     <br />
-                    Learning Management Systems <br />
+                    Learning Management Systems
+                    <br />
                     Web Development
                     <br />
                     Needs Analysis
                     <br />
-                    Online/Blended Learning
-                    <br />
-                    Storyboarding
-                    <br />
-                    Course Development
+                    Assessments
                   </p>
                 </div>
               </div>
