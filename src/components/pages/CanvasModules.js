@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import Canvas from '../../img/canvas.webp';
 import pdf from '../../pdf/CanvasModules.pdf';
@@ -107,22 +107,33 @@ const CanvasBeginners = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p>Canvas, Microsoft Word, Snagit, Canva</p>
+              </div>
+            </Col>
+            <Col md={2}></Col>
+          </Row>
 
-                <br />
+          <br />
 
-                {/* <Button
-                  className={classes.CheckItOut}
-                  variant='primary'
-                  href='https://participial-adjectives.netlify.app/'
-                  rel='noopener noreferrer'
-                  target='_blank'
-                  style={{
-                    marginRight: '5px',
-                    boxShadow: 'none',
-                  }}
-                >
-                  Check It Out
-                </Button> */}
+          <Row>
+            <Col md={12}>
+              <div>
+                <h2 className={classes.Title}>Document</h2>
+              </div>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row>
+            <Col md={2}></Col>
+            <Col col={8}>
+              <div className={classes.ProjectDiv}>
+                <p style={{ textAlign: 'left' }}>
+                  Use the PDF viewer below to view the Canvas Modules document.
+                  Viewer options include full screen mode, dark theme mode, a
+                  download option, and more. To open Canvas Modules in a
+                  separate window, click the Canvas Modules button below.
+                </p>
               </div>
             </Col>
             <Col md={2}></Col>
@@ -148,6 +159,31 @@ const CanvasBeginners = () => {
           </Row>
 
           <br />
+
+          <Row>
+            <Col md={2}></Col>
+            <Col col={8}>
+              <div className={classes.ProjectDiv}>
+                <br />
+
+                <Button
+                  className={classes.CheckItOut}
+                  variant='primary'
+                  src={pdf}
+                  href={pdf}
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  style={{
+                    marginRight: '5px',
+                    boxShadow: 'none',
+                  }}
+                >
+                  Canvas Modules
+                </Button>
+              </div>
+            </Col>
+            <Col md={2}></Col>
+          </Row>
 
           <br />
           <br />
