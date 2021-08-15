@@ -9,6 +9,7 @@ import About from './components/pages/About';
 import ProjectsOriginal from './components/pages/ProjectsOriginal';
 import Portfolio from './components/pages/Portfolio';
 import ParticipialAdjectives from './components/pages/ParticipialAdjectives';
+import Customer from './components/pages/Customer';
 import Orientation from './components/pages/Orientation';
 import Netlify from './components/pages/Netlify';
 import CanvasModules from './components/pages/CanvasModules';
@@ -39,6 +40,11 @@ const App = () => {
                 exact
                 path='/portfolio/participial-adjectives'
                 component={ParticipialAdjectives}
+              />
+              <Route
+                exact
+                path='/portfolio/improving-customer-satisfaction'
+                component={Customer}
               />
               <Route
                 exact

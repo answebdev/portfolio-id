@@ -4,6 +4,8 @@ import { Helmet } from 'react-helmet';
 import mockup from '../../img/PartAdjProject.webp';
 import orientation from '../../img/new-employee-orientation.webp';
 
+import comingSoon from '../../img/coming-soon.webp';
+
 import netlify from '../../img/netlify.webp';
 import canvas from '../../img/canvas.webp';
 import classes from '../../styles/Portfolio.module.css';
@@ -35,7 +37,7 @@ const Portfolio = () => {
           <Row>
             <Col md={6}>
               <div className={classes.ImgDiv}>
-                <Image src={mockup} fluid alt='Mockup' />
+                <Image src={mockup} fluid alt='Participial Adjectives' />
               </div>
             </Col>
 
@@ -73,6 +75,68 @@ const Portfolio = () => {
 
           <Row>
             <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>
+              <h3 className={classes.ProjectName}>
+                Improving Customer Satisfaction (in progress)
+              </h3>
+              <p>
+                An interactive Articulate Storyline module that provides
+                training for employees to learn about different ways to improve
+                customer satisfaction.
+              </p>
+
+              {/* Use this text when project is ready: */}
+              {/* <p>
+                An interactive training module created using Articulate
+                Storyline for employees to learn about different ways to improve
+                customer satisfaction.
+              </p> */}
+              <p>
+                <strong>Type: </strong>eLearning
+              </p>
+              {/* <p>
+                <strong>Tools used: </strong>Articulate Storyline, Freepik,
+                GIMP, Canva
+              </p> */}
+
+              <p>
+                <em>Coming Soon!</em>
+              </p>
+              <br />
+              {/* <Button
+                className={classes.SeeMoreBtn}
+                variant='primary'
+                href='/portfolio/improving-customer-satisfaction'
+                style={{ marginRight: '5px', boxShadow: 'none' }}
+              >
+                See More
+              </Button> */}
+            </Col>
+
+            <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}>
+              <div className={classes.ImgDiv}>
+                <Image
+                  src={comingSoon}
+                  fluid
+                  alt='Improving Customer Satisfaction'
+                />
+              </div>
+            </Col>
+          </Row>
+
+          <br />
+          <br />
+          <hr />
+          <br />
+          <br />
+
+          <Row>
+            <Col md={6}>
+              <div className={classes.ImgDiv}>
+                <Image src={orientation} fluid alt='New Employee Orientation' />
+              </div>
+            </Col>
+
+            <Col md={6}>
               <h3 className={classes.ProjectName}>New Employee Orientation</h3>
               <p>
                 An Articulate Rise course designed as an orientation training
@@ -96,12 +160,6 @@ const Portfolio = () => {
                 See More
               </Button>
             </Col>
-
-            <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}>
-              <div className={classes.ImgDiv}>
-                <Image src={orientation} fluid alt='Canvas Logo' />
-              </div>
-            </Col>
           </Row>
 
           <br />
@@ -111,17 +169,7 @@ const Portfolio = () => {
           <br />
 
           <Row>
-            <Col md={6}>
-              <div className={classes.ImgDiv}>
-                <Image
-                  src={netlify}
-                  fluid
-                  alt='Using Netlify To Host Your Web Application'
-                />
-              </div>
-            </Col>
-
-            <Col md={6}>
+            <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>
               <h3 className={classes.ProjectName}>
                 Using Netlify To Host Your Web Application
               </h3>
@@ -146,6 +194,16 @@ const Portfolio = () => {
                 See More
               </Button>
             </Col>
+
+            <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}>
+              <div className={classes.ImgDiv}>
+                <Image
+                  src={netlify}
+                  fluid
+                  alt='Using Netlify To Host Your Web Application'
+                />
+              </div>
+            </Col>
           </Row>
 
           <br />
@@ -155,7 +213,13 @@ const Portfolio = () => {
           <br />
 
           <Row>
-            <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>
+            <Col md={6}>
+              <div className={classes.ImgDiv}>
+                <Image src={canvas} fluid alt='Canvas Modules' />
+              </div>
+            </Col>
+
+            <Col md={6}>
               <h3 className={classes.ProjectName}>Canvas Modules</h3>
               <p>
                 A learning module on how to complete different aspects of Canvas
@@ -178,12 +242,6 @@ const Portfolio = () => {
               >
                 See More
               </Button>
-            </Col>
-
-            <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}>
-              <div className={classes.ImgDiv}>
-                <Image src={canvas} fluid alt='Canvas Logo' />
-              </div>
             </Col>
           </Row>
 
