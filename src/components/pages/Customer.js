@@ -36,7 +36,7 @@ const Customer = () => {
             </Col>
           </Row>
 
-          {/* <br />
+          <br />
 
           <Row>
             <Col md={2}></Col>
@@ -68,7 +68,7 @@ const Customer = () => {
               </div>
             </Col>
             <Col md={2}></Col>
-          </Row> */}
+          </Row>
 
           <br />
 
@@ -89,7 +89,7 @@ const Customer = () => {
 
           <br />
 
-          {/* <Row>
+          <Row>
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
@@ -120,7 +120,7 @@ const Customer = () => {
                     boxShadow: 'none',
                   }}
                 >
-                  View Lesson
+                  View Training
                 </Button>
               </div>
             </Col>
@@ -508,7 +508,7 @@ const Customer = () => {
             </div>
           </div>
 
-          <br /> */}
+          <br />
         </div>
       </Container>
     </div>
