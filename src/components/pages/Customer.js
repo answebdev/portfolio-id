@@ -38,7 +38,7 @@ const Customer = () => {
 
           <br />
 
-          <Row>
+          {/* <Row>
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
@@ -70,7 +70,7 @@ const Customer = () => {
             <Col md={2}></Col>
           </Row>
 
-          <br />
+          <br /> */}
 
           <Row>
             <Col>
@@ -87,9 +87,9 @@ const Customer = () => {
             </Col>
           </Row>
 
-          <br />
+          {/* <br /> */}
 
-          <Row>
+          {/* <Row>
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
@@ -506,7 +506,7 @@ const Customer = () => {
                 </Col>
               </Row>
             </div>
-          </div>
+          </div> */}
 
           <br />
         </div>
