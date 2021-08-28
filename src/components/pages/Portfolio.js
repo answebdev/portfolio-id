@@ -2,10 +2,8 @@ import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import mockup from '../../img/PartAdjProject.webp';
+import customerMockup from '../../img/customer-mockup.webp';
 import orientation from '../../img/new-employee-orientation.webp';
-
-import comingSoon from '../../img/coming-soon.webp';
-
 import netlify from '../../img/netlify.webp';
 import canvas from '../../img/canvas.webp';
 import classes from '../../styles/Portfolio.module.css';
@@ -75,47 +73,50 @@ const Portfolio = () => {
 
           <Row>
             <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>
-              <h3 className={classes.ProjectName}>
+              {/* <h3 className={classes.ProjectName}>
                 Improving Customer Satisfaction (in progress)
-              </h3>
-              <p>
+              </h3> */}
+              {/* <p>
                 An interactive Articulate Storyline module that provides
                 training for employees to learn about different ways to improve
                 customer satisfaction.
-              </p>
+              </p> */}
 
               {/* Use this text when project is ready: */}
-              {/* <p>
+              <h3 className={classes.ProjectName}>
+                Improving Customer Satisfaction
+              </h3>
+              <p>
                 An interactive training module created using Articulate
                 Storyline for employees to learn about different ways to improve
                 customer satisfaction.
-              </p> */}
+              </p>
               <p>
                 <strong>Type: </strong>eLearning
               </p>
-              {/* <p>
+              <p>
                 <strong>Tools used: </strong>Articulate Storyline, Freepik,
                 GIMP, Canva
-              </p> */}
-
-              <p>
-                <em>Coming Soon!</em>
               </p>
+
+              {/* <p>
+                <em>Coming Soon!</em>
+              </p> */}
               <br />
-              {/* <Button
+              <Button
                 className={classes.SeeMoreBtn}
                 variant='primary'
                 href='/portfolio/improving-customer-satisfaction'
                 style={{ marginRight: '5px', boxShadow: 'none' }}
               >
                 See More
-              </Button> */}
+              </Button>
             </Col>
 
             <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}>
               <div className={classes.ImgDiv}>
                 <Image
-                  src={comingSoon}
+                  src={customerMockup}
                   fluid
                   alt='Improving Customer Satisfaction'
                 />
