@@ -1,3 +1,7 @@
+/* Fix React PDF Viewer Error where after hitting escape to exit full screen,
+you get an error. This fixes the error:
+(Source: https://stackoverflow.com/questions/76187282/react-resizeobserver-loop-completed-with-undelivered-notifications) */
+
 /* iframe#webpack-dev-server-client-overlay {
   display: none !important;
 } */
