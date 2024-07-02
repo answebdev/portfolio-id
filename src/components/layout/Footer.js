@@ -6,8 +6,12 @@ class Footer extends Component {
     return (
       <div>
         <div className={classes.Footer} id='footer'>
-          <span className={classes.FooterText}>
+          {/* <span className={classes.FooterText}>
             &copy; Copyright 2022 Adolf Schmuck | adolf.schmuck@gmail.com
+          </span> */}
+          <span className={classes.FooterText}>
+            &copy; Copyright {new Date().getFullYear()} Adolf Schmuck |
+            adolf.schmuck@gmail.com
           </span>
         </div>
       </div>

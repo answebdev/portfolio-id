@@ -144,7 +144,9 @@ const CanvasBeginners = () => {
           <Row>
             <Col md={12}>
               <div className={classes.PDFViewer}>
-                <Worker workerUrl='https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js'>
+                <Worker workerUrl='https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.min.js'>
+                  {/* Original Code: */}
+                  {/* <Worker workerUrl='https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js'> */}
                   <div className={classes.ViewerComponent}>
                     <Viewer
                       fileUrl={pdf}
