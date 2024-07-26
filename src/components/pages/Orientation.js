@@ -35,7 +35,7 @@ const Orientation = () => {
           <Row>
             <Col md={2}></Col>
             <Col col={8}>
-              <div className={classes.ProjectDiv}>
+              {/* <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
                   New Employee Orientation is a course designed as an
                   orientation training module for new employees of ACME Web
@@ -56,6 +56,23 @@ const Orientation = () => {
                   learners should be able to understand the workings of the
                   organization, including information about the company, the
                   workplace, and the services that are offered.
+                </p>
+              </div> */}
+              <div className={classes.ProjectDiv}>
+                <p style={{ textAlign: 'left' }}>
+                  New Employee Orientation is an Articulate Rise course designed
+                  as an orientation training module for new employees of ACME
+                  Web Services, a fictitious company that provides its clients a
+                  variety of web services, such as web design, web development,
+                  and hosting. This course was designed to help new employees
+                  learn about their new company, its culture, and organizational
+                  structure. The course, divided into different sections, begins
+                  with an introduction outlining the course and course
+                  objectives, and ends with a knowledge check that tests the
+                  learner's knowledge of the presented information. By the end
+                  of the course, learners should be able to understand the
+                  workings of the organization, including information about the
+                  company, the workplace, and the services that are offered.
                 </p>
               </div>
             </Col>
@@ -86,7 +103,7 @@ const Orientation = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p>
-                  <strong>Tools used: </strong>
+                  <strong>Tools Used: </strong>
                 </p>
               </div>
             </Col>
@@ -97,18 +114,20 @@ const Orientation = () => {
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
-                <p>Articulate Rise, Snagit, Canva, Floor Plan Creator</p>
+                <p>
+                  Articulate Rise, Snagit, Canva, Floor Plan Creator, Visual
+                  Studio Code
+                </p>
 
                 <br />
 
                 <Button
                   className={classes.CheckItOut}
-                  variant='primary'
+                  variant='dark'
                   href='https://new-employee-orientation.netlify.app/'
                   rel='noopener noreferrer'
                   target='_blank'
                   style={{
-                    marginRight: '5px',
                     boxShadow: 'none',
                   }}
                 >
@@ -245,7 +264,7 @@ const Orientation = () => {
           <Row>
             <Col md={12}>
               <div>
-                <h2 className={classes.Title}>Visual Storyboard</h2>
+                <h2 className={classes.Title}>Text-based Storyboard</h2>
               </div>
             </Col>
           </Row>
@@ -257,7 +276,7 @@ const Orientation = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
-                  The visual storyboard includes basic information about the
+                  The text-based storyboard includes basic information about the
                   layout of the course, such as the font and the colors used. It
                   also lists every lesson in complete detail, detailing each
                   block used (e.g. text, list, image, etc.), along with the type
@@ -301,13 +320,12 @@ const Orientation = () => {
 
                 <Button
                   className={classes.CheckItOut}
-                  variant='primary'
+                  variant='dark'
                   src={RiseStoryboardPDF}
                   href={RiseStoryboardPDF}
                   rel='noopener noreferrer'
                   target='_blank'
                   style={{
-                    marginRight: '5px',
                     boxShadow: 'none',
                   }}
                 >
@@ -439,7 +457,7 @@ const Orientation = () => {
                 {/* <br />
                 <Button
                   className={classes.CheckItOut}
-                  variant='primary'
+                  variant='dark'
                   src={certificate}
                   href={certificate}
                   rel='noopener noreferrer'

@@ -39,7 +39,7 @@ const Customer = () => {
           <Row>
             <Col md={2}></Col>
             <Col col={8}>
-              <div className={classes.ProjectDiv}>
+              {/* <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
                   Improving Customer Satisfaction is a training module created
                   for employees to learn about different ways to improve
@@ -61,6 +61,25 @@ const Customer = () => {
                   rather than having to go through each step in a set order.
                   Upon completion of the training, learners are then able to
                   exit the module.
+                </p>
+              </div> */}
+              <div className={classes.ProjectDiv}>
+                <p style={{ textAlign: 'left' }}>
+                  Improving Customer Satisfaction is a training module created
+                  for employees to learn about different ways to improve
+                  customer satisfaction. It can be difficult to maintain
+                  positive levels of customer satisfaction, with a variety of
+                  factors coming into play. This Storyline training module aims
+                  to improve customer satisfaction by presenting different types
+                  actions that can be taken, alongside examples of each. A
+                  different scenario for each case illustrates the different
+                  possible actions that can be taken, and provides the learner
+                  the opportunity to choose the best response for the given
+                  situation. As this is a non-linear training module, learners
+                  can choose which learning path to take from the main menu,
+                  rather than having to go through each step in a set order.
+                  Upon completion of the training, learners are able to exit the
+                  module.
                 </p>
               </div>
             </Col>
@@ -91,7 +110,7 @@ const Customer = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p>
-                  <strong>Tools used: </strong>
+                  <strong>Tools Used: </strong>
                 </p>
               </div>
             </Col>
@@ -102,18 +121,17 @@ const Customer = () => {
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
-                <p>Articulate Storyline, Freepik, GIMP, Canva</p>
+                <p>Articulate Storyline, Freepik, MindMeister, GIMP, Canva</p>
 
                 <br />
 
                 <Button
                   className={classes.CheckItOut}
-                  variant='primary'
+                  variant='dark'
                   href='https://improving-customer-satisfaction.netlify.app/'
                   rel='noopener noreferrer'
                   target='_blank'
                   style={{
-                    marginRight: '5px',
                     boxShadow: 'none',
                   }}
                 >
@@ -287,13 +305,12 @@ const Customer = () => {
 
                 <Button
                   className={classes.CheckItOut}
-                  variant='primary'
+                  variant='dark'
                   src={StoryboardPDF}
                   href={StoryboardPDF}
                   rel='noopener noreferrer'
                   target='_blank'
                   style={{
-                    marginRight: '5px',
                     boxShadow: 'none',
                   }}
                 >

@@ -22,6 +22,14 @@
   height: auto;
 }
 
+/* Make iframe responsive:
+https://stackoverflow.com/questions/25302836/responsive-video-iframes-keeping-aspect-ratio-with-only-css */
+iframe {
+  height: auto;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
 .PDFViewer {
   display: flex;
   justify-content: center;

@@ -6,11 +6,14 @@ import Footer from './components/layout/Footer';
 // import FooterAlt from './components/layout/FooterAlt';
 import LandingPage from './components/pages/LandingPage';
 import About from './components/pages/About';
-import ProjectsOriginal from './components/pages/ProjectsOriginal';
+// import ProjectsOriginal from './components/pages/ProjectsOriginal';
 import Portfolio from './components/pages/Portfolio';
 import ParticipialAdjectives from './components/pages/ParticipialAdjectives';
+import ParticipialAdjectivesStoryboard from './components/pages/ParticipialAdjectivesStoryboard';
 import Customer from './components/pages/Customer';
+import CustomerStoryboard from './components/pages/CustomerStoryboard';
 import Orientation from './components/pages/Orientation';
+import OrientationStoryboard from './components/pages/OrientationStoryboard';
 import Netlify from './components/pages/Netlify';
 import CanvasModules from './components/pages/CanvasModules';
 import Contact from './components/pages/Contact';
@@ -30,11 +33,6 @@ const App = () => {
             <Switch>
               <Route exact path='/' component={LandingPage} />
               <Route exact path='/about' component={About} />
-              <Route
-                exact
-                path='/projects-original'
-                component={ProjectsOriginal}
-              />
               <Route exact path='/portfolio' component={Portfolio} />
               <Route
                 exact
@@ -43,8 +41,28 @@ const App = () => {
               />
               <Route
                 exact
+                path='/portfolio/participial-adjectives-storyboard'
+                component={ParticipialAdjectivesStoryboard}
+              />
+              <Route
+                exact
                 path='/portfolio/improving-customer-satisfaction'
                 component={Customer}
+              />
+              <Route
+                exact
+                path='/portfolio/improving-customer-satisfaction-storyboard'
+                component={CustomerStoryboard}
+              />
+              <Route
+                exact
+                path='/portfolio/new-employee-orientation'
+                component={Orientation}
+              />
+              <Route
+                exact
+                path='/portfolio/new-employee-orientation-storyboard'
+                component={OrientationStoryboard}
               />
               <Route
                 exact

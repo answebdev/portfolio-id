@@ -2,7 +2,8 @@
   font-family: 'Lato';
   font-size: 16px;
   letter-spacing: 1px;
-  line-height: 180%;
+  /* line-height: 180%; */
+  /* line-height: 160%; */
 }
 
 .PageTitle {
@@ -12,9 +13,60 @@
   text-align: center;
 }
 
-.ImgDiv {
-  margin-right: 20px;
-  margin-bottom: 20px;
+.PageSubtitle {
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Accordion Styles */
+.Accordion {
+  margin: 2rem auto;
+
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.AccordionTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+/* .AccordionTitle,
+.AccordionContent {
+  padding: 1rem 0;
+} */
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
+  }
+
+  .Accordion {
+    width: 90%;
+  }
+}
+/* End Accordion Styles */
+
+/* .CardContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+} */
+
+.CardContainer {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding: 1%;
+  gap: 5%;
+}
+
+.Card {
+  width: 20rem;
+  margin-bottom: 5%;
+  /* margin-bottom: 15%; */
 }
 
 .ProjectName {
@@ -23,6 +75,8 @@
 }
 
 .SeeMoreBtn {
+  width: 50%;
+
   letter-spacing: 1px;
   background-color: var(--primary) !important;
   color: #ffffff !important;
@@ -55,85 +109,27 @@
     background-color: red;
   } */
 
-  .ImgDiv {
-    width: 100%;
-    height: auto;
+  .CardContainer {
+    justify-content: center;
   }
+
+  /* .Card {
+    width: 18rem;
+  } */
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
   /* .Container {
     background-color: yellow;
   } */
-
-  .ImgDiv {
-    width: 100%;
-    height: auto;
-  }
 }
 
-@media screen and (min-width: 641px) and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   /* .Container {
     background-color: steelblue;
   } */
 
-  .ImgDiv {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 551px) and (max-width: 640px) {
-  /* .Container {
-    background-color: brown;
-  } */
-
-  .ImgDiv {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 471px) and (max-width: 550px) {
-  /* .Container {
-    background-color: salmon;
-  } */
-
-  .ImgDiv {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 431px) and (max-width: 470px) {
-  /* .Container {
-    background-color: black;
-  } */
-
-  .ImgDiv {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 401px) and (max-width: 430px) {
-  /*   .Container {
-    background-color: burlywood;
-  } */
-
-  .ImgDiv {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 100px) and (max-width: 400px) {
-  /* .Container {
-    background-color: pink;
-  } */
-
-  .ImgDiv {
-    width: 100%;
-    height: auto;
+  .CardContainer {
+    justify-content: center;
   }
 }

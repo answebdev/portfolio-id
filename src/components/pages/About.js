@@ -183,21 +183,21 @@ const About = () => {
                     <br />
                     Snagit
                     <br />
+                    MindMeister
+                    <br />
                     Canvas (LMS)
                     <br />
                     Blackboard (LMS)
                     <br />
-                    Audacity
-                    <br />
-                    Screencastify
+                    Screencast-o-Matic
                     <br />
                     Canva
                     <br />
                     GIMP
                     <br />
-                    InVideo
-                    <br />
                     PowerPoint
+                    <br />
+                    Excel
                   </p>
                 </div>
               </div>
@@ -226,13 +226,13 @@ const About = () => {
                     <br />
                     JavaScript
                     <br />
-                    jQuery
-                    <br />
                     Bootstrap
                     <br />
                     Visual Studio Code
                     <br />
                     Zoom
+                    <br />
+                    Microsoft Teams
                     <br />
                     Trello
                     <br />

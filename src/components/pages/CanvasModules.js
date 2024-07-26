@@ -6,23 +6,7 @@ import pdf from '../../pdf/CanvasModules.pdf';
 import BackButton from '../layout/BackButton';
 import classes from '../../styles/CanvasModules.module.css';
 
-// React PDF Viewer: https://react-pdf-viewer.dev/
-import { Worker } from '@react-pdf-viewer/core';
-
-// Import the main component
-import { Viewer, SpecialZoomLevel } from '@react-pdf-viewer/core';
-
-// Plugins
-import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
-
-// Import styles
-import '@react-pdf-viewer/core/lib/styles/index.css';
-import '@react-pdf-viewer/default-layout/lib/styles/index.css';
-
 const CanvasBeginners = () => {
-  // Create new plugin instance for React PDF Viewer
-  const defaultLayoutPluginInstance = defaultLayoutPlugin();
-
   return (
     <div>
       <Helmet>
@@ -44,7 +28,7 @@ const CanvasBeginners = () => {
           <Row>
             <Col md={2}></Col>
             <Col col={8}>
-              <div className={classes.ProjectDiv}>
+              {/* <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
                   I designed and developed this learning module for instructors
                   in the ESL Department at Grossmont College who have minimal
@@ -65,6 +49,25 @@ const CanvasBeginners = () => {
                   taken to set up a Course Home Page. This module will give
                   learners the knowledge that they will be able to apply when
                   creating their own course modules.
+                </p>
+              </div> */}
+              <div className={classes.ProjectDiv}>
+                <p style={{ textAlign: 'left' }}>
+                  Canvas Modules is a learning module that I designed and
+                  developed for instructors in the ESL Department at Grossmont
+                  College who have minimal experience using Canvas, particularly
+                  for those using Canvas for the first time, and who may find it
+                  daunting and overwhelming. It is intended as a guide to help
+                  instructors set up their courses before the start of the
+                  semester, and includes screenshots, visuals, and easy to
+                  follow instructions on how to set up the basic features of a
+                  course, such as setting up a home page, creating modules and
+                  pages, creating assignments, and more. The Table of Contents
+                  contains clickable links that allow the learner to jump to any
+                  section of the document simply by clicking on a link, making
+                  document navigation easy. This learning module will give
+                  learners the knowledge they need to be able to create their
+                  own course modules in Canvas.
                 </p>
               </div>
             </Col>
@@ -95,7 +98,7 @@ const CanvasBeginners = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p>
-                  <strong>Tools used: </strong>
+                  <strong>Tools Used: </strong>
                 </p>
               </div>
             </Col>
@@ -106,7 +109,10 @@ const CanvasBeginners = () => {
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
-                <p>Canvas, Microsoft Word, Snagit, Canva</p>
+                <p>
+                  Canvas, Microsoft Word, Snagit, Screencast-o-Matic (video
+                  overview)
+                </p>
               </div>
             </Col>
             <Col md={2}></Col>
@@ -114,17 +120,25 @@ const CanvasBeginners = () => {
 
           <br />
 
-          <Row>
+          {/* <Row>
             <Col md={12}>
               <div>
                 <h2 className={classes.Title}>Document</h2>
+              </div>
+            </Col>
+          </Row> */}
+
+          <Row>
+            <Col md={12}>
+              <div>
+                <h2 className={classes.Title}>Video Overview</h2>
               </div>
             </Col>
           </Row>
 
           <br />
 
-          <Row>
+          {/* <Row>
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
@@ -137,16 +151,29 @@ const CanvasBeginners = () => {
               </div>
             </Col>
             <Col md={2}></Col>
+          </Row> */}
+
+          <Row>
+            <Col md={2}></Col>
+            <Col col={8}>
+              <div className={classes.ProjectDiv}>
+                <p style={{ textAlign: 'left' }}>
+                  Watch a video overview of the Canvas learning module below.
+                  Captions are available and can be toggled on or off. To view
+                  and download the PDF of Canvas Modules, click the Canvas
+                  Modules button below the video.
+                </p>
+              </div>
+            </Col>
+            <Col md={2}></Col>
           </Row>
 
           <br />
 
           <Row>
             <Col md={12}>
-              <div className={classes.PDFViewer}>
+              {/* <div className={classes.PDFViewer}>
                 <Worker workerUrl='https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.min.js'>
-                  {/* Original Code: */}
-                  {/* <Worker workerUrl='https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js'> */}
                   <div className={classes.ViewerComponent}>
                     <Viewer
                       fileUrl={pdf}
@@ -156,6 +183,42 @@ const CanvasBeginners = () => {
                     />
                   </div>
                 </Worker>
+              </div> */}
+
+              <div className={classes.ProjectDiv}>
+                <div className={classes.VideoWrapper}>
+                  {/* <iframe
+                    width='560px'
+                    height='320px'
+                    allowfullscreen='true'
+                    allow='autoplay *'
+                    title='Canvas Modules'
+                    src='https://gcccd.instructuremedia.com/embed/83297b38-6be1-47a0-a848-8533f6eb34ab'
+                    frameborder='0'
+                  ></iframe> */}
+
+                  {/* Nectar YouTube Edit: Jul 24, 2024: */}
+                  <iframe
+                    width='560'
+                    height='315'
+                    src='https://www.youtube.com/embed/N90JaPwrGfg?si=UOc5w7YVsYywJUfm'
+                    title='YouTube video player'
+                    frameborder='0'
+                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen'
+                    referrerpolicy='strict-origin-when-cross-origin'
+                  ></iframe>
+
+                  {/* Original YouTube Edit: Jul 22, 2024: */}
+                  {/* <iframe
+                    width='560'
+                    height='315'
+                    src='https://www.youtube.com/embed/vO-7j0iWgjU?si=bbkQPUPq5jHTfwvb'
+                    title='YouTube video player'
+                    frameborder='0'
+                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen'
+                    referrerpolicy='strict-origin-when-cross-origin'
+                  ></iframe> */}
+                </div>
               </div>
             </Col>
           </Row>
@@ -170,13 +233,12 @@ const CanvasBeginners = () => {
 
                 <Button
                   className={classes.CheckItOut}
-                  variant='primary'
+                  variant='dark'
                   src={pdf}
                   href={pdf}
                   rel='noopener noreferrer'
                   target='_blank'
                   style={{
-                    marginRight: '5px',
                     boxShadow: 'none',
                   }}
                 >

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image, Button } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import camtasia1 from '../../img/camtasia01.webp';
 import camtasia2 from '../../img/camtasia02.webp';
@@ -32,7 +32,7 @@ const Netlify = () => {
           <Row>
             <Col md={2}></Col>
             <Col col={8}>
-              <div className={classes.ProjectDiv}>
+              {/* <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
                   This eLearning video was created to help Netlify customers
                   learn how to host their static web applications on&nbsp;
@@ -58,6 +58,32 @@ const Netlify = () => {
                   host their web applications for the first time, or for those
                   who may be unsure as to how to go about doing so, or need a
                   reminder as to how to do it.
+                </p>
+              </div> */}
+              <div className={classes.ProjectDiv}>
+                <p style={{ textAlign: 'left' }}>
+                  This eLearning video was created to help Netlify customers
+                  learn how to host their static web applications on&nbsp;
+                  <a
+                    href='https://www.netlify.com/'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                  >
+                    <span>Netlify</span>
+                  </a>
+                  <span>.</span> Netlify is a cloud computing company that
+                  offers hosting for web applications and static websites. Among
+                  its different services, plans, and price options, Netlify
+                  offers a starter plan providing free hosting for personal
+                  projects, hobby sites, or experiments. If a customer wants to
+                  share a personal website he or she has created across the web,
+                  hosting is needed to be able to share it with others.
+                  Netlify's free plan not only allows one to host his or her
+                  website for free, but it also provides a free domain name that
+                  can be shared with others. This video is intended for those
+                  who are using Netlify to host their web applications for the
+                  first time, or for those who may be unsure as to how to go
+                  about doing so, or need a reminder as to how to do it.
                 </p>
               </div>
             </Col>
@@ -88,7 +114,7 @@ const Netlify = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p>
-                  <strong>Tools used: </strong>
+                  <strong>Tools Used: </strong>
                 </p>
               </div>
             </Col>
@@ -117,7 +143,7 @@ const Netlify = () => {
 
           <br />
 
-          <Row>
+          {/* <Row>
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
@@ -130,13 +156,25 @@ const Netlify = () => {
               </div>
             </Col>
             <Col md={2}></Col>
-          </Row>
+          </Row> */}
 
-          <br />
+          {/* <br /> */}
 
           <Row>
             <Col>
               <div className={classes.ProjectDiv}>
+                {/* <div className={classes.VideoWrapper}>
+                  <iframe
+                    width='560px'
+                    height='320px'
+                    allowfullscreen='true'
+                    allow='autoplay *'
+                    title='Using Netlify To Host Your Web Application'
+                    src='https://gcccd.instructuremedia.com/embed/5c3d43e9-a4cb-4d2c-8d99-da96103ecce1'
+                    frameborder='0'
+                  ></iframe>
+                </div> */}
+
                 <div className={classes.VideoWrapper}>
                   <iframe
                     width='560'
@@ -144,27 +182,25 @@ const Netlify = () => {
                     src='https://www.youtube.com/embed/tAO5N80fGE4'
                     title='YouTube video player'
                     frameborder='0'
-                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                    allowfullscreen
+                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen'
                   ></iframe>
                 </div>
 
-                <br />
+                {/* <br />
                 <br />
 
                 <Button
                   className={classes.ViewVideo}
-                  variant='primary'
+                  variant='dark'
                   href='https://hosting-on-netlify.netlify.app/'
                   rel='noopener noreferrer'
                   target='_blank'
                   style={{
-                    marginRight: '5px',
                     boxShadow: 'none',
                   }}
                 >
                   View Video
-                </Button>
+                </Button> */}
               </div>
             </Col>
           </Row>

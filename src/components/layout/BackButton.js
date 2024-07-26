@@ -10,7 +10,7 @@ const BackButton = () => {
       <button
         onClick={() => history.goBack()}
         className={classes.BackBtn}
-        variant='primary'
+        variant='dark'
       >
         <i className='fas fa-arrow-left'></i>&nbsp;Back
       </button>

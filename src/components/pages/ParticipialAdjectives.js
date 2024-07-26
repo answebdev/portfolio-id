@@ -6,10 +6,10 @@ import Adj02 from '../../img/adj2.webp';
 import Mockup from '../../img/adjMockup06.webp';
 import Storyboard from '../../img/storyboard.webp';
 import StoryboardPDF from '../../pdf/participial-adjectives-storyboard.pdf';
-import certificate from '../../pdf/certificate.pdf';
+import certificate from '../../pdf/certificate_02.pdf';
 import JSCode from '../../img/JavaScriptCode.webp';
 import StorylineJS from '../../img/StorylineJavaScript.webp';
-import Certificate from '../../img/certificate-pdf.webp';
+import Certificate from '../../img/certificate-pdf_02.webp';
 import BackButton from '../../components/layout/BackButton';
 import classes from '../../styles/ParticipialAdjectives.module.css';
 
@@ -35,7 +35,7 @@ const ParticipialAdjectives = () => {
           <Row>
             <Col md={2}></Col>
             <Col col={8}>
-              <div className={classes.ProjectDiv}>
+              {/* <div className={classes.ProjectDiv}>
                 <p style={{ textAlign: 'left' }}>
                   Participial Adjectives is a lesson on participial adjectives
                   for pre-intermediate (A2-B1 CEFR
@@ -62,7 +62,42 @@ const ParticipialAdjectives = () => {
                   learner is given the choice to review the answers, view the
                   results in printable form, or retry the exercises, as well as
                   download a personalized certificate of completion in PDF
-                  format that includes the learners name.
+                  format that includes the learner's name.
+                </p>
+                <p style={{ textAlign: 'left', marginTop: '30px' }}>
+                  <hr />
+                  <sup id='fn1'>
+                    1. CEFR: The Common European Framework of Reference for
+                    Languages.
+                    <a href='#ref1' title='Jump back to footnote 1'>
+                      ↩
+                    </a>
+                  </sup>
+                </p>
+              </div> */}
+              <div className={classes.ProjectDiv}>
+                <p style={{ textAlign: 'left' }}>
+                  Participial Adjectives is a lesson on participial adjectives
+                  for pre-intermediate (A2-B1 CEFR
+                  <sup>
+                    <a style={{ textDecoration: 'none' }} href='#fn1' id='ref1'>
+                      1
+                    </a>
+                  </sup>
+                  ) English as a Second Language (ESL) learners. A common
+                  grammar area of confusion for ESL learners is participial
+                  adjectives and knowing when to use the correct form (i.e.,
+                  when to use the past participle vs. the present participle
+                  form). This interactive Storyline lesson aims to clarify this
+                  area of confusion by reviewing and summarizing the different
+                  forms, providing a downloadable PDF of common participial
+                  adjectives, and allowing the learner to test his or her
+                  understanding with an interactive activity and set of
+                  exercises. Upon completion, the learner is given the choice to
+                  review the answers, view the results in printable form, or
+                  retry the exercises, as well as download a personalized
+                  certificate of completion in PDF format that includes the
+                  learner's name.
                 </p>
                 <p style={{ textAlign: 'left', marginTop: '30px' }}>
                   <hr />
@@ -103,7 +138,7 @@ const ParticipialAdjectives = () => {
             <Col col={8}>
               <div className={classes.ProjectDiv}>
                 <p>
-                  <strong>Tools used: </strong>
+                  <strong>Tools Used: </strong>
                 </p>
               </div>
             </Col>
@@ -114,18 +149,17 @@ const ParticipialAdjectives = () => {
             <Col md={2}></Col>
             <Col col={8}>
               <div className={classes.ProjectDiv}>
-                <p>Articulate Storyline, Canva, jsPDF</p>
+                <p>Articulate Storyline, Canva, Visual Studio Code, jsPDF</p>
 
                 <br />
 
                 <Button
                   className={classes.CheckItOut}
-                  variant='primary'
+                  variant='dark'
                   href='https://participial-adjectives.netlify.app/'
                   rel='noopener noreferrer'
                   target='_blank'
                   style={{
-                    marginRight: '5px',
                     boxShadow: 'none',
                   }}
                 >
@@ -304,13 +338,12 @@ const ParticipialAdjectives = () => {
 
                 <Button
                   className={classes.CheckItOut}
-                  variant='primary'
+                  variant='park'
                   src={StoryboardPDF}
                   href={StoryboardPDF}
                   rel='noopener noreferrer'
                   target='_blank'
                   style={{
-                    marginRight: '5px',
                     boxShadow: 'none',
                   }}
                 >
@@ -433,13 +466,12 @@ const ParticipialAdjectives = () => {
                 <br />
                 <Button
                   className={classes.CheckItOut}
-                  variant='primary'
+                  variant='dark'
                   src={certificate}
                   href={certificate}
                   rel='noopener noreferrer'
                   target='_blank'
                   style={{
-                    marginRight: '5px',
                     boxShadow: 'none',
                   }}
                 >
