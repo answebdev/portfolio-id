@@ -111,7 +111,7 @@ const CanvasBeginners = () => {
               <div className={classes.ProjectDiv}>
                 <p>
                   Canvas, Microsoft Word, Snagit, Screencast-o-Matic (video
-                  overview)
+                  overview), Camtasia (video overview)
                 </p>
               </div>
             </Col>

@@ -193,7 +193,8 @@ const Portfolio = () => {
                         <strong>Type:</strong> Instructor-Led Training
                         <br style={{ marginBottom: '8px' }} />
                         <strong>Tools Used:</strong> Canvas, Microsoft Word,
-                        Snagit, Screencast-o-Matic (video overview)
+                        Snagit, Screencast-o-Matic (video overview), Camtasia
+                        (video overview)
                       </p>
                     </Card.Text>
                     <Button
