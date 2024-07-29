@@ -187,37 +187,15 @@ const CanvasBeginners = () => {
 
               <div className={classes.ProjectDiv}>
                 <div className={classes.VideoWrapper}>
-                  {/* <iframe
-                    width='560px'
-                    height='320px'
-                    allowfullscreen='true'
-                    allow='autoplay *'
-                    title='Canvas Modules'
-                    src='https://gcccd.instructuremedia.com/embed/83297b38-6be1-47a0-a848-8533f6eb34ab'
-                    frameborder='0'
-                  ></iframe> */}
-
-                  {/* Nectar YouTube Edit: Jul 24, 2024: */}
                   <iframe
                     width='560'
                     height='315'
-                    src='https://www.youtube.com/embed/N90JaPwrGfg?si=UOc5w7YVsYywJUfm'
+                    src='https://www.youtube.com/embed/20qAafm9Zdg?si=2bwqOuEoMgqVSgL6'
                     title='YouTube video player'
                     frameborder='0'
-                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen'
+                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;'
                     referrerpolicy='strict-origin-when-cross-origin'
                   ></iframe>
-
-                  {/* Original YouTube Edit: Jul 22, 2024: */}
-                  {/* <iframe
-                    width='560'
-                    height='315'
-                    src='https://www.youtube.com/embed/vO-7j0iWgjU?si=bbkQPUPq5jHTfwvb'
-                    title='YouTube video player'
-                    frameborder='0'
-                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen'
-                    referrerpolicy='strict-origin-when-cross-origin'
-                  ></iframe> */}
                 </div>
               </div>
             </Col>
