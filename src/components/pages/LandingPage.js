@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import $ from 'jquery';
-import profile from '../../img/profile-alt.webp';
+import profile from '../../img/profile_image.webp';
 import resume from '../../pdf/AdolfSchmuck_Resume.pdf';
 
 // import classes from '../../styles/Landing.module.css';
@@ -68,9 +68,20 @@ const LandingPage = () => {
                     ADOLF SCHMUCK
                   </h1>
                 </div>
+
                 <h3 className='header-subtitle animated zoomIn'>
                   INSTRUCTIONAL DESIGNER
                 </h3>
+
+                {/* <h3 className='header-subtitle animated zoomIn'>
+                  Learning Experience
+                </h3>
+                <h3
+                  style={{ marginTop: '5px' }}
+                  className='header-subtitle animated zoomIn'
+                >
+                  Designer
+                </h3> */}
 
                 <br />
                 <br />
