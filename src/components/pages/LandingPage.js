@@ -41,6 +41,7 @@ const LandingPage = () => {
           margin: auto;
           overflow: hidden;
           padding: 0;
+          background-color: #333333;
         }
         
         #navbar,
